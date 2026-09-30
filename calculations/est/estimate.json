@@ -1,0 +1,3840 @@
+{
+ "stages": [
+  [
+   "1. Foundation & plinth",
+   {
+    "cement": 243.1596244297514,
+    "sand_c": 425.05335093152814,
+    "sand_m": 669.8105305393852,
+    "sand_f": 0,
+    "crush": 850.1067018630563,
+    "bricks": 24569.802940870104,
+    "steel": {
+     "3": 696.8165711338781,
+     "4": 501.6160110824054,
+     "2": 78.69259439482417,
+     "6": 53.141067699720004
+    }
+   }
+  ],
+  [
+   "2. Ground-floor walls & GF roof",
+   {
+    "cement": 284.66998407338656,
+    "sand_c": 435.09090625059406,
+    "sand_m": 664.9832240036008,
+    "sand_f": 0,
+    "crush": 870.1818125011881,
+    "bricks": 27196.362959367936,
+    "steel": {
+     "6": 424.51537543199396,
+     "4": 733.9198796029269,
+     "3": 1457.0917266260906,
+     "2": 7.6897537165718495
+    }
+   }
+  ],
+  [
+   "3. First-floor walls & FF roof",
+   {
+    "cement": 292.33270671342444,
+    "sand_c": 419.3559191168945,
+    "sand_m": 728.1953815572915,
+    "sand_f": 0,
+    "crush": 838.711838233789,
+    "bricks": 29907.5178515625,
+    "steel": {
+     "6": 396.51916211715405,
+     "4": 819.5537163099466,
+     "3": 1344.8887371672593,
+     "2": 12.357464143751653
+    }
+   }
+  ],
+  [
+   "4. Mumty (2F), parapets & roof tank",
+   {
+    "cement": 141.5645039117003,
+    "sand_c": 163.60648523809525,
+    "sand_m": 368.554696738561,
+    "sand_f": 0,
+    "crush": 327.2129704761905,
+    "bricks": 14261.000845234023,
+    "steel": {
+     "6": 101.7795881146463,
+     "3": 645.3106182893857,
+     "4": 109.94344229160602,
+     "2": 6.845975293197041
+    }
+   }
+  ],
+  [
+   "5. Plaster, sub-floors & floor bases",
+   {
+    "cement": 340.84477905432385,
+    "sand_c": 404.9959923076923,
+    "sand_m": 1254.5198621003005,
+    "sand_f": 589.699,
+    "crush": 809.9919846153846,
+    "bricks": 0,
+    "steel": {}
+   }
+  ],
+  [
+   "6. External works (boundary, septic, manholes)",
+   {
+    "cement": 178.286935761218,
+    "sand_c": 166.35035141025642,
+    "sand_m": 729.4237275,
+    "sand_f": 0,
+    "crush": 287.3975778205129,
+    "bricks": 22560.695859375002,
+    "steel": {
+     "3": 261.4885515039151,
+     "2": 26.365049520927514
+    }
+   }
+  ]
+ ],
+ "sections": [
+  [
+   "A. Foundations & Plinth",
+   {
+    "cement": 243.1596244297514,
+    "sand_c": 425.05335093152814,
+    "sand_m": 669.8105305393852,
+    "sand_f": 0,
+    "crush": 850.1067018630563,
+    "bricks": 24569.802940870104,
+    "steel": {
+     "3": 696.8165711338781,
+     "4": 501.6160110824054,
+     "2": 78.69259439482417,
+     "6": 53.141067699720004
+    }
+   }
+  ],
+  [
+   "B. Ground-floor sub-floor",
+   {
+    "cement": 80.99919846153846,
+    "sand_c": 404.9959923076923,
+    "sand_m": 0,
+    "sand_f": 589.699,
+    "crush": 809.9919846153846,
+    "bricks": 0,
+    "steel": {}
+   }
+  ],
+  [
+   "C. Brick masonry (superstructure)",
+   {
+    "cement": 296.4492565139701,
+    "sand_c": 0,
+    "sand_m": 1720.7121538619533,
+    "sand_f": 0,
+    "crush": 0.0,
+    "bricks": 70757.38165616445,
+    "steel": {}
+   }
+  ],
+  [
+   "D. R.C.C work (1:2:4 unless noted)",
+   {
+    "cement": 388.52383193454125,
+    "sand_c": 972.3663106055835,
+    "sand_m": 0,
+    "sand_f": 0,
+    "crush": 1944.732621211167,
+    "bricks": 0,
+    "steel": {
+     "6": 867.7790558075974,
+     "4": 1083.3331964957545,
+     "3": 713.2106457016105,
+     "2": 26.89319315352054
+    }
+   }
+  ],
+  [
+   "E. Slab reinforcement",
+   {
+    "cement": 0,
+    "sand_c": 0,
+    "sand_m": 0,
+    "sand_f": 0,
+    "crush": 0,
+    "bricks": 0,
+    "steel": {
+     "3": 2506.139384239245,
+     "4": 580.0838417087252,
+     "6": 55.035069856197204
+    }
+   }
+  ],
+  [
+   "F. Plaster (grey-structure finish)",
+   {
+    "cement": 259.8455805927854,
+    "sand_c": 0,
+    "sand_m": 1254.5198621003005,
+    "sand_f": 0,
+    "crush": 0.0,
+    "bricks": 0,
+    "steel": {}
+   }
+  ],
+  [
+   "G. Boundary walls, gates pillars & external works",
+   {
+    "cement": 122.58946625755497,
+    "sand_c": 113.66329793956045,
+    "sand_m": 543.116911875,
+    "sand_f": 0,
+    "crush": 182.0234708791209,
+    "bricks": 15992.945859375,
+    "steel": {
+     "3": 145.34350361119513,
+     "2": 26.365049520927514
+    }
+   }
+  ],
+  [
+   "H. Septic tank & manholes",
+   {
+    "cement": 55.69746950366301,
+    "sand_c": 52.68705347069598,
+    "sand_m": 186.306815625,
+    "sand_f": 0,
+    "crush": 105.37410694139196,
+    "bricks": 6567.75,
+    "steel": {
+     "3": 116.14504789272
+    }
+   }
+  ],
+  [
+   "I. Overhead water tank (R.C.C, 1000 gallons)",
+   {
+    "cement": 33.59410625,
+    "sand_c": 45.687000000000005,
+    "sand_m": 41.0211484375,
+    "sand_f": 0,
+    "crush": 91.37400000000001,
+    "bricks": 607.5,
+    "steel": {
+     "3": 227.94105214188002
+    }
+   }
+  ]
+ ],
+ "total": {
+  "cement": 1480.8585339438048,
+  "sand_c": 2014.4530052550608,
+  "sand_m": 4415.487422439138,
+  "sand_f": 589.699,
+  "crush": 3983.6028855101213,
+  "bricks": 118495.38045640955,
+  "steel": {
+   "3": 4405.5962047205285,
+   "4": 2165.033049286885,
+   "2": 131.95083706927224,
+   "6": 975.9551933635145
+  }
+ },
+ "items": [
+  {
+   "sec": "A. Foundations & Plinth",
+   "item": "A1",
+   "desc": "Excavation for wall foundations (PCC footprint x 2'-6\" deep below NSL), incl. 10% working space",
+   "qty": 2666.3334852731,
+   "unit": "cft",
+   "cement": 0,
+   "sand": 0,
+   "crush": 0,
+   "bricks": 0,
+   "steel": 0,
+   "steel_by": {},
+   "note": "PCC footprint 969.6 sft (types 1-1..4-4 from S-01/S-02)",
+   "stage": "1. Foundation & plinth"
+  },
+  {
+   "sec": "A. Foundations & Plinth",
+   "item": "A2",
+   "desc": "P.C.C 1:4:8, 3\" thick under footings (widths 2'-9\"/3'-0\"/3'-6\"/2'-6\")",
+   "qty": 242.39395320664542,
+   "unit": "cft",
+   "cement": 23.41898501750359,
+   "sand": 117.09492508751795,
+   "crush": 234.1898501750359,
+   "bricks": 0,
+   "steel": 0,
+   "steel_by": {},
+   "note": "",
+   "stage": "1. Foundation & plinth"
+  },
+  {
+   "sec": "A. Foundations & Plinth",
+   "item": "A3",
+   "desc": "R.C.C 1:2:4 wall footing 6\" thick (2'-6\"/2'-6\"/3'-0\"/2'-0\" wide) with #3@6\" transverse + #3@8\" longitudinal",
+   "qty": 416.77937907253096,
+   "unit": "cft",
+   "cement": 74.78212858787127,
+   "sand": 186.95532146967818,
+   "crush": 373.91064293935636,
+   "bricks": 0,
+   "steel": 672.9394687770781,
+   "steel_by": {
+    "3": 672.9394687770781
+   },
+   "note": "",
+   "stage": "1. Foundation & plinth"
+  },
+  {
+   "sec": "A. Foundations & Plinth",
+   "item": "A4",
+   "desc": "Brick masonry in foundation 1:6 - stepped footing (22\u00bd\", 18\", 13\u00bd\") + 9\" wall below plinth beam",
+   "qty": 1075.3909258981625,
+   "unit": "cft",
+   "cement": 49.03782622095622,
+   "sand": 367.7836966571717,
+   "crush": 0.0,
+   "bricks": 14517.777499625194,
+   "steel": 0,
+   "steel_by": {},
+   "note": "",
+   "stage": "1. Foundation & plinth"
+  },
+  {
+   "sec": "A. Foundations & Plinth",
+   "item": "A5",
+   "desc": "Brick masonry 1:6 - 9\" plinth wall from plinth beam (road level) to DPC/FFL (2'-9\")",
+   "qty": 744.5944771292526,
+   "unit": "cft",
+   "cement": 33.95350815709392,
+   "sand": 254.6513111782044,
+   "crush": 0.0,
+   "bricks": 10052.02544124491,
+   "steel": 0,
+   "steel_by": {},
+   "note": "",
+   "stage": "1. Foundation & plinth"
+  },
+  {
+   "sec": "A. Foundations & Plinth",
+   "item": "A6",
+   "desc": "R.C.C 1:2:4 plinth beam 9\"x9\" under all walls, 2#4 top + 2#4 bottom, #2@10\" rings",
+   "qty": 203.07122103525072,
+   "unit": "cft",
+   "cement": 36.4367790886107,
+   "sand": 91.09194772152675,
+   "crush": 182.1838954430535,
+   "bricks": 0,
+   "steel": 568.6431169055695,
+   "steel_by": {
+    "4": 489.9505225107454,
+    "2": 78.69259439482417
+   },
+   "note": "plinth beam centre-line length 370.7 ft",
+   "stage": "1. Foundation & plinth"
+  },
+  {
+   "sec": "A. Foundations & Plinth",
+   "item": "A7",
+   "desc": "D.P.C 1\u00bd\" thick 1:2:4 at FFL over plinth walls",
+   "qty": 33.84520350587512,
+   "unit": "cft",
+   "cement": 6.07279651476845,
+   "sand": 15.181991286921127,
+   "crush": 30.363982573842254,
+   "bricks": 0,
+   "steel": 0,
+   "steel_by": {},
+   "note": "",
+   "stage": "1. Foundation & plinth"
+  },
+  {
+   "sec": "A. Foundations & Plinth",
+   "item": "A8",
+   "desc": "Vertical DPC: \u00be\" plaster 1:3 + 2 coats hot bitumen on inner face of external plinth walls",
+   "qty": 607.9265068785141,
+   "unit": "sft",
+   "cement": 12.633472721069122,
+   "sand": 47.375522704009214,
+   "crush": 0.0,
+   "bricks": 0,
+   "steel": 0,
+   "steel_by": {},
+   "note": "bitumen approx 304 kg (0.25 kg/sft/coat)",
+   "stage": "1. Foundation & plinth"
+  },
+  {
+   "sec": "A. Foundations & Plinth",
+   "item": "A9",
+   "desc": "R.C.C column 1:1.5:3 at car-porch front corner 13\u00bd\"x13\u00bd\" (17.0 ft high), 4#6 + #3@6\" ties",
+   "qty": 21.515625,
+   "unit": "cft",
+   "cement": 4.913386363636364,
+   "sand": 9.212599431818182,
+   "crush": 18.425198863636364,
+   "bricks": 0,
+   "steel": 77.01817005652,
+   "steel_by": {
+    "6": 53.141067699720004,
+    "3": 23.877102356800002
+   },
+   "note": "",
+   "stage": "1. Foundation & plinth"
+  },
+  {
+   "sec": "A. Foundations & Plinth",
+   "item": "A10",
+   "desc": "Column footing 3'x3'x1' R.C.C 1:2:4 (#4@6\" both ways) + 3\" P.C.C 1:4:8",
+   "qty": 9.0,
+   "unit": "cft",
+   "cement": 1.9107417582417585,
+   "sand": 5.516565934065934,
+   "crush": 11.033131868131868,
+   "bricks": 0,
+   "steel": 11.665488571660001,
+   "steel_by": {
+    "4": 11.665488571660001
+   },
+   "note": "",
+   "stage": "1. Foundation & plinth"
+  },
+  {
+   "sec": "A. Foundations & Plinth",
+   "item": "A11",
+   "desc": "Earth filling inside plinth (NSL to underside of sand), compacted in 6\" layers - incl. 20% compaction",
+   "qty": 5791.049999999998,
+   "unit": "cft",
+   "cement": 0,
+   "sand": 0,
+   "crush": 0,
+   "bricks": 0,
+   "steel": 0,
+   "steel_by": {},
+   "note": "floor area 1363 sft x 3.54 ft; NSL assumed 1'-6\" below road (drawings say \"as per site\")",
+   "stage": "1. Foundation & plinth"
+  },
+  {
+   "sec": "A. Foundations & Plinth",
+   "item": "A12",
+   "desc": "Back-filling excavated earth around foundations (re-use)",
+   "qty": 964.9653906797316,
+   "unit": "cft",
+   "cement": 0,
+   "sand": 0,
+   "crush": 0,
+   "bricks": 0,
+   "steel": 0,
+   "steel_by": {},
+   "note": "",
+   "stage": "1. Foundation & plinth"
+  },
+  {
+   "sec": "B. Ground-floor sub-floor",
+   "item": "B1",
+   "desc": "Sand filling 4\" under floors (rooms + car porches)",
+   "qty": 589.699,
+   "unit": "cft",
+   "cement": 0,
+   "sand": 589.699,
+   "crush": 0,
+   "bricks": 0,
+   "steel": 0,
+   "steel_by": {},
+   "note": "",
+   "stage": "5. Plaster, sub-floors & floor bases"
+  },
+  {
+   "sec": "B. Ground-floor sub-floor",
+   "item": "B2",
+   "desc": "P.C.C 1:4:8, 3\" thick sub-floor (rooms 1363 + porches 246 sft)",
+   "qty": 402.06749999999994,
+   "unit": "cft",
+   "cement": 38.845906153846144,
+   "sand": 194.22953076923073,
+   "crush": 388.45906153846147,
+   "bricks": 0,
+   "steel": 0,
+   "steel_by": {},
+   "note": "",
+   "stage": "5. Plaster, sub-floors & floor bases"
+  },
+  {
+   "sec": "B. Ground-floor sub-floor",
+   "item": "B3",
+   "desc": "Earth filling under car porches (to porch level +1'-3\")",
+   "qty": 614.1750000000001,
+   "unit": "cft",
+   "cement": 0,
+   "sand": 0,
+   "crush": 0,
+   "bricks": 0,
+   "steel": 0,
+   "steel_by": {},
+   "note": "",
+   "stage": "5. Plaster, sub-floors & floor bases"
+  },
+  {
+   "sec": "C. Brick masonry (superstructure)",
+   "item": "C-GF9",
+   "desc": "Ground floor 9\" walls, 1:5 - gross 2128.5 cft (plan 193.5 sft x 11.00 ft) less openings 416.9, lintels 56.9, bed plates",
+   "qty": 1649.6489413442805,
+   "unit": "cft",
+   "cement": 87.76132367951573,
+   "sand": 548.5082729969732,
+   "crush": 0.0,
+   "bricks": 22270.260708147787,
+   "steel": 0,
+   "steel_by": {},
+   "note": "",
+   "stage": "2. Ground-floor walls & GF roof"
+  },
+  {
+   "sec": "C. Brick masonry (superstructure)",
+   "item": "C-GF45",
+   "desc": "Ground floor 4\u00bd\" walls, 1:4 - gross 427.3 cft (plan 38.8 sft x 11.00 ft) less openings 54.4, lintels 8.1",
+   "qty": 364.89646305334423,
+   "unit": "cft",
+   "cement": 23.294990201325497,
+   "sand": 116.47495100662748,
+   "crush": 0.0,
+   "bricks": 4926.102251220147,
+   "steel": 0,
+   "steel_by": {},
+   "note": "",
+   "stage": "2. Ground-floor walls & GF roof"
+  },
+  {
+   "sec": "C. Brick masonry (superstructure)",
+   "item": "C-FF9",
+   "desc": "First floor 9\" walls, 1:5 - gross 2017.9 cft (plan 174.8 sft x 11.54 ft) less openings 373.4, lintels 55.2, bed plates",
+   "qty": 1582.6118229166666,
+   "unit": "cft",
+   "cement": 84.19494897916665,
+   "sand": 526.2184311197916,
+   "crush": 0.0,
+   "bricks": 21365.259609375,
+   "steel": 0,
+   "steel_by": {},
+   "note": "",
+   "stage": "3. First-floor walls & FF roof"
+  },
+  {
+   "sec": "C. Brick masonry (superstructure)",
+   "item": "C-FF45",
+   "desc": "First floor 4\u00bd\" walls, 1:4 - gross 737.8 cft (plan 63.9 sft x 11.54 ft) less openings 91.9, lintels 13.1",
+   "qty": 632.7598697916666,
+   "unit": "cft",
+   "cement": 40.39539008749999,
+   "sand": 201.97695043749997,
+   "crush": 0.0,
+   "bricks": 8542.2582421875,
+   "steel": 0,
+   "steel_by": {},
+   "note": "",
+   "stage": "3. First-floor walls & FF roof"
+  },
+  {
+   "sec": "C. Brick masonry (superstructure)",
+   "item": "C-SF9",
+   "desc": "Second floor (mumty/room) 9\" walls, 1:5 - gross 414.7 cft (plan 43.5 sft x 9.54 ft) less openings 51.0, lintels 8.9, bed plates",
+   "qty": 353.69218750000005,
+   "unit": "cft",
+   "cement": 18.816424375,
+   "sand": 117.60265234375,
+   "crush": 0.0,
+   "bricks": 4774.844531250001,
+   "steel": 0,
+   "steel_by": {},
+   "note": "",
+   "stage": "4. Mumty (2F), parapets & roof tank"
+  },
+  {
+   "sec": "C. Brick masonry (superstructure)",
+   "item": "C-SF45",
+   "desc": "Second floor (mumty/room) 4\u00bd\" walls, 1:4 - gross 237.2 cft (plan 24.9 sft x 9.54 ft) less openings 48.4, lintels 7.2",
+   "qty": 181.58765624999998,
+   "unit": "cft",
+   "cement": 11.592555975,
+   "sand": 57.962779875,
+   "crush": 0.0,
+   "bricks": 2451.433359375,
+   "steel": 0,
+   "steel_by": {},
+   "note": "",
+   "stage": "4. Mumty (2F), parapets & roof tank"
+  },
+  {
+   "sec": "C. Brick masonry (superstructure)",
+   "item": "C-P1",
+   "desc": "Terrace parapets on FF roof (4\u00bd\", one 9\" run) 125.6 ft x 3.04 ft high, 1:4",
+   "qty": 154.38359375,
+   "unit": "cft",
+   "cement": 9.855848624999998,
+   "sand": 49.279243124999994,
+   "crush": 0.0,
+   "bricks": 2084.178515625,
+   "steel": 0,
+   "steel_by": {},
+   "note": "",
+   "stage": "4. Mumty (2F), parapets & roof tank"
+  },
+  {
+   "sec": "C. Brick masonry (superstructure)",
+   "item": "C-P2",
+   "desc": "Parapet on mumty roof 4\u00bd\" 94.2 ft x 2.04 ft, 1:4",
+   "qty": 72.12187500000002,
+   "unit": "cft",
+   "cement": 4.6042605000000005,
+   "sand": 23.021302500000004,
+   "crush": 0.0,
+   "bricks": 973.6453125000003,
+   "steel": 0,
+   "steel_by": {},
+   "note": "",
+   "stage": "4. Mumty (2F), parapets & roof tank"
+  },
+  {
+   "sec": "C. Brick masonry (superstructure)",
+   "item": "C-E",
+   "desc": "Elevation features allowance 5% (front frames, fins, piers, profile-light reveals, planters) 1:4",
+   "qty": 249.5851204802979,
+   "unit": "cft",
+   "cement": 15.933514091462218,
+   "sand": 79.66757045731109,
+   "crush": 0.0,
+   "bricks": 3369.3991264840215,
+   "steel": 0,
+   "steel_by": {},
+   "note": "",
+   "stage": "4. Mumty (2F), parapets & roof tank"
+  },
+  {
+   "sec": "D. R.C.C work (1:2:4 unless noted)",
+   "item": "D-SGF",
+   "desc": "Roof slab 5\u00bd\" - GF roof: outline 1739.1 + porch cantilever 38.7 - stair opening 72.8 (1705.0 sft)",
+   "qty": 781.4583333333333,
+   "unit": "cft",
+   "cement": 140.2159523809524,
+   "sand": 350.53988095238094,
+   "crush": 701.0797619047619,
+   "bricks": 0,
+   "steel": 0,
+   "steel_by": {},
+   "note": "",
+   "stage": "2. Ground-floor walls & GF roof"
+  },
+  {
+   "sec": "D. R.C.C work (1:2:4 unless noted)",
+   "item": "D-SFF",
+   "desc": "Roof slab 5\u00bd\" - FF roof: outline 1725.0 - stair opening 74.3 (excl. open shaft & terrace) (1650.7 sft)",
+   "qty": 756.5708333333333,
+   "unit": "cft",
+   "cement": 135.75042380952382,
+   "sand": 339.37605952380954,
+   "crush": 678.7521190476191,
+   "bricks": 0,
+   "steel": 0,
+   "steel_by": {},
+   "note": "",
+   "stage": "3. First-floor walls & FF roof"
+  },
+  {
+   "sec": "D. R.C.C work (1:2:4 unless noted)",
+   "item": "D-SSF",
+   "desc": "Roof slab 5\u00bd\" - Mumty roof: 16.85x7.75 + 17.63x12.63 (353.2 sft)",
+   "qty": 161.88333333333333,
+   "unit": "cft",
+   "cement": 29.04649523809524,
+   "sand": 72.6162380952381,
+   "crush": 145.2324761904762,
+   "bricks": 0,
+   "steel": 0,
+   "steel_by": {},
+   "note": "",
+   "stage": "4. Mumty (2F), parapets & roof tank"
+  },
+  {
+   "sec": "D. R.C.C work (1:2:4 unless noted)",
+   "item": "D-CB-1-GF",
+   "desc": "CB-1 concealed beam 12\" x 9\u00bd\" in GF roof - 5 nos, 81.7 ft (4\" upstand above slab; 3#6 bottom, 3#4 top, #3@7\" rings)",
+   "qty": 27.24,
+   "unit": "cft",
+   "cement": 4.887634285714285,
+   "sand": 12.219085714285713,
+   "crush": 24.438171428571426,
+   "bricks": 0,
+   "steel": 373.6041526861686,
+   "steel_by": {
+    "6": 203.61531499824716,
+    "4": 90.55594568497278,
+    "3": 79.43289200294869
+   },
+   "note": "",
+   "stage": "2. Ground-floor walls & GF roof"
+  },
+  {
+   "sec": "D. R.C.C work (1:2:4 unless noted)",
+   "item": "D-CB-1-FF",
+   "desc": "CB-1 concealed beam 12\" x 9\u00bd\" in FF roof - 1 nos, 15.5 ft (4\" upstand above slab; 3#6 bottom, 3#4 top, #3@7\" rings)",
+   "qty": 5.166666666666666,
+   "unit": "cft",
+   "cement": 0.927047619047619,
+   "sand": 2.3176190476190475,
+   "crush": 4.635238095238095,
+   "bricks": 0,
+   "steel": 71.36171962920331,
+   "steel_by": {
+    "6": 38.9462709622371,
+    "4": 17.3209780311414,
+    "3": 15.0944706358248
+   },
+   "note": "",
+   "stage": "3. First-floor walls & FF roof"
+  },
+  {
+   "sec": "D. R.C.C work (1:2:4 unless noted)",
+   "item": "D-CB-2-GF",
+   "desc": "CB-2 concealed beam 9\" x 9\u00bd\" in GF roof - 5 nos, 48.5 ft (4\" upstand above slab; 2#6 top & bottom, #3@6\" rings)",
+   "qty": 12.114999999999998,
+   "unit": "cft",
+   "cement": 2.173777142857143,
+   "sand": 5.434442857142857,
+   "crush": 10.868885714285714,
+   "bricks": 0,
+   "steel": 225.23497159055324,
+   "steel_by": {
+    "6": 178.12831389286964,
+    "3": 47.10665769768359
+   },
+   "note": "",
+   "stage": "2. Ground-floor walls & GF roof"
+  },
+  {
+   "sec": "D. R.C.C work (1:2:4 unless noted)",
+   "item": "D-CB-2-FF",
+   "desc": "CB-2 concealed beam 9\" x 9\u00bd\" in FF roof - 7 nos, 102.0 ft (4\" upstand above slab; 2#6 top & bottom, #3@6\" rings)",
+   "qty": 25.505,
+   "unit": "cft",
+   "cement": 4.576325714285714,
+   "sand": 11.440814285714286,
+   "crush": 22.88162857142857,
+   "bricks": 0,
+   "steel": 442.8506691005776,
+   "steel_by": {
+    "6": 345.309567839597,
+    "3": 97.54110126098061
+   },
+   "note": "",
+   "stage": "3. First-floor walls & FF roof"
+  },
+  {
+   "sec": "D. R.C.C work (1:2:4 unless noted)",
+   "item": "D-CB-2-SF",
+   "desc": "CB-2 concealed beam 9\" x 9\u00bd\" in SF roof - 2 nos, 30.3 ft (4\" upstand above slab; 2#6 top & bottom, #3@6\" rings)",
+   "qty": 7.5649999999999995,
+   "unit": "cft",
+   "cement": 1.357377142857143,
+   "sand": 3.3934428571428574,
+   "crush": 6.786885714285715,
+   "bricks": 0,
+   "steel": 130.675862047723,
+   "steel_by": {
+    "6": 101.7795881146463,
+    "3": 28.896273933076706
+   },
+   "note": "",
+   "stage": "4. Mumty (2F), parapets & roof tank"
+  },
+  {
+   "sec": "D. R.C.C work (1:2:4 unless noted)",
+   "item": "D-LGF",
+   "desc": "Door/window/vent lintels GF - 23 nos (DL-1, DL-2, WL-1, WL-2, WL-3, VL-1 per S-05)",
+   "qty": 64.93078125,
+   "unit": "cft",
+   "cement": 11.650437321428571,
+   "sand": 29.126093303571427,
+   "crush": 58.25218660714285,
+   "bricks": 0,
+   "steel": 264.4078800711793,
+   "steel_by": {
+    "4": 161.3958218852056,
+    "3": 95.32230446940186,
+    "2": 7.6897537165718495
+   },
+   "note": "",
+   "stage": "2. Ground-floor walls & GF roof"
+  },
+  {
+   "sec": "D. R.C.C work (1:2:4 unless noted)",
+   "item": "D-LFF",
+   "desc": "Door/window/vent lintels FF - 26 nos (DL-1, DL-2, WL-1, WL-2, WL-3, VL-1 per S-05)",
+   "qty": 68.32265625,
+   "unit": "cft",
+   "cement": 12.259036607142857,
+   "sand": 30.64759151785714,
+   "crush": 61.29518303571428,
+   "bricks": 0,
+   "steel": 286.6582982215946,
+   "steel_by": {
+    "4": 181.43016225814483,
+    "3": 92.87067181969809,
+    "2": 12.357464143751653
+   },
+   "note": "",
+   "stage": "3. First-floor walls & FF roof"
+  },
+  {
+   "sec": "D. R.C.C work (1:2:4 unless noted)",
+   "item": "D-LSF",
+   "desc": "Door/window/vent lintels SF - 9 nos (DL-1, DL-2, WL-1, WL-2, WL-3, VL-1 per S-05)",
+   "qty": 16.0875,
+   "unit": "cft",
+   "cement": 2.886557142857143,
+   "sand": 7.216392857142857,
+   "crush": 14.432785714285714,
+   "bricks": 0,
+   "steel": 73.05244825299961,
+   "steel_by": {
+    "4": 50.176750843296006,
+    "3": 16.029722116506562,
+    "2": 6.845975293197041
+   },
+   "note": "",
+   "stage": "4. Mumty (2F), parapets & roof tank"
+  },
+  {
+   "sec": "D. R.C.C work (1:2:4 unless noted)",
+   "item": "D-BP-GF",
+   "desc": "Bed plates 9\" x 3'-0\" x 3\" (1:2:4, 3#4) under beam ends, GF roof - 9 nos",
+   "qty": 5.0625,
+   "unit": "cft",
+   "cement": 0.9083571428571429,
+   "sand": 2.270892857142857,
+   "crush": 4.541785714285714,
+   "bricks": 0,
+   "steel": 22.49772795963,
+   "steel_by": {
+    "4": 22.49772795963
+   },
+   "note": "",
+   "stage": "2. Ground-floor walls & GF roof"
+  },
+  {
+   "sec": "D. R.C.C work (1:2:4 unless noted)",
+   "item": "D-BP-FF",
+   "desc": "Bed plates 9\" x 3'-0\" x 3\" (1:2:4, 3#4) under beam ends, FF roof - 12 nos",
+   "qty": 6.75,
+   "unit": "cft",
+   "cement": 1.2111428571428573,
+   "sand": 3.027857142857143,
+   "crush": 6.055714285714286,
+   "bricks": 0,
+   "steel": 29.996970612840002,
+   "steel_by": {
+    "4": 29.996970612840002
+   },
+   "note": "",
+   "stage": "3. First-floor walls & FF roof"
+  },
+  {
+   "sec": "D. R.C.C work (1:2:4 unless noted)",
+   "item": "D-BP-SF",
+   "desc": "Bed plates 9\" x 3'-0\" x 3\" (1:2:4, 3#4) under beam ends, SF roof - 2 nos",
+   "qty": 1.125,
+   "unit": "cft",
+   "cement": 0.20185714285714287,
+   "sand": 0.5046428571428572,
+   "crush": 1.0092857142857143,
+   "bricks": 0,
+   "steel": 4.99949510214,
+   "steel_by": {
+    "4": 4.99949510214
+   },
+   "note": "",
+   "stage": "4. Mumty (2F), parapets & roof tank"
+  },
+  {
+   "sec": "D. R.C.C work (1:2:4 unless noted)",
+   "item": "D-ST-GF",
+   "desc": "Zig-zag stair GF to FF: 6\" waist (flights 11.65 + 9.59 ft), 6\" landing 8'-3\"x3'-6\", 21 concrete steps; riser 6.57\", tread 10\u00bd\", width 3'-6\"",
+   "qty": 69.2213937982784,
+   "unit": "cft",
+   "cement": 12.420295801519668,
+   "sand": 31.05073950379917,
+   "crush": 62.10147900759834,
+   "bricks": 0,
+   "steel": 283.4898438414069,
+   "steel_by": {
+    "4": 235.0960738861069,
+    "3": 48.3937699553
+   },
+   "note": "",
+   "stage": "2. Ground-floor walls & GF roof"
+  },
+  {
+   "sec": "D. R.C.C work (1:2:4 unless noted)",
+   "item": "D-ST-FF",
+   "desc": "Zig-zag stair FF to 2nd floor: 6\" waist (flights 11.65 + 9.59 ft), 6\" landing 8'-3\"x3'-6\", 21 concrete steps; riser 6.57\", tread 10\u00bd\", width 3'-6\"",
+   "qty": 69.2213937982784,
+   "unit": "cft",
+   "cement": 12.420295801519668,
+   "sand": 31.05073950379917,
+   "crush": 62.10147900759834,
+   "bricks": 0,
+   "steel": 283.4898438414069,
+   "steel_by": {
+    "4": 235.0960738861069,
+    "3": 48.3937699553
+   },
+   "note": "",
+   "stage": "3. First-floor walls & FF roof"
+  },
+  {
+   "sec": "D. R.C.C work (1:2:4 unless noted)",
+   "item": "D-SF",
+   "desc": "Stair base footing + stem (8\" slab, #4@6\" both ways; stem #4@5\")",
+   "qty": 12.5045,
+   "unit": "cft",
+   "cement": 2.2436645714285715,
+   "sand": 5.609161428571428,
+   "crush": 11.218322857142857,
+   "bricks": 0,
+   "steel": 54.76719634617001,
+   "steel_by": {
+    "4": 54.76719634617001
+   },
+   "note": "",
+   "stage": "4. Mumty (2F), parapets & roof tank"
+  },
+  {
+   "sec": "D. R.C.C work (1:2:4 unless noted)",
+   "item": "D-SP",
+   "desc": "P.C.C 1:4:8 under stair footing",
+   "qty": 4.375,
+   "unit": "cft",
+   "cement": 0.4226923076923077,
+   "sand": 2.1134615384615385,
+   "crush": 4.226923076923077,
+   "bricks": 0,
+   "steel": 0,
+   "steel_by": {},
+   "note": "",
+   "stage": "2. Ground-floor walls & GF roof"
+  },
+  {
+   "sec": "D. R.C.C work (1:2:4 unless noted)",
+   "item": "D-SH-GF",
+   "desc": "R.C.C sunshade (chajja) GF: 12.5 ft long x 1'-3\" projection, 4\"-3\" thick, #3@6\" main",
+   "qty": 5.208333333333333,
+   "unit": "cft",
+   "cement": 0.9345238095238096,
+   "sand": 2.336309523809524,
+   "crush": 4.672619047619048,
+   "bricks": 0,
+   "steel": 18.59002969208,
+   "steel_by": {
+    "3": 18.59002969208
+   },
+   "note": "",
+   "stage": "2. Ground-floor walls & GF roof"
+  },
+  {
+   "sec": "D. R.C.C work (1:2:4 unless noted)",
+   "item": "D-SH-FF",
+   "desc": "R.C.C sunshade (chajja) FF: 8.0 ft long x 1'-3\" projection, 4\"-3\" thick, #3@6\" main",
+   "qty": 3.333333333333333,
+   "unit": "cft",
+   "cement": 0.5980952380952381,
+   "sand": 1.4952380952380953,
+   "crush": 2.9904761904761905,
+   "bricks": 0,
+   "steel": 12.06646422674,
+   "steel_by": {
+    "3": 12.06646422674
+   },
+   "note": "",
+   "stage": "3. First-floor walls & FF roof"
+  },
+  {
+   "sec": "D. R.C.C work (1:2:4 unless noted)",
+   "item": "D-SH-SF",
+   "desc": "R.C.C sunshade (chajja) SF: 6.0 ft long x 1'-3\" projection, 4\"-3\" thick, #3@6\" main",
+   "qty": 2.5,
+   "unit": "cft",
+   "cement": 0.44857142857142857,
+   "sand": 1.1214285714285714,
+   "crush": 2.242857142857143,
+   "bricks": 0,
+   "steel": 9.1671017977,
+   "steel_by": {
+    "3": 9.1671017977
+   },
+   "note": "",
+   "stage": "4. Mumty (2F), parapets & roof tank"
+  },
+  {
+   "sec": "D. R.C.C work (1:2:4 unless noted)",
+   "item": "D-PR",
+   "desc": "Provisional: front elevation canopy / RCC fins & projections",
+   "qty": 20.0,
+   "unit": "cft",
+   "cement": 3.5885714285714285,
+   "sand": 8.971428571428572,
+   "crush": 17.942857142857143,
+   "bricks": 0,
+   "steel": 25.582609668,
+   "steel_by": {
+    "3": 25.582609668
+   },
+   "note": "",
+   "stage": "4. Mumty (2F), parapets & roof tank"
+  },
+  {
+   "sec": "D. R.C.C work (1:2:4 unless noted)",
+   "item": "D-CP",
+   "desc": "Parapet coping 3\" x 9\" (1:2:4) with 2#3",
+   "qty": 41.212500000000006,
+   "unit": "cft",
+   "cement": 7.394700000000002,
+   "sand": 18.486750000000004,
+   "crush": 36.97350000000001,
+   "bricks": 0,
+   "steel": 78.72280647036962,
+   "steel_by": {
+    "3": 78.72280647036962
+   },
+   "note": "",
+   "stage": "4. Mumty (2F), parapets & roof tank"
+  },
+  {
+   "sec": "E. Slab reinforcement",
+   "item": "E-GF",
+   "desc": "Slab steel GF roof (44 bar sets incl. cranked, extra top, trimmer 2#6/2#4 & chairs) - 0.84 kg/sft",
+   "qty": 1705.0,
+   "unit": "sft",
+   "cement": 0,
+   "sand": 0,
+   "crush": 0,
+   "bricks": 0,
+   "steel": 1435.3921295365653,
+   "steel_by": {
+    "3": 1168.2460728086764,
+    "4": 224.37431018701162,
+    "6": 42.7717465408772
+   },
+   "note": "",
+   "stage": "2. Ground-floor walls & GF roof"
+  },
+  {
+   "sec": "E. Slab reinforcement",
+   "item": "E-FF",
+   "desc": "Slab steel FF roof (40 bar sets incl. cranked, extra top, trimmer 2#6/2#4 & chairs) - 0.88 kg/sft",
+   "qty": 1650.7,
+   "unit": "sft",
+   "cement": 0,
+   "sand": 0,
+   "crush": 0,
+   "bricks": 0,
+   "steel": 1446.8951141057491,
+   "steel_by": {
+    "3": 1078.9222592687156,
+    "4": 355.70953152171364,
+    "6": 12.263323315320001
+   },
+   "note": "",
+   "stage": "3. First-floor walls & FF roof"
+  },
+  {
+   "sec": "E. Slab reinforcement",
+   "item": "E-SF",
+   "desc": "Slab steel SF roof (11 bar sets incl. cranked, extra top, trimmer 2#6/2#4 & chairs) - 0.73 kg/sft",
+   "qty": 353.2,
+   "unit": "sft",
+   "cement": 0,
+   "sand": 0,
+   "crush": 0,
+   "bricks": 0,
+   "steel": 258.97105216185287,
+   "steel_by": {
+    "3": 258.97105216185287
+   },
+   "note": "",
+   "stage": "4. Mumty (2F), parapets & roof tank"
+  },
+  {
+   "sec": "F. Plaster (grey-structure finish)",
+   "item": "F-IGF",
+   "desc": "Internal plaster \u00bd\" 1:4 - GF walls (gross 6044 sft, less openings, plus reveals)",
+   "qty": 5233.667688202584,
+   "unit": "sft",
+   "cement": 58.006483544245306,
+   "sand": 290.0324177212265,
+   "crush": 0.0,
+   "bricks": 0,
+   "steel": 0,
+   "steel_by": {},
+   "note": "",
+   "stage": "5. Plaster, sub-floors & floor bases"
+  },
+  {
+   "sec": "F. Plaster (grey-structure finish)",
+   "item": "F-EGF",
+   "desc": "External plaster \u00be\" 1:4 - GF outer faces incl. exposed plinth",
+   "qty": 1595.20625,
+   "unit": "sft",
+   "cement": 26.52030390625,
+   "sand": 132.60151953125,
+   "crush": 0.0,
+   "bricks": 0,
+   "steel": 0,
+   "steel_by": {},
+   "note": "",
+   "stage": "5. Plaster, sub-floors & floor bases"
+  },
+  {
+   "sec": "F. Plaster (grey-structure finish)",
+   "item": "F-IFF",
+   "desc": "Internal plaster \u00bd\" 1:4 - FF walls (gross 7262 sft, less openings, plus reveals)",
+   "qty": 6393.1310416666665,
+   "unit": "sft",
+   "cement": 70.85720237847222,
+   "sand": 354.2860118923611,
+   "crush": 0.0,
+   "bricks": 0,
+   "steel": 0,
+   "steel_by": {},
+   "note": "",
+   "stage": "5. Plaster, sub-floors & floor bases"
+  },
+  {
+   "sec": "F. Plaster (grey-structure finish)",
+   "item": "F-EFF",
+   "desc": "External plaster \u00be\" 1:4 - FF outer faces",
+   "qty": 1304.0020833333333,
+   "unit": "sft",
+   "cement": 21.679034635416663,
+   "sand": 108.39517317708332,
+   "crush": 0.0,
+   "bricks": 0,
+   "steel": 0,
+   "steel_by": {},
+   "note": "",
+   "stage": "5. Plaster, sub-floors & floor bases"
+  },
+  {
+   "sec": "F. Plaster (grey-structure finish)",
+   "item": "F-ISF",
+   "desc": "Internal plaster \u00bd\" 1:4 - SF walls (gross 1472 sft, less openings, plus reveals)",
+   "qty": 1252.0749999999998,
+   "unit": "sft",
+   "cement": 13.877164583333334,
+   "sand": 69.38582291666667,
+   "crush": 0.0,
+   "bricks": 0,
+   "steel": 0,
+   "steel_by": {},
+   "note": "",
+   "stage": "5. Plaster, sub-floors & floor bases"
+  },
+  {
+   "sec": "F. Plaster (grey-structure finish)",
+   "item": "F-ESF",
+   "desc": "External plaster \u00be\" 1:4 - SF outer faces",
+   "qty": 679.7541666666666,
+   "unit": "sft",
+   "cement": 11.300913020833335,
+   "sand": 56.50456510416667,
+   "crush": 0.0,
+   "bricks": 0,
+   "steel": 0,
+   "steel_by": {},
+   "note": "",
+   "stage": "5. Plaster, sub-floors & floor bases"
+  },
+  {
+   "sec": "F. Plaster (grey-structure finish)",
+   "item": "F-P",
+   "desc": "Parapet plaster \u00be\" 1:4 both faces + coping",
+   "qty": 1313.5666666666666,
+   "unit": "sft",
+   "cement": 21.838045833333336,
+   "sand": 109.19022916666668,
+   "crush": 0.0,
+   "bricks": 0,
+   "steel": 0,
+   "steel_by": {},
+   "note": "",
+   "stage": "5. Plaster, sub-floors & floor bases"
+  },
+  {
+   "sec": "F. Plaster (grey-structure finish)",
+   "item": "F-C",
+   "desc": "Ceiling plaster \u215c\" 1:3 (slab soffits, stair soffits, shades)",
+   "qty": 3442.1829958160565,
+   "unit": "sft",
+   "cement": 35.76643269090121,
+   "sand": 134.12412259087955,
+   "crush": 0.0,
+   "bricks": 0,
+   "steel": 0,
+   "steel_by": {},
+   "note": "",
+   "stage": "5. Plaster, sub-floors & floor bases"
+  },
+  {
+   "sec": "B. Ground-floor sub-floor",
+   "item": "B4",
+   "desc": "Upper-floor sub-base: 3\" P.C.C 1:4:8 over FF floor & mumty floor (levels 4\" upstand CB beams, covers conduits)",
+   "qty": 436.3,
+   "unit": "cft",
+   "cement": 42.15329230769231,
+   "sand": 210.76646153846156,
+   "crush": 421.5329230769231,
+   "bricks": 0,
+   "steel": 0,
+   "steel_by": {},
+   "note": "",
+   "stage": "5. Plaster, sub-floors & floor bases"
+  },
+  {
+   "sec": "G. Boundary walls, gates pillars & external works",
+   "item": "G1",
+   "desc": "Excavation for boundary wall & pillar foundations 2'-3\" wide x 2'-6\" deep (141.9 ft run)",
+   "qty": 877.9753125000002,
+   "unit": "cft",
+   "cement": 0,
+   "sand": 0,
+   "crush": 0,
+   "bricks": 0,
+   "steel": 0,
+   "steel_by": {},
+   "note": "",
+   "stage": "6. External works (boundary, septic, manholes)"
+  },
+  {
+   "sec": "G. Boundary walls, gates pillars & external works",
+   "item": "G2",
+   "desc": "P.C.C 1:4:8 3\" under boundary wall foundation",
+   "qty": 79.8159375,
+   "unit": "cft",
+   "cement": 7.7114475,
+   "sand": 38.5572375,
+   "crush": 77.114475,
+   "bricks": 0,
+   "steel": 0,
+   "steel_by": {},
+   "note": "",
+   "stage": "6. External works (boundary, septic, manholes)"
+  },
+  {
+   "sec": "G. Boundary walls, gates pillars & external works",
+   "item": "G3",
+   "desc": "Brick masonry 1:6 stepped foundation (22\u00bd\", 18\", 13\u00bd\" x 6\" each)",
+   "qty": 319.26375,
+   "unit": "cft",
+   "cement": 14.558427,
+   "sand": 109.1882025,
+   "crush": 0.0,
+   "bricks": 4310.060625,
+   "steel": 0,
+   "steel_by": {},
+   "note": "",
+   "stage": "6. External works (boundary, septic, manholes)"
+  },
+  {
+   "sec": "G. Boundary walls, gates pillars & external works",
+   "item": "G4",
+   "desc": "R.C.C 1:2:4 plinth band / DPC beam 9\"x6\" at plinth level, 4#3 + #2@9\" rings",
+   "qty": 53.21062500000001,
+   "unit": "cft",
+   "cement": 9.547506428571431,
+   "sand": 23.868766071428578,
+   "crush": 47.737532142857155,
+   "bricks": 0,
+   "steel": 128.0062926884716,
+   "steel_by": {
+    "3": 101.64124316754409,
+    "2": 26.365049520927514
+   },
+   "note": "",
+   "stage": "6. External works (boundary, septic, manholes)"
+  },
+  {
+   "sec": "G. Boundary walls, gates pillars & external works",
+   "item": "G5",
+   "desc": "Brick masonry 1:5 boundary wall 9\" (122.0 ft of panels, 6'-0\" to 7'-3\" above road)",
+   "qty": 646.348125,
+   "unit": "cft",
+   "cement": 34.385720250000006,
+   "sand": 214.9107515625,
+   "crush": 0.0,
+   "bricks": 8725.6996875,
+   "steel": 0,
+   "steel_by": {},
+   "note": "",
+   "stage": "6. External works (boundary, septic, manholes)"
+  },
+  {
+   "sec": "G. Boundary walls, gates pillars & external works",
+   "item": "G6",
+   "desc": "Brick pillars 1:4 - 7 nos 13\u00bd\"x13\u00bd\" + 3 nos 4'-0\"x13\u00bd\" feature pillars, 6'-6\" high",
+   "qty": 150.92578125,
+   "unit": "cft",
+   "cement": 9.635101875,
+   "sand": 48.175509375000004,
+   "crush": 0.0,
+   "bricks": 2037.498046875,
+   "steel": 0,
+   "steel_by": {},
+   "note": "",
+   "stage": "6. External works (boundary, septic, manholes)"
+  },
+  {
+   "sec": "G. Boundary walls, gates pillars & external works",
+   "item": "G7",
+   "desc": "R.C.C coping 3\" on wall panels + pillar caps (1:2:4), 2#3",
+   "qty": 36.13,
+   "unit": "cft",
+   "cement": 6.482754285714286,
+   "sand": 16.206885714285715,
+   "crush": 32.41377142857143,
+   "bricks": 0,
+   "steel": 43.70226044365104,
+   "steel_by": {
+    "3": 43.70226044365104
+   },
+   "note": "",
+   "stage": "6. External works (boundary, septic, manholes)"
+  },
+  {
+   "sec": "G. Boundary walls, gates pillars & external works",
+   "item": "G8",
+   "desc": "Boundary wall plaster \u00be\" 1:4 (both faces road side, inner face on neighbour side, pillars, top)",
+   "qty": 2055.2475000000004,
+   "unit": "sft",
+   "cement": 34.16848968750001,
+   "sand": 170.84244843750005,
+   "crush": 0.0,
+   "bricks": 0,
+   "steel": 0,
+   "steel_by": {},
+   "note": "",
+   "stage": "6. External works (boundary, septic, manholes)"
+  },
+  {
+   "sec": "G. Boundary walls, gates pillars & external works",
+   "item": "G9",
+   "desc": "Lawn toe walls 9\" (approx. 15 ft x 2'-6\") 1:5 + 3\" PCC base",
+   "qty": 28.125,
+   "unit": "cft",
+   "cement": 2.0397115384615385,
+   "sand": 12.068870192307692,
+   "crush": 5.434615384615385,
+   "bricks": 379.6875,
+   "steel": 0,
+   "steel_by": {},
+   "note": "",
+   "stage": "6. External works (boundary, septic, manholes)"
+  },
+  {
+   "sec": "G. Boundary walls, gates pillars & external works",
+   "item": "G10",
+   "desc": "Entrance / porch / rear-door steps (brick 1:5, provisional)",
+   "qty": 40.0,
+   "unit": "cft",
+   "cement": 4.060307692307693,
+   "sand": 22.961538461538467,
+   "crush": 19.323076923076925,
+   "bricks": 540.0,
+   "steel": 0,
+   "steel_by": {},
+   "note": "incl. 20 cft PCC 1:4:8 treads base",
+   "stage": "6. External works (boundary, septic, manholes)"
+  },
+  {
+   "sec": "H. Septic tank & manholes",
+   "item": "H1",
+   "desc": "Septic tank excavation (internal 6'-0\" x 4'-0\" x 5'-6\" deep, 2 chambers)",
+   "qty": 372.9375,
+   "unit": "cft",
+   "cement": 0,
+   "sand": 0,
+   "crush": 0,
+   "bricks": 0,
+   "steel": 0,
+   "steel_by": {},
+   "note": "drawing shows ~4'-10\" x 3'-5\" overall; enlarged to standard size for ~12 users (upper estimate)",
+   "stage": "6. External works (boundary, septic, manholes)"
+  },
+  {
+   "sec": "H. Septic tank & manholes",
+   "item": "H2",
+   "desc": "P.C.C 1:4:8 3\" base",
+   "qty": 12.0,
+   "unit": "cft",
+   "cement": 1.1593846153846155,
+   "sand": 5.796923076923077,
+   "crush": 11.593846153846155,
+   "bricks": 0,
+   "steel": 0,
+   "steel_by": {},
+   "note": "",
+   "stage": "6. External works (boundary, septic, manholes)"
+  },
+  {
+   "sec": "H. Septic tank & manholes",
+   "item": "H3",
+   "desc": "R.C.C 1:2:4 base slab 6\" (#3@6\" both ways)",
+   "qty": 20.625,
+   "unit": "cft",
+   "cement": 3.700714285714286,
+   "sand": 9.251785714285715,
+   "crush": 18.50357142857143,
+   "bricks": 0,
+   "steel": 29.164175021520006,
+   "steel_by": {
+    "3": 29.164175021520006
+   },
+   "note": "",
+   "stage": "6. External works (boundary, septic, manholes)"
+  },
+  {
+   "sec": "H. Septic tank & manholes",
+   "item": "H4",
+   "desc": "Brick masonry 1:4 - 9\" walls + two 4\u00bd\" baffle walls",
+   "qty": 140.0,
+   "unit": "cft",
+   "cement": 8.9376,
+   "sand": 44.688,
+   "crush": 0.0,
+   "bricks": 1890.0,
+   "steel": 0,
+   "steel_by": {},
+   "note": "",
+   "stage": "6. External works (boundary, septic, manholes)"
+  },
+  {
+   "sec": "H. Septic tank & manholes",
+   "item": "H5",
+   "desc": "R.C.C 1:2:4 cover slab 5\" with 2 manhole openings (#3@6\" both ways + trimmers)",
+   "qty": 13.854166666666666,
+   "unit": "cft",
+   "cement": 2.485833333333333,
+   "sand": 6.214583333333333,
+   "crush": 12.429166666666665,
+   "bricks": 0,
+   "steel": 33.2573925684,
+   "steel_by": {
+    "3": 33.2573925684
+   },
+   "note": "",
+   "stage": "6. External works (boundary, septic, manholes)"
+  },
+  {
+   "sec": "H. Septic tank & manholes",
+   "item": "H6",
+   "desc": "Plaster \u00be\" 1:3 with water-proofing compound inside septic tank",
+   "qty": 206,
+   "unit": "sft",
+   "cement": 4.2809375,
+   "sand": 16.053515625000003,
+   "crush": 0.0,
+   "bricks": 0,
+   "steel": 0,
+   "steel_by": {},
+   "note": "",
+   "stage": "6. External works (boundary, septic, manholes)"
+  },
+  {
+   "sec": "H. Septic tank & manholes",
+   "item": "H7",
+   "desc": "Manholes / inspection chambers - 9 nos 2'x2' internal, avg 3'-6\" deep: excavation",
+   "qty": 774.5625,
+   "unit": "cft",
+   "cement": 0,
+   "sand": 0,
+   "crush": 0,
+   "bricks": 0,
+   "steel": 0,
+   "steel_by": {},
+   "note": "",
+   "stage": "6. External works (boundary, septic, manholes)"
+  },
+  {
+   "sec": "H. Septic tank & manholes",
+   "item": "H8",
+   "desc": "Manholes: P.C.C 1:4:8 4\" base",
+   "qty": 36.71325,
+   "unit": "cft",
+   "cement": 3.54706476923077,
+   "sand": 17.73532384615385,
+   "crush": 35.4706476923077,
+   "bricks": 0,
+   "steel": 0,
+   "steel_by": {},
+   "note": "",
+   "stage": "6. External works (boundary, septic, manholes)"
+  },
+  {
+   "sec": "H. Septic tank & manholes",
+   "item": "H9",
+   "desc": "Manholes: 9\" brick walls 1:4",
+   "qty": 346.5,
+   "unit": "cft",
+   "cement": 22.12056,
+   "sand": 110.6028,
+   "crush": 0.0,
+   "bricks": 4677.75,
+   "steel": 0,
+   "steel_by": {},
+   "note": "",
+   "stage": "6. External works (boundary, septic, manholes)"
+  },
+  {
+   "sec": "H. Septic tank & manholes",
+   "item": "H10",
+   "desc": "Manholes: benching/channels 1:2:4",
+   "qty": 13.5,
+   "unit": "cft",
+   "cement": 2.4222857142857146,
+   "sand": 6.055714285714286,
+   "crush": 12.111428571428572,
+   "bricks": 0,
+   "steel": 0,
+   "steel_by": {},
+   "note": "",
+   "stage": "6. External works (boundary, septic, manholes)"
+  },
+  {
+   "sec": "H. Septic tank & manholes",
+   "item": "H11",
+   "desc": "Manholes: inside plaster \u00bd\" 1:3",
+   "qty": 288,
+   "unit": "sft",
+   "cement": 3.9900000000000007,
+   "sand": 14.962500000000002,
+   "crush": 0.0,
+   "bricks": 0,
+   "steel": 0,
+   "steel_by": {},
+   "note": "",
+   "stage": "6. External works (boundary, septic, manholes)"
+  },
+  {
+   "sec": "H. Septic tank & manholes",
+   "item": "H12",
+   "desc": "Manholes: R.C.C cover slabs 3\" (#3@6\" both ways)",
+   "qty": 17.015625,
+   "unit": "cft",
+   "cement": 3.0530892857142855,
+   "sand": 7.632723214285714,
+   "crush": 15.265446428571428,
+   "bricks": 0,
+   "steel": 53.7234803028,
+   "steel_by": {
+    "3": 53.7234803028
+   },
+   "note": "",
+   "stage": "6. External works (boundary, septic, manholes)"
+  },
+  {
+   "sec": "I. Overhead water tank (R.C.C, 1000 gallons)",
+   "item": "I1",
+   "desc": "R.C.C 1:1.5:3 overhead tank internal 8'x5'x4'-6\" (1000 imp. gal): 6\" base, 6\" walls, 4\" top",
+   "qty": 106.7,
+   "unit": "cft",
+   "cement": 24.366400000000002,
+   "sand": 45.687000000000005,
+   "crush": 91.37400000000001,
+   "bricks": 0,
+   "steel": 227.94105214188002,
+   "steel_by": {
+    "3": 227.94105214188002
+   },
+   "note": "drawings show tank position only (5'-4\"x3'-1\" symbol) on mumty roof; engineer to confirm support",
+   "stage": "4. Mumty (2F), parapets & roof tank"
+  },
+  {
+   "sec": "I. Overhead water tank (R.C.C, 1000 gallons)",
+   "item": "I2",
+   "desc": "Brick support walls/piers under tank 9\" 1:4 (provisional)",
+   "qty": 45,
+   "unit": "cft",
+   "cement": 2.8728000000000002,
+   "sand": 14.364,
+   "crush": 0.0,
+   "bricks": 607.5,
+   "steel": 0,
+   "steel_by": {},
+   "note": "",
+   "stage": "4. Mumty (2F), parapets & roof tank"
+  },
+  {
+   "sec": "I. Overhead water tank (R.C.C, 1000 gallons)",
+   "item": "I3",
+   "desc": "Tank plaster: inside \u00be\" 1:3 water-proof (197 sft) + outside \u00bd\" 1:4 (204 sft)",
+   "qty": 401,
+   "unit": "sft",
+   "cement": 6.35490625,
+   "sand": 26.6571484375,
+   "crush": 0.0,
+   "bricks": 0,
+   "steel": 0,
+   "steel_by": {},
+   "note": "",
+   "stage": "4. Mumty (2F), parapets & roof tank"
+  }
+ ],
+ "steel_comp": {
+  "A. Foundations & Plinth": {
+   "3": 696.8165711338781,
+   "4": 501.61601108240535,
+   "2": 78.69259439482417,
+   "6": 53.141067699720004
+  },
+  "D. R.C.C work (1:2:4 unless noted)": {
+   "6": 867.7790558075973,
+   "4": 1083.3331964957545,
+   "3": 713.2106457016105,
+   "2": 26.893193153520542
+  },
+  "E. Slab reinforcement": {
+   "3": 2506.1393842392445,
+   "4": 580.0838417087252,
+   "6": 55.035069856197204
+  },
+  "G. Boundary walls, gates pillars & external works": {
+   "3": 145.34350361119513,
+   "2": 26.365049520927514
+  },
+  "H. Septic tank & manholes": {
+   "3": 116.14504789272
+  },
+  "I. Overhead water tank (R.C.C, 1000 gallons)": {
+   "3": 227.94105214188002
+  }
+ },
+ "walls": [
+  [
+   "R1",
+   "Back wall (Bed-1 & S-T lobby) facing rear passage",
+   0.75,
+   2,
+   19.505,
+   [
+    17.38,
+    0.38,
+    36.88,
+    0.38
+   ]
+  ],
+  [
+   "R2",
+   "Back wall step (S-T lobby, rear)",
+   0.75,
+   2,
+   3.313,
+   [
+    17.38,
+    0.38,
+    17.38,
+    3.69
+   ]
+  ],
+  [
+   "R3",
+   "S-T lobby / Bed-1 partition",
+   0.75,
+   3,
+   13.563,
+   [
+    23.13,
+    0.38,
+    23.13,
+    13.94
+   ]
+  ],
+  [
+   "R4",
+   "S-T lobby / lobby partition",
+   0.75,
+   3,
+   5.751000000000001,
+   [
+    17.38,
+    9.25,
+    23.13,
+    9.25
+   ]
+  ],
+  [
+   "R5",
+   "Bath-Dress & M-Bed / lobby partition",
+   0.75,
+   3,
+   17.938000000000002,
+   [
+    17.38,
+    7.56,
+    17.38,
+    25.5
+   ]
+  ],
+  [
+   "R6",
+   "Left outer wall of stair & bath",
+   0.75,
+   2,
+   9.062,
+   [
+    3.9,
+    3.69,
+    3.9,
+    12.75
+   ]
+  ],
+  [
+   "R6b",
+   "Left outer wall jog",
+   0.75,
+   2,
+   1.27,
+   [
+    2.63,
+    12.75,
+    3.9,
+    12.75
+   ]
+  ],
+  [
+   "R7",
+   "M-Bed left outer wall",
+   0.75,
+   2,
+   12.751000000000001,
+   [
+    2.63,
+    12.75,
+    2.63,
+    25.5
+   ]
+  ],
+  [
+   "R8",
+   "M-Bed / kitchens partition",
+   0.75,
+   3,
+   17.255,
+   [
+    1.0,
+    25.5,
+    18.25,
+    25.5
+   ]
+  ],
+  [
+   "R9",
+   "Raw kitchen left outer wall",
+   0.75,
+   2,
+   11.751000000000001,
+   [
+    1.38,
+    25.5,
+    1.38,
+    37.25
+   ]
+  ],
+  [
+   "R10",
+   "Raw kitchen / TV lounge partition",
+   0.75,
+   3,
+   8.75,
+   [
+    0.38,
+    37.25,
+    9.12,
+    37.25
+   ]
+  ],
+  [
+   "R11",
+   "TV lounge left outer wall",
+   0.75,
+   2,
+   13.842999999999996,
+   [
+    0.38,
+    37.25,
+    0.38,
+    51.09
+   ]
+  ],
+  [
+   "R12",
+   "TV lounge front splayed wall",
+   0.75,
+   2,
+   3.2502876795754543,
+   [
+    0.38,
+    51.09,
+    3.44,
+    50.0
+   ]
+  ],
+  [
+   "R13",
+   "TV lounge front wall",
+   0.75,
+   2,
+   12.693999999999999,
+   [
+    3.44,
+    50.0,
+    16.13,
+    50.0
+   ]
+  ],
+  [
+   "R14",
+   "TV lounge / entrance wall",
+   0.75,
+   2,
+   8.5,
+   [
+    16.13,
+    41.5,
+    16.13,
+    50.0
+   ]
+  ],
+  [
+   "R15",
+   "Entrance front wall",
+   0.75,
+   2,
+   7.001000000000001,
+   [
+    16.13,
+    45.25,
+    23.13,
+    45.25
+   ]
+  ],
+  [
+   "R16a",
+   "Lobby / dining-drawing partition",
+   0.75,
+   3,
+   22.938000000000002,
+   [
+    23.13,
+    19.31,
+    23.13,
+    42.25
+   ]
+  ],
+  [
+   "R16b",
+   "Lobby / car-porch wall",
+   0.75,
+   2,
+   3.75,
+   [
+    23.13,
+    42.25,
+    23.13,
+    46.0
+   ]
+  ],
+  [
+   "R17",
+   "Drawing room front wall (car porch)",
+   0.75,
+   2,
+   13.75,
+   [
+    23.13,
+    42.25,
+    36.88,
+    42.25
+   ]
+  ],
+  [
+   "R18a",
+   "Right property-line wall (rear part)",
+   0.75,
+   1,
+   19.126,
+   [
+    36.88,
+    0.38,
+    36.88,
+    19.5
+   ]
+  ],
+  [
+   "R18b",
+   "Right property-line wall (front part)",
+   0.75,
+   1,
+   21.189,
+   [
+    36.88,
+    29.31,
+    36.88,
+    50.5
+   ]
+  ],
+  [
+   "R19",
+   "Patio top wall",
+   0.75,
+   2,
+   4.0,
+   [
+    32.88,
+    19.5,
+    36.88,
+    19.5
+   ]
+  ],
+  [
+   "R20",
+   "Patio left wall",
+   0.75,
+   2,
+   4.75,
+   [
+    32.88,
+    19.5,
+    32.88,
+    24.25
+   ]
+  ],
+  [
+   "R21",
+   "Patio bottom / P-W top wall",
+   0.75,
+   2,
+   4.188000000000002,
+   [
+    32.88,
+    24.25,
+    37.07,
+    24.25
+   ]
+  ],
+  [
+   "G1",
+   "Stair hall rear wall (to back car porch)",
+   0.375,
+   4,
+   13.48,
+   [
+    3.9,
+    3.69,
+    17.38,
+    3.69
+   ]
+  ],
+  [
+   "G2",
+   "Stair / bath-dress partition",
+   0.375,
+   4,
+   13.483999999999998,
+   [
+    3.9,
+    7.56,
+    17.38,
+    7.56
+   ]
+  ],
+  [
+   "G3",
+   "Bath-dress / M-Bed partition",
+   0.375,
+   4,
+   13.483999999999998,
+   [
+    3.9,
+    12.94,
+    17.38,
+    12.94
+   ]
+  ],
+  [
+   "G4",
+   "Bath / dress partition",
+   0.375,
+   4,
+   5.375000000000001,
+   [
+    12.32,
+    7.56,
+    12.32,
+    12.94
+   ]
+  ],
+  [
+   "G5",
+   "Bed-1 / dress-bath partition",
+   0.375,
+   4,
+   13.75,
+   [
+    23.13,
+    13.94,
+    36.88,
+    13.94
+   ]
+  ],
+  [
+   "G6",
+   "Lobby / dress partition",
+   0.375,
+   4,
+   5.3759999999999994,
+   [
+    22.94,
+    13.94,
+    22.94,
+    19.31
+   ]
+  ],
+  [
+   "G7",
+   "Dress-bath / dining partition",
+   0.375,
+   4,
+   9.937999999999999,
+   [
+    22.94,
+    19.31,
+    32.88,
+    19.31
+   ]
+  ],
+  [
+   "G8",
+   "Dress / bath partition",
+   0.375,
+   4,
+   5.3759999999999994,
+   [
+    27.32,
+    13.94,
+    27.32,
+    19.31
+   ]
+  ],
+  [
+   "G9",
+   "Raw kitchen / open kitchen partition",
+   0.375,
+   4,
+   11.751000000000001,
+   [
+    8.94,
+    25.5,
+    8.94,
+    37.25
+   ]
+  ],
+  [
+   "G10",
+   "P-W left wall",
+   0.375,
+   4,
+   5.062999999999999,
+   [
+    32.69,
+    24.25,
+    32.69,
+    29.31
+   ]
+  ],
+  [
+   "G11",
+   "P-W front wall",
+   0.375,
+   4,
+   4.186999999999998,
+   [
+    32.69,
+    29.31,
+    36.88,
+    29.31
+   ]
+  ],
+  [
+   "G12",
+   "P-W right (property-line) wall",
+   0.375,
+   4,
+   5.062999999999999,
+   [
+    37.07,
+    24.25,
+    37.07,
+    29.31
+   ]
+  ],
+  [
+   "G13",
+   "Front elevation projection",
+   0.375,
+   4,
+   1.124,
+   [
+    3.5,
+    50.56,
+    4.62,
+    50.56
+   ]
+  ],
+  [
+   "G14",
+   "Front elevation projection",
+   0.375,
+   4,
+   3.3749999999999982,
+   [
+    13.13,
+    50.56,
+    16.5,
+    50.56
+   ]
+  ]
+ ],
+ "layers": {
+  "pcc": 969.5758128265817,
+  "rccf": 833.5587581450619,
+  "b225": 477.9710287840552,
+  "b18": 523.2094505346986,
+  "b135": 398.94742593089256,
+  "p9": 270.76162804700095
+ },
+ "L": {
+  "2": 133.37828767957546,
+  "3": 86.19500000000001,
+  "1": 40.315,
+  "4": 110.82600000000001
+ },
+ "openings": {
+  "GF": [
+   [
+    "S-T lobby rear door",
+    3.5,
+    8,
+    0.75,
+    1,
+    true
+   ],
+   [
+    "S-T lobby to lobby door",
+    3.5,
+    8,
+    0.75,
+    1,
+    false
+   ],
+   [
+    "Bed-1 door",
+    3.5,
+    8,
+    0.75,
+    1,
+    false
+   ],
+   [
+    "M-Bed door",
+    3.5,
+    8,
+    0.75,
+    1,
+    false
+   ],
+   [
+    "Drawing room door (to porch)",
+    3.5,
+    8,
+    0.75,
+    1,
+    true
+   ],
+   [
+    "Dining arch opening",
+    6.5,
+    8,
+    0.75,
+    1,
+    false
+   ],
+   [
+    "Raw-kitchen side door",
+    3.0,
+    8,
+    0.75,
+    1,
+    true
+   ],
+   [
+    "Main entrance glazed door (5'-1\u00bd\" x 20'-6\", GF part)",
+    5.125,
+    11.0,
+    0.75,
+    1,
+    true
+   ],
+   [
+    "Bed-1 dress door",
+    2.875,
+    8,
+    0.375,
+    1,
+    false
+   ],
+   [
+    "Bed-1 bath door",
+    2.5,
+    8,
+    0.375,
+    1,
+    false
+   ],
+   [
+    "M-Bed dress door",
+    2.5,
+    8,
+    0.375,
+    1,
+    false
+   ],
+   [
+    "M-Bed bath door",
+    2.5,
+    8,
+    0.375,
+    1,
+    false
+   ],
+   [
+    "Under-stair store door",
+    2.5,
+    8,
+    0.375,
+    1,
+    false
+   ],
+   [
+    "Raw to open kitchen door",
+    3.0,
+    8,
+    0.375,
+    1,
+    false
+   ],
+   [
+    "Powder room door",
+    2.25,
+    8,
+    0.375,
+    1,
+    false
+   ],
+   [
+    "Bed-1 window",
+    7,
+    7,
+    0.75,
+    1,
+    true
+   ],
+   [
+    "M-Bed window",
+    7,
+    7,
+    0.75,
+    1,
+    true
+   ],
+   [
+    "Drawing window",
+    6,
+    7,
+    0.75,
+    1,
+    true
+   ],
+   [
+    "Dining window (patio)",
+    3.25,
+    7,
+    0.75,
+    1,
+    true
+   ],
+   [
+    "Raw-kitchen window",
+    3,
+    4.5,
+    0.75,
+    1,
+    true
+   ],
+   [
+    "TV-lounge front glazing 8'-6\" x 20' (GF part)",
+    8.5,
+    10.5,
+    0.75,
+    1,
+    true
+   ],
+   [
+    "Ventilators 2'-6\" x 2'",
+    2.5,
+    2,
+    0.75,
+    3,
+    true
+   ],
+   [
+    "Exhaust fan openings 1'x1'",
+    1,
+    1,
+    0.75,
+    3,
+    true
+   ]
+  ],
+  "FF": [
+   [
+    "S-T lobby door",
+    3.5,
+    8,
+    0.75,
+    1,
+    false
+   ],
+   [
+    "Bed-1 door",
+    3.5,
+    8,
+    0.75,
+    1,
+    false
+   ],
+   [
+    "M-Bed door",
+    3.5,
+    8,
+    0.75,
+    1,
+    false
+   ],
+   [
+    "Front bed door",
+    3.5,
+    8,
+    0.75,
+    1,
+    false
+   ],
+   [
+    "Store door",
+    3.0,
+    8,
+    0.75,
+    1,
+    false
+   ],
+   [
+    "Kitchen door",
+    3.0,
+    8,
+    0.75,
+    1,
+    false
+   ],
+   [
+    "Bed-1 dress door",
+    2.875,
+    8,
+    0.375,
+    1,
+    false
+   ],
+   [
+    "Bed-1 bath door",
+    2.5,
+    8,
+    0.375,
+    1,
+    false
+   ],
+   [
+    "M-Bed dress door",
+    3.5,
+    8,
+    0.375,
+    1,
+    false
+   ],
+   [
+    "M-Bed bath door",
+    2.5,
+    8,
+    0.375,
+    1,
+    false
+   ],
+   [
+    "Front bed dress door",
+    3.0,
+    8,
+    0.375,
+    1,
+    false
+   ],
+   [
+    "Front bed bath door",
+    2.5,
+    8,
+    0.375,
+    1,
+    false
+   ],
+   [
+    "Kitchen door/window to terrace 6x8 (sill 6\")",
+    6,
+    7.5,
+    0.375,
+    1,
+    true
+   ],
+   [
+    "Bed-1 window",
+    7,
+    7,
+    0.75,
+    1,
+    true
+   ],
+   [
+    "M-Bed window",
+    7,
+    7,
+    0.75,
+    1,
+    true
+   ],
+   [
+    "Front bed side window",
+    7,
+    7,
+    0.75,
+    1,
+    true
+   ],
+   [
+    "Front bed glazing (upper part of 20' glazing)",
+    8.5,
+    8.5,
+    0.75,
+    1,
+    true
+   ],
+   [
+    "TV-lounge window (to open shaft)",
+    8,
+    7,
+    0.75,
+    1,
+    true
+   ],
+   [
+    "Entrance glazing (upper part)",
+    5.125,
+    8.5,
+    0.75,
+    1,
+    true
+   ],
+   [
+    "Stair-hall rear windows 3x7",
+    3,
+    7,
+    0.375,
+    2,
+    true
+   ],
+   [
+    "Stair-hall vertical glazing slot 2' wide",
+    2,
+    11.541666666666666,
+    0.375,
+    1,
+    true
+   ],
+   [
+    "Ventilators 2'-6\" x 2'",
+    2.5,
+    2,
+    0.75,
+    3,
+    true
+   ],
+   [
+    "Exhaust fan openings 1'x1'",
+    1,
+    1,
+    0.75,
+    4,
+    true
+   ]
+  ],
+  "SF": [
+   [
+    "Stair-hall door to terrace",
+    3.5,
+    8,
+    0.375,
+    1,
+    true
+   ],
+   [
+    "Room door",
+    3.5,
+    8,
+    0.75,
+    1,
+    false
+   ],
+   [
+    "Bath door",
+    2.5,
+    8,
+    0.375,
+    1,
+    false
+   ],
+   [
+    "Laundry door",
+    2.5,
+    8,
+    0.375,
+    1,
+    false
+   ],
+   [
+    "Room window 5x7",
+    5,
+    7,
+    0.75,
+    1,
+    true
+   ],
+   [
+    "Stair-hall rear windows 3x7",
+    3,
+    7,
+    0.375,
+    2,
+    true
+   ],
+   [
+    "Stair-hall vertical glazing slot",
+    2,
+    9.541666666666666,
+    0.375,
+    1,
+    true
+   ],
+   [
+    "Bath ventilator",
+    2.5,
+    2,
+    0.75,
+    1,
+    true
+   ]
+  ]
+ },
+ "lintels": {
+  "GF": [
+   [
+    "DL-1",
+    5.0,
+    5
+   ],
+   [
+    "DL-1",
+    6.63,
+    1
+   ],
+   [
+    "DL-1",
+    8.0,
+    1
+   ],
+   [
+    "DL-2",
+    4.375,
+    1
+   ],
+   [
+    "DL-2",
+    4.0,
+    4
+   ],
+   [
+    "DL-2",
+    4.5,
+    1
+   ],
+   [
+    "DL-2",
+    3.75,
+    1
+   ],
+   [
+    "WL&DL-1",
+    9.37,
+    1
+   ],
+   [
+    "WL-1",
+    8.69,
+    1
+   ],
+   [
+    "WL-1",
+    8.84,
+    1
+   ],
+   [
+    "WL-1",
+    7.5,
+    1
+   ],
+   [
+    "WL-1",
+    4.75,
+    1
+   ],
+   [
+    "WL-2",
+    10.34,
+    1
+   ],
+   [
+    "VL-1",
+    4.0,
+    3
+   ]
+  ],
+  "FF": [
+   [
+    "DL-1",
+    5.0,
+    4
+   ],
+   [
+    "DL-1",
+    4.5,
+    2
+   ],
+   [
+    "DL-1",
+    5.0,
+    1
+   ],
+   [
+    "DL-2",
+    4.375,
+    1
+   ],
+   [
+    "DL-2",
+    4.0,
+    3
+   ],
+   [
+    "DL-2",
+    5.0,
+    1
+   ],
+   [
+    "DL-2",
+    4.5,
+    1
+   ],
+   [
+    "WL-1",
+    8.83,
+    3
+   ],
+   [
+    "WL-1",
+    6.63,
+    1
+   ],
+   [
+    "WL-1",
+    8.69,
+    1
+   ],
+   [
+    "WL-2",
+    10.34,
+    1
+   ],
+   [
+    "WL-3",
+    3.6,
+    1
+   ],
+   [
+    "WL-3",
+    4.5,
+    2
+   ],
+   [
+    "WL-3",
+    8.15,
+    1
+   ],
+   [
+    "VL-1",
+    4.0,
+    3
+   ]
+  ],
+  "SF": [
+   [
+    "DL-1",
+    5.0,
+    1
+   ],
+   [
+    "DL-2",
+    5.0,
+    1
+   ],
+   [
+    "DL-2",
+    4.0,
+    2
+   ],
+   [
+    "WL-1",
+    6.8,
+    1
+   ],
+   [
+    "WL-3",
+    3.6,
+    1
+   ],
+   [
+    "WL-3",
+    4.5,
+    2
+   ],
+   [
+    "VL-1",
+    4.0,
+    1
+   ]
+  ]
+ },
+ "slab_rows": {
+  "GF": [
+   [
+    "B1",
+    3,
+    8,
+    14.59,
+    13.4,
+    "B",
+    23,
+    322.0
+   ],
+   [
+    "B2",
+    3,
+    9,
+    13.33,
+    14.79,
+    "B",
+    19,
+    292.40999999999997
+   ],
+   [
+    "B3",
+    3,
+    7,
+    14.84,
+    8.25,
+    "B",
+    27,
+    238.95
+   ],
+   [
+    "B4",
+    3,
+    10,
+    8.58,
+    14.67,
+    "B",
+    12,
+    183.24
+   ],
+   [
+    "B5",
+    3,
+    8,
+    13.59,
+    16.14,
+    "B",
+    22,
+    368.28000000000003
+   ],
+   [
+    "B6",
+    3,
+    6,
+    16.33,
+    13.54,
+    "B",
+    34,
+    480.75999999999993
+   ],
+   [
+    "B7",
+    3,
+    10,
+    4.58,
+    46.13,
+    "B",
+    7,
+    327.11
+   ],
+   [
+    "B8",
+    3,
+    8,
+    43.71,
+    5.75,
+    "B",
+    67,
+    425.45
+   ],
+   [
+    "B9",
+    3,
+    6,
+    46.83,
+    13.75,
+    "B",
+    95,
+    1363.25
+   ],
+   [
+    "B10",
+    3,
+    10,
+    12.58,
+    13.57,
+    "B",
+    17,
+    240.89
+   ],
+   [
+    "B11",
+    3,
+    10,
+    12.58,
+    5.56,
+    "B",
+    17,
+    104.71999999999998
+   ],
+   [
+    "B12",
+    3,
+    8,
+    12.58,
+    14.14,
+    "B",
+    20,
+    294.8
+   ],
+   [
+    "B13",
+    3,
+    10,
+    12.58,
+    8.61,
+    "B",
+    17,
+    156.57
+   ],
+   [
+    "B14",
+    4,
+    10,
+    12.96,
+    9.29,
+    "B",
+    17,
+    168.12999999999997
+   ],
+   [
+    "T1",
+    3,
+    8,
+    14.59,
+    4.16,
+    "T",
+    23,
+    102.58
+   ],
+   [
+    "T2",
+    4,
+    10,
+    15.32,
+    6.5,
+    "T",
+    20,
+    136.0
+   ],
+   [
+    "T3",
+    4,
+    10,
+    13.44,
+    5.17,
+    "T",
+    18,
+    98.46
+   ],
+   [
+    "T4",
+    3,
+    8,
+    8.67,
+    6.83,
+    "T",
+    15,
+    106.95
+   ],
+   [
+    "T5",
+    3,
+    8,
+    4.25,
+    4.5,
+    "T",
+    8,
+    38.4
+   ],
+   [
+    "T6",
+    3,
+    10,
+    8.58,
+    4.5,
+    "T",
+    12,
+    57.599999999999994
+   ],
+   [
+    "T7",
+    3,
+    8,
+    8.67,
+    13.17,
+    "T",
+    15,
+    202.05
+   ],
+   [
+    "T8",
+    4,
+    10,
+    13.59,
+    7.25,
+    "T",
+    18,
+    135.9
+   ],
+   [
+    "T9",
+    4,
+    10,
+    3.96,
+    4.58,
+    "T",
+    6,
+    29.28
+   ],
+   [
+    "T10",
+    3,
+    10,
+    11.58,
+    4.16,
+    "T",
+    15,
+    66.9
+   ],
+   [
+    "T11",
+    3,
+    8,
+    16.42,
+    12.84,
+    "T",
+    26,
+    341.64
+   ],
+   [
+    "T12",
+    3,
+    10,
+    12.32,
+    4.91,
+    "T",
+    16,
+    83.36
+   ],
+   [
+    "T13",
+    3,
+    8,
+    6.96,
+    6.25,
+    "T",
+    12,
+    78.6
+   ],
+   [
+    "T14",
+    3,
+    10,
+    5.96,
+    3.33,
+    "T",
+    9,
+    32.67
+   ],
+   [
+    "T15",
+    3,
+    10,
+    17.96,
+    3.92,
+    "T",
+    23,
+    97.05999999999999
+   ],
+   [
+    "T16",
+    3,
+    10,
+    3.15,
+    3.33,
+    "T",
+    5,
+    18.15
+   ],
+   [
+    "T17",
+    3,
+    8,
+    11.71,
+    6.25,
+    "T",
+    19,
+    124.45
+   ],
+   [
+    "T18",
+    3,
+    10,
+    22.96,
+    3.92,
+    "T",
+    29,
+    122.38
+   ],
+   [
+    "T19",
+    3,
+    10,
+    12.58,
+    5.26,
+    "T",
+    17,
+    94.52
+   ],
+   [
+    "T20",
+    3,
+    10,
+    12.58,
+    8.17,
+    "T",
+    17,
+    143.99
+   ],
+   [
+    "T21",
+    3,
+    10,
+    12.58,
+    7.17,
+    "T",
+    17,
+    126.99
+   ],
+   [
+    "T22",
+    4,
+    10,
+    12.96,
+    7.54,
+    "T",
+    17,
+    133.28
+   ]
+  ],
+  "FF": [
+   [
+    "B1",
+    3,
+    8,
+    14.96,
+    14.31,
+    "B",
+    24,
+    357.84000000000003
+   ],
+   [
+    "B2",
+    3,
+    9,
+    13.58,
+    14.78,
+    "B",
+    20,
+    307.59999999999997
+   ],
+   [
+    "B3",
+    3,
+    7,
+    14.84,
+    8.25,
+    "B",
+    27,
+    238.95
+   ],
+   [
+    "B4",
+    3,
+    10,
+    8.58,
+    14.67,
+    "B",
+    12,
+    183.24
+   ],
+   [
+    "B5",
+    3,
+    8,
+    13.59,
+    16.15,
+    "B",
+    22,
+    368.5
+   ],
+   [
+    "B6",
+    3,
+    6,
+    16.33,
+    13.54,
+    "B",
+    34,
+    480.75999999999993
+   ],
+   [
+    "B7",
+    3,
+    7,
+    18.33,
+    11.72,
+    "B",
+    33,
+    406.56
+   ],
+   [
+    "B8",
+    3,
+    8,
+    18.33,
+    7.1,
+    "B",
+    29,
+    223.29999999999998
+   ],
+   [
+    "B9",
+    3,
+    10,
+    11.58,
+    17.88,
+    "B",
+    15,
+    277.2
+   ],
+   [
+    "B10",
+    3,
+    10,
+    5.21,
+    19.5,
+    "B",
+    8,
+    160.8
+   ],
+   [
+    "B11",
+    3,
+    8,
+    14.33,
+    12.0,
+    "B",
+    23,
+    289.8
+   ],
+   [
+    "B12",
+    3,
+    8,
+    13.21,
+    14.25,
+    "B",
+    21,
+    311.84999999999997
+   ],
+   [
+    "B13",
+    3,
+    6,
+    19.58,
+    14.83,
+    "B",
+    41,
+    632.63
+   ],
+   [
+    "B14",
+    3,
+    8,
+    13.2,
+    19.0,
+    "B",
+    21,
+    411.6
+   ],
+   [
+    "T1",
+    3,
+    8,
+    14.96,
+    5.7,
+    "T",
+    24,
+    144.0
+   ],
+   [
+    "T2",
+    3,
+    10,
+    13.58,
+    4.5,
+    "T",
+    18,
+    86.39999999999999
+   ],
+   [
+    "T3",
+    4,
+    10,
+    13.58,
+    9.17,
+    "T",
+    18,
+    170.46
+   ],
+   [
+    "T4",
+    4,
+    10,
+    14.96,
+    6.5,
+    "T",
+    19,
+    129.2
+   ],
+   [
+    "T5",
+    4,
+    10,
+    8.58,
+    5.17,
+    "T",
+    12,
+    65.64
+   ],
+   [
+    "T6",
+    4,
+    10,
+    10.33,
+    7.83,
+    "T",
+    14,
+    113.82000000000001
+   ],
+   [
+    "T7",
+    4,
+    10,
+    13.59,
+    7.25,
+    "T",
+    18,
+    135.9
+   ],
+   [
+    "T8",
+    4,
+    10,
+    4.58,
+    4.7,
+    "T",
+    7,
+    35.0
+   ],
+   [
+    "T9",
+    3,
+    10,
+    11.33,
+    4.16,
+    "T",
+    15,
+    66.9
+   ],
+   [
+    "T10",
+    3,
+    10,
+    12.32,
+    4.92,
+    "T",
+    16,
+    83.52
+   ],
+   [
+    "T11",
+    4,
+    10,
+    4.58,
+    7.5,
+    "T",
+    7,
+    54.6
+   ],
+   [
+    "T12",
+    4,
+    10,
+    12.08,
+    8.84,
+    "T",
+    16,
+    146.24
+   ],
+   [
+    "T13",
+    3,
+    10,
+    18.33,
+    3.67,
+    "T",
+    23,
+    91.30999999999999
+   ],
+   [
+    "T14",
+    3,
+    8,
+    18.33,
+    6.0,
+    "T",
+    29,
+    182.7
+   ],
+   [
+    "T15",
+    3,
+    8,
+    18.33,
+    6.41,
+    "T",
+    29,
+    194.59
+   ],
+   [
+    "T16",
+    3,
+    10,
+    17.96,
+    5.67,
+    "T",
+    23,
+    137.31
+   ],
+   [
+    "T17",
+    3,
+    10,
+    6.21,
+    9.55,
+    "T",
+    9,
+    88.65
+   ],
+   [
+    "T18",
+    3,
+    10,
+    13.2,
+    4.33,
+    "T",
+    17,
+    78.71
+   ],
+   [
+    "T19",
+    4,
+    10,
+    18.33,
+    7.16,
+    "T",
+    23,
+    171.58
+   ],
+   [
+    "T20",
+    3,
+    8,
+    13.44,
+    7.38,
+    "T",
+    22,
+    168.95999999999998
+   ],
+   [
+    "T21",
+    3,
+    8,
+    5.73,
+    4.16,
+    "T",
+    10,
+    44.6
+   ],
+   [
+    "T22",
+    4,
+    8,
+    14.9,
+    5.0,
+    "T",
+    24,
+    127.19999999999999
+   ],
+   [
+    "T23",
+    3,
+    10,
+    13.2,
+    5.67,
+    "T",
+    17,
+    101.49
+   ]
+  ],
+  "SF": [
+   [
+    "B1a",
+    3,
+    8,
+    16.28,
+    7.75,
+    "B",
+    26,
+    217.1
+   ],
+   [
+    "B1b",
+    3,
+    8,
+    16.67,
+    11.87,
+    "B",
+    27,
+    336.68999999999994
+   ],
+   [
+    "B2a",
+    3,
+    10,
+    10.71,
+    17.25,
+    "B",
+    14,
+    249.90000000000003
+   ],
+   [
+    "B2b",
+    3,
+    10,
+    6.58,
+    16.7,
+    "B",
+    9,
+    155.70000000000002
+   ],
+   [
+    "T1",
+    3,
+    10,
+    16.06,
+    3.33,
+    "T",
+    21,
+    76.23
+   ],
+   [
+    "T2",
+    3,
+    10,
+    16.06,
+    3.34,
+    "T",
+    21,
+    76.44
+   ],
+   [
+    "T3",
+    3,
+    10,
+    15.71,
+    3.5,
+    "T",
+    20,
+    76.0
+   ],
+   [
+    "T4",
+    3,
+    10,
+    15.71,
+    3.5,
+    "T",
+    20,
+    76.0
+   ],
+   [
+    "T5",
+    3,
+    10,
+    10.71,
+    4.67,
+    "T",
+    14,
+    69.58
+   ],
+   [
+    "T6",
+    3,
+    10,
+    10.71,
+    6.5,
+    "T",
+    14,
+    95.2
+   ],
+   [
+    "T7",
+    3,
+    10,
+    6.58,
+    4.75,
+    "T",
+    9,
+    45.449999999999996
+   ]
+  ]
+ },
+ "slabs": {
+  "GF": 1705.0,
+  "FF": 1650.7,
+  "SF": 353.2
+ },
+ "slab_note": {
+  "GF": "GF roof: outline 1739.1 + porch cantilever 38.7 - stair opening 72.8",
+  "FF": "FF roof: outline 1725.0 - stair opening 74.3 (excl. open shaft & terrace)",
+  "SF": "Mumty roof: 16.85x7.75 + 17.63x12.63"
+ },
+ "cb": {
+  "CB-1": {
+   "GF": [
+    81.72,
+    5
+   ],
+   "FF": [
+    15.5,
+    1
+   ]
+  },
+  "CB-2": {
+   "GF": [
+    48.46,
+    5
+   ],
+   "FF": [
+    102.02,
+    7
+   ],
+   "SF": [
+    30.26,
+    2
+   ]
+  }
+ },
+ "floors": {
+  "GF": {
+   "A9": 193.49979012220734,
+   "A45": 38.847476754849474,
+   "H": 11.0,
+   "v9": 416.90625,
+   "v45": 54.375,
+   "lv9": 56.879999999999995,
+   "lv45": 8.05078125,
+   "bed": 9
+  },
+  "FF": {
+   "A9": 174.83875,
+   "A45": 63.923125,
+   "H": 11.541666666666666,
+   "v9": 373.359375,
+   "v45": 91.90625,
+   "lv9": 55.209374999999994,
+   "lv45": 13.11328125,
+   "bed": 12
+  },
+  "SF": {
+   "A9": 43.462500000000006,
+   "A45": 24.858749999999997,
+   "H": 9.541666666666666,
+   "v9": 51.0,
+   "v45": 48.40625,
+   "lv9": 8.8875,
+   "lv45": 7.199999999999999,
+   "bed": 2
+  }
+ },
+ "heights": {
+  "GF": 11.0,
+  "FF": 11.541666666666666,
+  "SF": 9.541666666666666,
+  "PFF": 3.041666666666667,
+  "PSF": 2.041666666666667
+ },
+ "pipes": [
+  {
+   "group": "Sewerage (UPVC)",
+   "size": "5\"",
+   "desc": "Main sewer: rear manholes -> side passage -> septic tank -> road sewer; car-porch MH -> septic tank",
+   "ft": 155.90500041506047,
+   "ft_w": 171.49550045656653,
+   "basis": "measured on sewerage drawing (GF 135.9 ft) + 20 ft street connection"
+  },
+  {
+   "group": "Sewerage (UPVC)",
+   "size": "4\"",
+   "desc": "WC connections GF/FF/2F (horizontal 47.8 ft) + soil stacks 3x13 ft (FF), 1x25 ft (2F) + 4 vent pipes x 4 ft",
+   "ft": 127.84719931731792,
+   "ft_w": 140.63191924904973,
+   "basis": "measured + vertical stacks"
+  },
+  {
+   "group": "Sewerage (UPVC)",
+   "size": "3\"",
+   "desc": "Floor traps, basins, showers, sinks (horizontal 116.1 ft) + waste stacks 4x13 ft + 2x25 ft",
+   "ft": 218.0824245733926,
+   "ft_w": 239.89066703073186,
+   "basis": "measured + vertical stacks"
+  },
+  {
+   "group": "Rain water (UPVC)",
+   "size": "3\"",
+   "desc": "4 rain-water down pipes in 9\"x6\" ducts (38+29+29+16 ft)",
+   "ft": 112,
+   "ft_w": 123.20000000000002,
+   "basis": "roof sumps on roof plans"
+  },
+  {
+   "group": "Water supply (PPR)",
+   "size": "1\"-1\u00bc\"",
+   "desc": "Tank down-take to GF (38 ft) + pump rising main to tank (40 ft) + floor mains (40 ft)",
+   "ft": 118,
+   "ft_w": 129.8,
+   "basis": "vertical risers"
+  },
+  {
+   "group": "Water supply (PPR)",
+   "size": "\u00be\"",
+   "desc": "Cold water branch lines (measured on sanitary drawings)",
+   "ft": 369.68876408410534,
+   "ft_w": 406.6576404925159,
+   "basis": "measured GF/FF/2F/roof"
+  },
+  {
+   "group": "Water supply (PPR)",
+   "size": "\u00bd\"",
+   "desc": "Cold fixture drops 35 points x 4 ft",
+   "ft": 140,
+   "ft_w": 154.0,
+   "basis": "fixture count"
+  },
+  {
+   "group": "Hot water (PPR)",
+   "size": "\u00be\"",
+   "desc": "Hot water lines (measured) + geyser risers 36 ft",
+   "ft": 360.02206903171555,
+   "ft_w": 396.02427593488716,
+   "basis": "measured"
+  },
+  {
+   "group": "Hot water (PPR)",
+   "size": "\u00bd\"",
+   "desc": "Hot fixture drops 20 points x 4 ft",
+   "ft": 80,
+   "ft_w": 88.0,
+   "basis": "fixture count"
+  },
+  {
+   "group": "Gas (GI/PPR-gas)",
+   "size": "\u00bd\"-\u00be\"",
+   "desc": "Gas lines to kitchens, geyser, heaters (measured) + riser from meter 30 ft",
+   "ft": 189.75642533349017,
+   "ft_w": 208.7320678668392,
+   "basis": "measured"
+  },
+  {
+   "group": "Electrical conduit (PVC)",
+   "size": "\u00be\"",
+   "desc": "Light/fan points 115 x 12 ft + socket points 79 x 8 ft + 25 low-voltage runs x 30 ft (TV, net, CCTV, intercom, bells) + 10% UPS circuits",
+   "ft": 2900.0,
+   "ft_w": 3190.0000000000005,
+   "basis": "point count from electrical drawings"
+  },
+  {
+   "group": "Electrical conduit (PVC)",
+   "size": "1\"",
+   "desc": "DB to 39 switch-boards x 25 ft + 10 A.C points (385 ft) + earthing 30 ft",
+   "ft": 1390,
+   "ft_w": 1529.0000000000002,
+   "basis": "point count"
+  },
+  {
+   "group": "Electrical conduit (PVC)",
+   "size": "1\u00bd\"",
+   "desc": "Meter to main DB + risers to FF & 2F DBs",
+   "ft": 85,
+   "ft_w": 93.50000000000001,
+   "basis": "layout"
+  }
+ ],
+ "points": {
+  "GF": {
+   "light": 53,
+   "socket": 41,
+   "ac": 5,
+   "sb": 18
+  },
+  "FF": {
+   "light": 47,
+   "socket": 30,
+   "ac": 4,
+   "sb": 16
+  },
+  "SF": {
+   "light": 15,
+   "socket": 8,
+   "ac": 1,
+   "sb": 5
+  }
+ },
+ "optional": [
+  {
+   "item": "O1",
+   "desc": "Roof insulation/treatment on terrace & mumty roof (1651 sft): polythene sheet, 4\" earth (mud) compacted, 1\u00bd\" brick tiles in 1\" cement mortar 1:4, pointing 1:3",
+   "cement": 37.27241333333333,
+   "sand": 170.36206666666666,
+   "crush": 0,
+   "bricks": 5720,
+   "steel": 0,
+   "other": "Polythene 1816 sft; earth 660 cft"
+  },
+  {
+   "item": "O2",
+   "desc": "Underground water tank 1,500 gallons (internal 8'x6'x5'): R.C.C 1:1.5:3 walls/base/top ~170 cft, PCC 12 cft, #3/#4 steel ~400 kg, excavation ~520 cft, inside water-proof plaster",
+   "cement": 43.981202797202805,
+   "sand": 93.58783216783218,
+   "crush": 157.17566433566435,
+   "bricks": 0,
+   "steel": 400,
+   "other": "Excavation ~520 cft"
+  },
+  {
+   "item": "O3",
+   "desc": "External paving base: side & rear passages + driveway (~430 sft) 3\" P.C.C 1:4:8 over 3\" sand",
+   "cement": 10.386153846153846,
+   "sand": 159.43076923076922,
+   "crush": 103.86153846153846,
+   "bricks": 0,
+   "steel": 0,
+   "other": ""
+  }
+ ]
+}
