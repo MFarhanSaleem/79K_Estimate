@@ -1,0 +1,6791 @@
+{
+ "stages": [
+  [
+   "S1",
+   "Levels and layout"
+  ],
+  [
+   "S2",
+   "Excavation"
+  ],
+  [
+   "S3",
+   "Anti-termite treatment"
+  ],
+  [
+   "S4",
+   "Foundations"
+  ],
+  [
+   "S5",
+   "Plinth beam and DPC"
+  ],
+  [
+   "S6",
+   "Filling and sub-floor"
+  ],
+  [
+   "S7",
+   "Masonry"
+  ],
+  [
+   "S8",
+   "RCC (superstructure)"
+  ],
+  [
+   "S9",
+   "Roof waterproofing and tiles"
+  ],
+  [
+   "S10",
+   "Chicken mesh and plaster"
+  ],
+  [
+   "S11",
+   "Sewerage and drainage"
+  ],
+  [
+   "S12",
+   "Septic tank"
+  ],
+  [
+   "S13",
+   "Water tanks, water and gas pipes"
+  ],
+  [
+   "S14",
+   "Electrical civil provisions and solar plinths"
+  ],
+  [
+   "S15",
+   "Boundary walls"
+  ],
+  [
+   "S16",
+   "External works"
+  ]
+ ],
+ "items": [
+  {
+   "stage": "S1",
+   "code": "1.1",
+   "loc": "Whole plot",
+   "desc": "Level survey and setting out (no materials)",
+   "dims": "Road crown = \u00b10; NSL = -1'-6\"; FFL +2'-9\"; porches +1'-3\"; lawn +1'-2\"",
+   "work": "Take levels at the 4 corners and centre before digging; set out walls from sheets 04/06 (architect's dimensions govern)",
+   "qty": 1,
+   "unit": "job",
+   "mat": {},
+   "reg": "A1, A3",
+   "group": "",
+   "info": {},
+   "ref": "1.1",
+   "cost": 0
+  },
+  {
+   "stage": "S2",
+   "code": "2.1",
+   "loc": "All house walls",
+   "desc": "Excavation of wall trenches to PCC bottom, 2'-6\" below NSL (4'-0\" below road)",
+   "dims": "PCC footprint 927.4 sft (3'-0\" under 9\" walls, 2'-6\" under 4\u00bd\" walls; union of all walls, eccentric on property line)",
+   "work": "927.4 sft x 2.50 ft x 1.10 working space",
+   "qty": 2550.3658710609793,
+   "unit": "cft",
+   "mat": {},
+   "reg": "A1, A3, C1, C2, C4",
+   "group": "",
+   "info": {
+    "EXC": 2550.3658710609793
+   },
+   "ref": "2.1",
+   "cost": 0
+  },
+  {
+   "stage": "S2",
+   "code": "2.2",
+   "loc": "Car-porch front corner",
+   "desc": "Excavation for isolated column footing",
+   "dims": "3'-6\" x 3'-6\" x 2'-6\" deep",
+   "work": "3.5 x 3.5 x 2.5 x 1.10",
+   "qty": 33.6875,
+   "unit": "cft",
+   "mat": {},
+   "reg": "C5",
+   "group": "",
+   "info": {
+    "EXC": 33.6875
+   },
+   "ref": "2.2",
+   "cost": 0
+  },
+  {
+   "stage": "S2",
+   "code": "2.3",
+   "loc": "Porch, lawn and gate edges",
+   "desc": "Excavation for edge / retaining walls (section D-D), PCC bottom 2'-3\" below NSL",
+   "dims": "42.7 ft x 2'-6\" x 2'-3\"",
+   "work": "42.71 x 2.5 x 2.25 x 1.10",
+   "qty": 264.26812499999994,
+   "unit": "cft",
+   "mat": {},
+   "reg": "C6",
+   "group": "",
+   "info": {
+    "EXC": 264.26812499999994
+   },
+   "ref": "2.3",
+   "cost": 0
+  },
+  {
+   "stage": "S3",
+   "code": "3.1",
+   "loc": "House trenches",
+   "desc": "Termiticide on trench bottoms and sides, before PCC",
+   "dims": "bottoms 927 sft + sides 2 x 370.7 ft x 2'-6\"",
+   "work": "2,781 sft = 258.4 m2 x 5 L/m2 = 1,292 L emulsion; \u00f7 200",
+   "qty": 6.459030923779416,
+   "unit": "L",
+   "mat": {
+    "TERM": 6.459030923779416
+   },
+   "reg": "B1",
+   "group": "",
+   "info": {},
+   "ref": "3.1",
+   "cost": 23736.938644889353
+  },
+  {
+   "stage": "S3",
+   "code": "3.2",
+   "loc": "House floor + both car porches",
+   "desc": "Termiticide on top of compacted plinth filling, before khangar",
+   "dims": "rooms 1,363 + front porch 308 + rear porch 143 sft",
+   "work": "1,814 sft = 168.5 m2 x 5 L/m2 = 843 L emulsion; \u00f7 200",
+   "qty": 4.212661576466448,
+   "unit": "L",
+   "mat": {
+    "TERM": 4.212661576466448
+   },
+   "reg": "B1",
+   "group": "",
+   "info": {},
+   "ref": "3.2",
+   "cost": 15481.531293514196
+  },
+  {
+   "stage": "S3",
+   "code": "3.3",
+   "loc": "House perimeter",
+   "desc": "Termiticide in soil along outside of plinth walls, after back-filling",
+   "dims": "outer walls 173.7 ft",
+   "work": "52.9 m x 2.25 L/m = 119 L emulsion; \u00f7 200",
+   "qty": 0.5955942834532643,
+   "unit": "L",
+   "mat": {
+    "TERM": 0.5955942834532643
+   },
+   "reg": "B1",
+   "group": "",
+   "info": {},
+   "ref": "3.3",
+   "cost": 2188.808991690746
+  },
+  {
+   "stage": "S4",
+   "code": "4.1",
+   "loc": "All house walls",
+   "desc": "PCC 1:4:8, 3\" thick, under brick footings (sheet 05 widths 3'-0\" / 2'-6\")",
+   "dims": "927.4 sft x 3\"",
+   "work": "927.4 x 0.25",
+   "qty": 231.8514428237254,
+   "unit": "cft",
+   "mat": {
+    "CEM": 22.400416322046084,
+    "SNDC": 112.00208161023042,
+    "CRS": 224.00416322046084
+   },
+   "reg": "C1, C3",
+   "group": "Foundations",
+   "info": {},
+   "ref": "4.1",
+   "cost": 69728.01592726505
+  },
+  {
+   "stage": "S4",
+   "code": "4.2",
+   "loc": "All house walls",
+   "desc": "Brick footing in 1:6: steps 27\" / 22\u00bd\" / 18\" under 9\" walls, 22\u00bd\" / 18\" / 13\u00bd\" under 4\u00bd\" walls, 6\" each",
+   "dims": "union plan areas 719.8 + 604.8 + 485.2 sft x 6\"",
+   "work": "(719.8 + 604.8 + 485.2) x 0.5",
+   "qty": 904.9130611929186,
+   "unit": "cft",
+   "mat": {
+    "CEM": 41.264035590397086,
+    "SNDM": 309.4802669279782,
+    "BRK": 12216.326326104401
+   },
+   "reg": "C1, C3",
+   "group": "",
+   "info": {},
+   "ref": "4.2",
+   "cost": 284906.88219649263
+  },
+  {
+   "stage": "S4",
+   "code": "4.3",
+   "loc": "All house walls",
+   "desc": "Foundation wall in 1:6 from top of steps (-2'-3\") to road level: 13\u00bd\" under 9\" walls, 9\" under 4\u00bd\" walls",
+   "dims": "plan 361.0 sft x 2'-3\"",
+   "work": "361.0 x 2.25",
+   "qty": 812.3342519711954,
+   "unit": "cft",
+   "mat": {
+    "CEM": 37.04244188988651,
+    "SNDM": 277.81831417414884,
+    "BRK": 10966.512401611139
+   },
+   "reg": "C1",
+   "group": "",
+   "info": {},
+   "ref": "4.3",
+   "cost": 255758.95514806002
+  },
+  {
+   "stage": "S4",
+   "code": "4.4",
+   "loc": "All house walls",
+   "desc": "Plinth wall 9\" in 1:6 from road level to underside of plinth beam (+1'-10\u00bd\")",
+   "dims": "plan 270.6 sft x 1'-10\u00bd\"",
+   "work": "270.6 x 1.875",
+   "qty": 507.3160178391791,
+   "unit": "cft",
+   "mat": {
+    "CEM": 23.133610413466567,
+    "SNDM": 173.50207810099923,
+    "BRK": 6848.766240828918
+   },
+   "reg": "C1, B4",
+   "group": "",
+   "info": {},
+   "ref": "4.4",
+   "cost": 159725.64783224708
+  },
+  {
+   "stage": "S4",
+   "code": "4.5",
+   "loc": "Car-porch front corner",
+   "desc": "PCC 1:4:8, 3\", under isolated column footing",
+   "dims": "3'-6\" x 3'-6\" x 3\"",
+   "work": "3.5 x 3.5 x 0.25",
+   "qty": 3.0625,
+   "unit": "cft",
+   "mat": {
+    "CEM": 0.2958846153846154,
+    "SNDC": 1.479423076923077,
+    "CRS": 2.958846153846154
+   },
+   "reg": "C5",
+   "group": "",
+   "info": {},
+   "ref": "4.5",
+   "cost": 921.0296307692308
+  },
+  {
+   "stage": "S4",
+   "code": "4.6",
+   "loc": "Car-porch front corner",
+   "desc": "RCC isolated footing 1:2:4, 3'-0\" x 3'-0\" x 1'-0\", #4 @ 6\" both ways (the only RCC footing)",
+   "dims": "3' x 3' x 1'",
+   "work": "9.0 cft; #4: 2 ways x 7 bars x 2'-9\"",
+   "qty": 9.0,
+   "unit": "cft",
+   "mat": {
+    "CEM": 1.614857142857143,
+    "SNDC": 4.037142857142857,
+    "CRS": 8.074285714285715,
+    "ST4": 11.665488571660001
+   },
+   "reg": "C5",
+   "group": "Column footing",
+   "info": {},
+   "ref": "4.6",
+   "cost": 6989.352211720203
+  },
+  {
+   "stage": "S4",
+   "code": "4.7",
+   "loc": "Porch, lawn and gate edges",
+   "desc": "Edge walls (D-D): PCC 1:4:8, 3\" x 2'-6\"",
+   "dims": "42.7 ft x 2'-6\" x 3\"",
+   "work": "42.71 x 2.5 x 0.25",
+   "qty": 26.693749999999994,
+   "unit": "cft",
+   "mat": {
+    "CEM": 2.5790269230769227,
+    "SNDC": 12.895134615384613,
+    "CRS": 25.790269230769226
+   },
+   "reg": "C6, C3",
+   "group": "",
+   "info": {},
+   "ref": "4.7",
+   "cost": 8027.995006153846
+  },
+  {
+   "stage": "S4",
+   "code": "4.8",
+   "loc": "Porch, lawn and gate edges",
+   "desc": "Edge walls: brick steps 22\u00bd\" / 18\" / 13\u00bd\" (6\" each) in 1:6",
+   "dims": "42.7 ft",
+   "work": "42.71 x (1.875 + 1.5 + 1.125) x 0.5",
+   "qty": 96.09749999999998,
+   "unit": "cft",
+   "mat": {
+    "CEM": 4.382045999999999,
+    "SNDM": 32.865345,
+    "BRK": 1297.3162499999999
+   },
+   "reg": "C6",
+   "group": "",
+   "info": {},
+   "ref": "4.8",
+   "cost": 30255.767416799994
+  },
+  {
+   "stage": "S4",
+   "code": "4.9",
+   "loc": "Porch, lawn and gate edges",
+   "desc": "Edge walls: 9\" wall in 1:6 from step top (-2'-0\") to +1'-1\u00bd\" (under DPC)",
+   "dims": "42.7 ft x 9\" x 3'-1\u00bd\"",
+   "work": "42.71 x 0.75 x 3.125",
+   "qty": 100.1015625,
+   "unit": "cft",
+   "mat": {
+    "CEM": 4.56463125,
+    "SNDM": 34.234734375,
+    "BRK": 1351.37109375
+   },
+   "reg": "C6, D1",
+   "group": "",
+   "info": {},
+   "ref": "4.9",
+   "cost": 31516.424392499997
+  },
+  {
+   "stage": "S4",
+   "code": "4.10",
+   "loc": "Porch, lawn and gate edges",
+   "desc": "Edge walls: DPC 1\u00bd\" 1:2:4 with waterproofing compound + 2 coats hot bitumen, top at porch level",
+   "dims": "42.7 ft x 9\"",
+   "work": "42.71 x 0.75 x 0.125; bitumen 32.0 sft x 0.4 kg",
+   "qty": 4.0040625,
+   "unit": "cft",
+   "mat": {
+    "CEM": 0.7184432142857142,
+    "SNDC": 1.7961080357142856,
+    "CRS": 3.592216071428571,
+    "ADMX": 0.7184432142857142,
+    "BIT": 12.813
+   },
+   "reg": "B4, C6",
+   "group": "",
+   "info": {},
+   "ref": "4.10",
+   "cost": 5713.8594220714285
+  },
+  {
+   "stage": "S5",
+   "code": "5.1",
+   "loc": "All house walls",
+   "desc": "RCC plinth beam 9\" x 9\" (1:2:4) at floor level per sheet 05; 2 #4 top + 2 #4 bottom, #2 rings @ 10\"",
+   "dims": "plan 270.6 sft x 9\"; centre-line 370.7 ft",
+   "work": "concrete 270.6 x 0.75; #4: 4 x (370.7 x 1.05 + 15 ends x 1'); rings (370.7 x 12/10 + 1) x 2'-4\"",
+   "qty": 202.92640713567164,
+   "unit": "cft",
+   "mat": {
+    "CEM": 36.41079533748622,
+    "SNDC": 91.02698834371556,
+    "CRS": 182.05397668743112,
+    "ST4": 489.9505225107454,
+    "ST2": 78.69259439482417
+   },
+   "reg": "B4",
+   "group": "Plinth beam",
+   "info": {},
+   "ref": "5.1",
+   "cost": 241520.79371719452
+  },
+  {
+   "stage": "S5",
+   "code": "5.2",
+   "loc": "All house walls",
+   "desc": "DPC: continuous 1\u00bd\" 1:2:4 concrete with integral waterproofing compound, + 2 coats hot bitumen, on top of plinth beam; top of DPC = FFL",
+   "dims": "plan 270.6 sft x 1\u00bd\"",
+   "work": "270.6 x 0.125; bitumen 270.6 sft x 2 coats x 0.2 kg",
+   "qty": 33.82106785594527,
+   "unit": "cft",
+   "mat": {
+    "CEM": 6.068465889581038,
+    "SNDC": 15.171164723952595,
+    "CRS": 30.34232944790519,
+    "ADMX": 6.068465889581038,
+    "BIT": 108.22741713902488
+   },
+   "reg": "B4, B5",
+   "group": "",
+   "info": {},
+   "ref": "5.2",
+   "cost": 48263.18950646001
+  },
+  {
+   "stage": "S5",
+   "code": "5.3",
+   "loc": "Outer plinth walls, fill side",
+   "desc": "Vertical DPC: \u00be\" 1:3 plaster with waterproofing compound + 2 coats hot bitumen (0.2 kg/sft per coat)",
+   "dims": "173.7 ft x 4'-1\u00bd\" (NSL to top of sub-floor PCC)",
+   "work": "173.7 x 4.125 = 716 sft",
+   "qty": 716.4848116782488,
+   "unit": "sft",
+   "mat": {
+    "CEM": 14.889449992688608,
+    "SNDM": 55.835437472582285,
+    "ADMX": 14.889449992688608,
+    "BIT": 286.59392467129953
+   },
+   "reg": "B6",
+   "group": "",
+   "info": {},
+   "ref": "5.3",
+   "cost": 115806.38049787069
+  },
+  {
+   "stage": "S6",
+   "code": "6.1",
+   "loc": "All house walls",
+   "desc": "Back-filling of trenches with excavated earth, watered and rammed in 6\" layers",
+   "dims": "trench 2,550 cft less footing below NSL 1,408 cft",
+   "work": "2,550 - 1,408",
+   "qty": 1142.8232830539368,
+   "unit": "cft",
+   "mat": {},
+   "reg": "A3, A4",
+   "group": "",
+   "info": {
+    "BACKFILL": 1142.8232830539368
+   },
+   "ref": "6.1",
+   "cost": 0
+  },
+  {
+   "stage": "S6",
+   "code": "6.2",
+   "loc": "Inside house plinth",
+   "desc": "Earth filling from NSL to underside of khangar (+1'-11\u00bd\"), 6\" layers watered and rammed",
+   "dims": "1,363 sft x 3.458 ft",
+   "work": "1,362.6 x 3.458 x 1.20 compaction",
+   "qty": 5654.79,
+   "unit": "cft",
+   "mat": {},
+   "reg": "A3, A4, A5",
+   "group": "",
+   "info": {
+    "EFILL": 5654.79
+   },
+   "ref": "6.2",
+   "cost": 0
+  },
+  {
+   "stage": "S6",
+   "code": "6.3",
+   "loc": "Front car porch (full area)",
+   "desc": "Earth filling from NSL to underside of porch khangar (+5\u00bd\")",
+   "dims": "308 sft (20'-0\" x 16'-7\u00bd\" less lobby notch) x 1.958 ft",
+   "work": "308.5 x 1.958 x 1.20",
+   "qty": 724.9126615499999,
+   "unit": "cft",
+   "mat": {},
+   "reg": "A5",
+   "group": "",
+   "info": {
+    "EFILL": 724.9126615499999
+   },
+   "ref": "6.3",
+   "cost": 0
+  },
+  {
+   "stage": "S6",
+   "code": "6.4",
+   "loc": "Rear car porch (full area)",
+   "desc": "Earth filling from NSL to underside of porch khangar (+5\u00bd\")",
+   "dims": "143 sft (16'-9\u00bd\" x 8'-6\") x 1.958 ft",
+   "work": "142.7 x 1.958 x 1.20",
+   "qty": 335.38025,
+   "unit": "cft",
+   "mat": {},
+   "reg": "A5",
+   "group": "",
+   "info": {
+    "EFILL": 335.38025
+   },
+   "ref": "6.4",
+   "cost": 0
+  },
+  {
+   "stage": "S6",
+   "code": "6.5",
+   "loc": "House floor + both car porches",
+   "desc": "Hand-packed stone ballast (khangar) 4\", 1\u00bd\"-2\u00bd\" crushed stone (capillary break)",
+   "dims": "1,814 sft x 4\"",
+   "work": "1,813.8 x 0.333 x 1.10 packing",
+   "qty": 665.0557734333333,
+   "unit": "cft",
+   "mat": {
+    "KHG": 665.0557734333333
+   },
+   "reg": "B2",
+   "group": "",
+   "info": {},
+   "ref": "6.5",
+   "cost": 62847.77058945001
+  },
+  {
+   "stage": "S6",
+   "code": "6.6",
+   "loc": "House floor + both car porches",
+   "desc": "Sand blinding 1\" over khangar",
+   "dims": "1,814 sft x 1\"",
+   "work": "1,813.8 x 0.0833 x 1.25 (fills top voids)",
+   "qty": 188.93629927083333,
+   "unit": "cft",
+   "mat": {
+    "SNDM": 188.93629927083333
+   },
+   "reg": "B2",
+   "group": "",
+   "info": {},
+   "ref": "6.6",
+   "cost": 8162.0481285000005
+  },
+  {
+   "stage": "S6",
+   "code": "6.7",
+   "loc": "House floor + both car porches",
+   "desc": "Polythene sheet 0.2 mm (800 gauge) with 6\" laps, turned up 4\" against walls",
+   "dims": "1,814 sft + turn-up 576 ft x 4\"",
+   "work": "1,813.8 x 1.10 + 576 x 0.33 = 2,185 sft x 0.0171 kg/sft",
+   "qty": 2185.2473203,
+   "unit": "sft",
+   "mat": {
+    "POLY": 37.36772917713
+   },
+   "reg": "B2, B3",
+   "group": "",
+   "info": {},
+   "ref": "6.7",
+   "cost": 21579.863599792574
+  },
+  {
+   "stage": "S6",
+   "code": "6.8",
+   "loc": "House floor + both car porches",
+   "desc": "PCC 1:4:8, 3\", sub-floor over polythene",
+   "dims": "1,814 sft x 3\"",
+   "work": "1,813.8 x 0.25",
+   "qty": 453.44711824999996,
+   "unit": "cft",
+   "mat": {
+    "CEM": 43.809967732461544,
+    "SNDC": 219.0498386623077,
+    "CRS": 438.0996773246154
+   },
+   "reg": "B2",
+   "group": "",
+   "info": {},
+   "ref": "6.8",
+   "cost": 136371.6675576063
+  },
+  {
+   "stage": "S6",
+   "code": "6.9",
+   "loc": "Whole site",
+   "desc": "Earth (mitti) to buy for filling = fill required - surplus excavated earth re-used",
+   "dims": "fill required 7,362 cft (loose); surplus excavation 2,542 cft bank x 1.25 = 3,177 cft loose",
+   "work": "7,362 - 3,177",
+   "qty": 4184.79885862453,
+   "unit": "cft",
+   "mat": {
+    "EARTH": 4184.79885862453
+   },
+   "reg": "A4, A5",
+   "group": "",
+   "info": {},
+   "ref": "6.9",
+   "cost": 104619.97146561326
+  },
+  {
+   "stage": "S7",
+   "code": "7.1",
+   "loc": "Ground floor",
+   "desc": "Ground floor 9\" walls in 1:6",
+   "dims": "plan 193.5 sft x 11.00 ft",
+   "work": "gross 2,128 cft less openings 417, lintels 57, bed plates 5.1",
+   "qty": 1649.6489413442805,
+   "unit": "cft",
+   "mat": {
+    "CEM": 75.2239917252992,
+    "SNDM": 564.179937939744,
+    "BRK": 22270.260708147787
+   },
+   "reg": "D1, D2",
+   "group": "",
+   "info": {},
+   "ref": "7.GF9",
+   "cost": 519382.86312009057
+  },
+  {
+   "stage": "S7",
+   "code": "7.2",
+   "loc": "Ground floor",
+   "desc": "Ground floor 4\u00bd\" walls in 1:4",
+   "dims": "plan 38.8 sft x 11.00 ft",
+   "work": "gross 427 cft less openings 54, lintels 8",
+   "qty": 364.89646305334423,
+   "unit": "cft",
+   "mat": {
+    "CEM": 23.294990201325497,
+    "SNDM": 116.47495100662748,
+    "BRK": 4926.102251220147
+   },
+   "reg": "D1, D2",
+   "group": "",
+   "info": {},
+   "ref": "7.GF4",
+   "cost": 125220.6259594746
+  },
+  {
+   "stage": "S7",
+   "code": "7.3",
+   "loc": "First floor",
+   "desc": "First floor 9\" walls in 1:6",
+   "dims": "plan 174.8 sft x 11.54 ft",
+   "work": "gross 2,018 cft less openings 373, lintels 55, bed plates 6.8",
+   "qty": 1582.6118229166666,
+   "unit": "cft",
+   "mat": {
+    "CEM": 72.167099125,
+    "SNDM": 541.2532434374999,
+    "BRK": 21365.259609375
+   },
+   "reg": "D1, D2",
+   "group": "",
+   "info": {},
+   "ref": "7.FF9",
+   "cost": 498276.59642804996
+  },
+  {
+   "stage": "S7",
+   "code": "7.4",
+   "loc": "First floor",
+   "desc": "First floor 4\u00bd\" walls in 1:4",
+   "dims": "plan 63.9 sft x 11.54 ft",
+   "work": "gross 738 cft less openings 92, lintels 13",
+   "qty": 632.7598697916666,
+   "unit": "cft",
+   "mat": {
+    "CEM": 40.39539008749999,
+    "SNDM": 201.97695043749997,
+    "BRK": 8542.2582421875
+   },
+   "reg": "D1, D2",
+   "group": "",
+   "info": {},
+   "ref": "7.FF4",
+   "cost": 217142.65552024497
+  },
+  {
+   "stage": "S7",
+   "code": "7.5",
+   "loc": "Mumty (2nd floor)",
+   "desc": "Mumty (2nd floor) 9\" walls in 1:6",
+   "dims": "plan 43.5 sft x 9.54 ft",
+   "work": "gross 415 cft less openings 51, lintels 9, bed plates 1.1",
+   "qty": 353.69218750000005,
+   "unit": "cft",
+   "mat": {
+    "CEM": 16.12836375,
+    "SNDM": 120.96272812500001,
+    "BRK": 4774.844531250001
+   },
+   "reg": "D1, D2",
+   "group": "",
+   "info": {},
+   "ref": "7.SF9",
+   "cost": 111358.03285350002
+  },
+  {
+   "stage": "S7",
+   "code": "7.6",
+   "loc": "Mumty (2nd floor)",
+   "desc": "Mumty (2nd floor) 4\u00bd\" walls in 1:4",
+   "dims": "plan 24.9 sft x 9.54 ft",
+   "work": "gross 237 cft less openings 48, lintels 7",
+   "qty": 181.58765624999998,
+   "unit": "cft",
+   "mat": {
+    "CEM": 11.592555975,
+    "SNDM": 57.962779875,
+    "BRK": 2451.433359375
+   },
+   "reg": "D1, D2",
+   "group": "",
+   "info": {},
+   "ref": "7.SF4",
+   "cost": 62314.991468730004
+  },
+  {
+   "stage": "S7",
+   "code": "7.7",
+   "loc": "Terrace (first-floor roof)",
+   "desc": "Terrace parapets on FF roof (4\u00bd\", one 9\" run) 125.6 ft x 3.04 ft high in 1:4",
+   "dims": "115.8 ft (4\u00bd\") + 9.8 ft (9\") x 3.04 ft high (2'-6\" above the finished terrace)",
+   "work": "(115.8 x 0.375 + 9.8 x 0.75) x 3.04 = 154.4 cft",
+   "qty": 154.38359375,
+   "unit": "cft",
+   "mat": {
+    "CEM": 9.855848624999998,
+    "SNDM": 49.279243124999994,
+    "BRK": 2084.178515625
+   },
+   "reg": "D1, D2",
+   "group": "",
+   "info": {},
+   "ref": "7.P1",
+   "cost": 52979.439936149996
+  },
+  {
+   "stage": "S7",
+   "code": "7.8",
+   "loc": "Mumty roof",
+   "desc": "Parapet on mumty roof 4\u00bd\" 94.2 ft x 2.04 ft in 1:4",
+   "dims": "94.2 ft x 4\u00bd\" x 2.04 ft high (1'-6\" above the finished roof)",
+   "work": "94.2 x 0.375 x 2.04 = 72.1 cft",
+   "qty": 72.12187500000002,
+   "unit": "cft",
+   "mat": {
+    "CEM": 4.6042605000000005,
+    "SNDM": 23.021302500000004,
+    "BRK": 973.6453125000003
+   },
+   "reg": "D1, D2",
+   "group": "",
+   "info": {},
+   "ref": "7.P2",
+   "cost": 24749.887289400005
+  },
+  {
+   "stage": "S7",
+   "code": "7.9",
+   "loc": "Front elevation",
+   "desc": "Elevation features allowance 5% of superstructure brickwork (frames, fins, piers, profile-light reveals, planters) in 1:4",
+   "dims": "",
+   "work": "5% x walls + parapets",
+   "qty": 249.5851204802979,
+   "unit": "cft",
+   "mat": {
+    "CEM": 15.933514091462218,
+    "SNDM": 79.66757045731109,
+    "BRK": 3369.3991264840215
+   },
+   "reg": "D2",
+   "group": "",
+   "info": {},
+   "ref": "7.E",
+   "cost": 85649.5148108489
+  },
+  {
+   "stage": "S8",
+   "code": "8.1",
+   "loc": "Car-porch front corner",
+   "desc": "RCC column 13\u00bd\" x 13\u00bd\" (1:1.5:3), 4 #6, #3 ties @ 6\"",
+   "dims": "13\u00bd\" x 13\u00bd\" x 16.50 ft (footing top -2'-9\" to slab soffit +13'-9\")",
+   "work": "#6: 4 x (16.5 + 2.5 lap/anchorage); ties (16.5 x 2 + 1) x 4'-0\"",
+   "qty": 20.8828125,
+   "unit": "cft",
+   "mat": {
+    "CEM": 4.768875,
+    "SNDC": 8.941640625000002,
+    "CRS": 17.883281250000003,
+    "ST6": 51.77847622024,
+    "ST3": 23.194899432320003
+   },
+   "reg": "C5, E1",
+   "group": "Column",
+   "info": {},
+   "ref": "8.1",
+   "cost": 30784.59590405955
+  },
+  {
+   "stage": "S8",
+   "code": "8.2",
+   "loc": "Ground-floor roof",
+   "desc": "Roof slab 5\u00bd\" - GF roof: outline 1739.1 + porch cantilever 38.7 - stair opening 72.8 (1705.0 sft)",
+   "dims": "1,705.0 sft x 5\u00bd\" thick",
+   "work": "1,705.0 x 5.5/12 = 781.5 cft",
+   "qty": 781.4583333333333,
+   "unit": "cft",
+   "mat": {
+    "CEM": 140.2159523809524,
+    "SNDC": 350.53988095238094,
+    "CRS": 701.0797619047619
+   },
+   "reg": "E1",
+   "group": "Slabs",
+   "info": {},
+   "ref": "8.SGF",
+   "cost": 330881.6044285714
+  },
+  {
+   "stage": "S8",
+   "code": "8.3",
+   "loc": "First-floor roof",
+   "desc": "Roof slab 5\u00bd\" - FF roof: outline 1725.0 - stair opening 74.3 (excl. open shaft & terrace) (1650.7 sft)",
+   "dims": "1,650.7 sft x 5\u00bd\" thick",
+   "work": "1,650.7 x 5.5/12 = 756.6 cft",
+   "qty": 756.5708333333333,
+   "unit": "cft",
+   "mat": {
+    "CEM": 135.75042380952382,
+    "SNDC": 339.37605952380954,
+    "CRS": 678.7521190476191
+   },
+   "reg": "E1",
+   "group": "Slabs",
+   "info": {},
+   "ref": "8.SFF",
+   "cost": 320343.85010571434
+  },
+  {
+   "stage": "S8",
+   "code": "8.4",
+   "loc": "Mumty roof",
+   "desc": "Roof slab 5\u00bd\" - Mumty roof: 16.85x7.75 + 17.63x12.63 (353.2 sft)",
+   "dims": "353.2 sft x 5\u00bd\" thick",
+   "work": "353.2 x 5.5/12 = 161.9 cft",
+   "qty": 161.88333333333333,
+   "unit": "cft",
+   "mat": {
+    "CEM": 29.04649523809524,
+    "SNDC": 72.6162380952381,
+    "CRS": 145.2324761904762
+   },
+   "reg": "E1",
+   "group": "Slabs",
+   "info": {},
+   "ref": "8.SSF",
+   "cost": 68543.91946285716
+  },
+  {
+   "stage": "S8",
+   "code": "8.5",
+   "loc": "Ground-floor roof",
+   "desc": "CB-1 concealed beam 12\" x 9\u00bd\" in GF roof - 5 nos, 81.7 ft (4\" upstand above slab; 3#6 bottom, 3#4 top, #3@7\" rings)",
+   "dims": "5 nos, total 81.7 ft; 12\" x 9\u00bd\" deep, 4\" upstand above the 5\u00bd\" slab (S-09)",
+   "work": "upstand 81.7 x 1.0 x 4\" = 27.2 cft (rest is inside the slab); #6 + #4: 3 + 3 x (81.7 + 3 ft anchorage per beam) x 1.03; #3 rings (81.7 x 12/7 + 5) x 3.21 ft",
+   "qty": 27.24,
+   "unit": "cft",
+   "mat": {
+    "CEM": 4.887634285714285,
+    "SNDC": 12.219085714285713,
+    "CRS": 24.438171428571426,
+    "ST6": 203.61531499824716,
+    "ST4": 90.55594568497278,
+    "ST3": 79.43289200294869
+   },
+   "reg": "E1",
+   "group": "Concealed beams",
+   "info": {},
+   "ref": "8.CB-1-GF",
+   "cost": 113333.4989113558
+  },
+  {
+   "stage": "S8",
+   "code": "8.6",
+   "loc": "First-floor roof",
+   "desc": "CB-1 concealed beam 12\" x 9\u00bd\" in FF roof - 1 nos, 15.5 ft (4\" upstand above slab; 3#6 bottom, 3#4 top, #3@7\" rings)",
+   "dims": "1 nos, total 15.5 ft; 12\" x 9\u00bd\" deep, 4\" upstand above the 5\u00bd\" slab (S-09)",
+   "work": "upstand 15.5 x 1.0 x 4\" = 5.2 cft (rest is inside the slab); #6 + #4: 3 + 3 x (15.5 + 3 ft anchorage per beam) x 1.03; #3 rings (15.5 x 12/7 + 1) x 3.21 ft",
+   "qty": 5.166666666666666,
+   "unit": "cft",
+   "mat": {
+    "CEM": 0.927047619047619,
+    "SNDC": 2.3176190476190475,
+    "CRS": 4.635238095238095,
+    "ST6": 38.9462709622371,
+    "ST4": 17.3209780311414,
+    "ST3": 15.0944706358248
+   },
+   "reg": "E1",
+   "group": "Concealed beams",
+   "info": {},
+   "ref": "8.CB-1-FF",
+   "cost": 21632.288335993886
+  },
+  {
+   "stage": "S8",
+   "code": "8.7",
+   "loc": "Ground-floor roof",
+   "desc": "CB-2 concealed beam 9\" x 9\u00bd\" in GF roof - 5 nos, 48.5 ft (4\" upstand above slab; 2#6 top & bottom, #3@6\" rings)",
+   "dims": "5 nos, total 48.5 ft; 9\" x 9\u00bd\" deep, 4\" upstand above the 5\u00bd\" slab (S-09)",
+   "work": "upstand 48.5 x 0.75 x 4\" = 12.1 cft (rest is inside the slab); #6: 4 x (48.5 + 3 ft anchorage per beam) x 1.03; #3 rings (48.5 x 12/6 + 5) x 2.71 ft",
+   "qty": 12.114999999999998,
+   "unit": "cft",
+   "mat": {
+    "CEM": 2.173777142857143,
+    "SNDC": 5.434442857142857,
+    "CRS": 10.868885714285714,
+    "ST6": 178.12831389286964,
+    "ST3": 47.10665769768359
+   },
+   "reg": "E1",
+   "group": "Concealed beams",
+   "info": {},
+   "ref": "8.CB-2-GF",
+   "cost": 66501.70436070823
+  },
+  {
+   "stage": "S8",
+   "code": "8.8",
+   "loc": "First-floor roof",
+   "desc": "CB-2 concealed beam 9\" x 9\u00bd\" in FF roof - 7 nos, 102.0 ft (4\" upstand above slab; 2#6 top & bottom, #3@6\" rings)",
+   "dims": "7 nos, total 102.0 ft; 9\" x 9\u00bd\" deep, 4\" upstand above the 5\u00bd\" slab (S-09)",
+   "work": "upstand 102.0 x 0.75 x 4\" = 25.5 cft (rest is inside the slab); #6: 4 x (102.0 + 3 ft anchorage per beam) x 1.03; #3 rings (102.0 x 12/6 + 7) x 2.71 ft",
+   "qty": 25.505,
+   "unit": "cft",
+   "mat": {
+    "CEM": 4.576325714285714,
+    "SNDC": 11.440814285714286,
+    "CRS": 22.88162857142857,
+    "ST6": 345.309567839597,
+    "ST3": 97.54110126098061
+   },
+   "reg": "E1",
+   "group": "Concealed beams",
+   "info": {},
+   "ref": "8.CB-2-FF",
+   "cost": 131467.16373709682
+  },
+  {
+   "stage": "S8",
+   "code": "8.9",
+   "loc": "Mumty roof",
+   "desc": "CB-2 concealed beam 9\" x 9\u00bd\" in SF roof - 2 nos, 30.3 ft (4\" upstand above slab; 2#6 top & bottom, #3@6\" rings)",
+   "dims": "2 nos, total 30.3 ft; 9\" x 9\u00bd\" deep, 4\" upstand above the 5\u00bd\" slab (S-09)",
+   "work": "upstand 30.3 x 0.75 x 4\" = 7.6 cft (rest is inside the slab); #6: 4 x (30.3 + 3 ft anchorage per beam) x 1.03; #3 rings (30.3 x 12/6 + 2) x 2.71 ft",
+   "qty": 7.5649999999999995,
+   "unit": "cft",
+   "mat": {
+    "CEM": 1.357377142857143,
+    "SNDC": 3.3934428571428574,
+    "CRS": 6.786885714285715,
+    "ST6": 101.7795881146463,
+    "ST3": 28.896273933076706
+   },
+   "reg": "E1",
+   "group": "Concealed beams",
+   "info": {},
+   "ref": "8.CB-2-SF",
+   "cost": 38809.697472477856
+  },
+  {
+   "stage": "S8",
+   "code": "8.10",
+   "loc": "Ground-floor roof",
+   "desc": "Door/window/vent lintels GF - 23 nos (DL-1, DL-2, WL-1, WL-2, WL-3, VL-1 per S-05) - includes the 8'-0\" DL-1 over the 6'-6\" dining opening",
+   "dims": "DL-1 7 nos / 39.6 ft; DL-2 7 nos / 28.6 ft; WL&DL-1 1 nos / 9.4 ft; WL-1 4 nos / 29.8 ft; WL-2 1 nos / 10.3 ft; VL-1 3 nos / 12.0 ft",
+   "work": "sum of width x 9\" x length = 64.9 cft; main bars n x (L + 6\"), rings (L x 12/spacing + 1) x ring length (S-05)",
+   "qty": 64.93078125,
+   "unit": "cft",
+   "mat": {
+    "CEM": 11.650437321428571,
+    "SNDC": 29.126093303571427,
+    "CRS": 58.25218660714285,
+    "ST4": 161.3958218852056,
+    "ST3": 95.32230446940186,
+    "ST2": 7.6897537165718495
+   },
+   "reg": "E1, E2",
+   "group": "Lintels",
+   "info": {},
+   "ref": "8.LGF",
+   "cost": 99602.53990382396
+  },
+  {
+   "stage": "S8",
+   "code": "8.11",
+   "loc": "First-floor roof",
+   "desc": "Door/window/vent lintels FF - 26 nos (DL-1, DL-2, WL-1, WL-2, WL-3, VL-1 per S-05)",
+   "dims": "DL-1 7 nos / 34.0 ft; DL-2 6 nos / 25.9 ft; WL-1 5 nos / 41.8 ft; WL-2 1 nos / 10.3 ft; WL-3 4 nos / 20.8 ft; VL-1 3 nos / 12.0 ft",
+   "work": "sum of width x 9\" x length = 68.3 cft; main bars n x (L + 6\"), rings (L x 12/spacing + 1) x ring length (S-05)",
+   "qty": 68.32265625,
+   "unit": "cft",
+   "mat": {
+    "CEM": 12.259036607142857,
+    "SNDC": 30.64759151785714,
+    "CRS": 61.29518303571428,
+    "ST4": 181.43016225814483,
+    "ST3": 92.87067181969809,
+    "ST2": 12.357464143751653
+   },
+   "reg": "E1",
+   "group": "Lintels",
+   "info": {},
+   "ref": "8.LFF",
+   "cost": 107140.34178663183
+  },
+  {
+   "stage": "S8",
+   "code": "8.12",
+   "loc": "Mumty roof",
+   "desc": "Door/window/vent lintels SF - 9 nos (DL-1, DL-2, WL-1, WL-2, WL-3, VL-1 per S-05)",
+   "dims": "DL-1 1 nos / 5.0 ft; DL-2 3 nos / 13.0 ft; WL-1 1 nos / 6.8 ft; WL-3 3 nos / 12.6 ft; VL-1 1 nos / 4.0 ft",
+   "work": "sum of width x 9\" x length = 16.1 cft; main bars n x (L + 6\"), rings (L x 12/spacing + 1) x ring length (S-05)",
+   "qty": 16.0875,
+   "unit": "cft",
+   "mat": {
+    "CEM": 2.886557142857143,
+    "SNDC": 7.216392857142857,
+    "CRS": 14.432785714285714,
+    "ST4": 50.176750843296006,
+    "ST3": 16.029722116506562,
+    "ST2": 6.845975293197041
+   },
+   "reg": "E1",
+   "group": "Lintels",
+   "info": {},
+   "ref": "8.LSF",
+   "cost": 26773.987160131015
+  },
+  {
+   "stage": "S8",
+   "code": "8.13",
+   "loc": "Ground-floor roof",
+   "desc": "Bed plates 9\" x 3'-0\" x 3\" (1:2:4, 3#4) under beam ends, GF roof - 9 nos",
+   "dims": "9 nos x 9\" x 3'-0\" x 3\"",
+   "work": "9 x 0.75 x 3.0 x 0.25 = 5.06 cft; #4: 9 x 3 bars x 2'-9\"",
+   "qty": 5.0625,
+   "unit": "cft",
+   "mat": {
+    "CEM": 0.9083571428571429,
+    "SNDC": 2.270892857142857,
+    "CRS": 4.541785714285714,
+    "ST4": 22.49772795963
+   },
+   "reg": "E1",
+   "group": "Bed plates",
+   "info": {},
+   "ref": "8.BP-GF",
+   "cost": 8273.72210015427
+  },
+  {
+   "stage": "S8",
+   "code": "8.14",
+   "loc": "First-floor roof",
+   "desc": "Bed plates 9\" x 3'-0\" x 3\" (1:2:4, 3#4) under beam ends, FF roof - 12 nos",
+   "dims": "12 nos x 9\" x 3'-0\" x 3\"",
+   "work": "12 x 0.75 x 3.0 x 0.25 = 6.75 cft; #4: 12 x 3 bars x 2'-9\"",
+   "qty": 6.75,
+   "unit": "cft",
+   "mat": {
+    "CEM": 1.2111428571428573,
+    "SNDC": 3.027857142857143,
+    "CRS": 6.055714285714286,
+    "ST4": 29.996970612840002
+   },
+   "reg": "E1",
+   "group": "Bed plates",
+   "info": {},
+   "ref": "8.BP-FF",
+   "cost": 11031.629466872359
+  },
+  {
+   "stage": "S8",
+   "code": "8.15",
+   "loc": "Mumty roof",
+   "desc": "Bed plates 9\" x 3'-0\" x 3\" (1:2:4, 3#4) under beam ends, SF roof - 2 nos",
+   "dims": "2 nos x 9\" x 3'-0\" x 3\"",
+   "work": "2 x 0.75 x 3.0 x 0.25 = 1.12 cft; #4: 2 x 3 bars x 2'-9\"",
+   "qty": 1.125,
+   "unit": "cft",
+   "mat": {
+    "CEM": 0.20185714285714287,
+    "SNDC": 0.5046428571428572,
+    "CRS": 1.0092857142857143,
+    "ST4": 4.99949510214
+   },
+   "reg": "E1",
+   "group": "Bed plates",
+   "info": {},
+   "ref": "8.BP-SF",
+   "cost": 1838.604911145393
+  },
+  {
+   "stage": "S8",
+   "code": "8.16",
+   "loc": "Ground-floor roof",
+   "desc": "Zig-zag stair GF to FF: 6\" waist (flights 11.65 + 9.59 ft), 6\" landing 8'-3\"x3'-6\", 21 concrete steps; riser 6.57\", tread 10\u00bd\", width 3'-6\"",
+   "dims": "flights 11.65 + 9.59 ft (on slope) x 3'-6\" x 6\" waist; landing 8'-3\" x 3'-6\" x 6\"; 21 steps 10\u00bd\" x 6.57\"",
+   "work": "waist 37.2 + landing 14.4 + steps 17.6 = 69.2 cft; #4 @ 5\" main, #3 @ 9\"/12\" distribution (S-03)",
+   "qty": 69.2213937982784,
+   "unit": "cft",
+   "mat": {
+    "CEM": 12.420295801519668,
+    "SNDC": 31.05073950379917,
+    "CRS": 62.10147900759834,
+    "ST4": 235.0960738861069,
+    "ST3": 48.3937699553
+   },
+   "reg": "E1",
+   "group": "Stairs",
+   "info": {},
+   "ref": "8.ST-GF",
+   "cost": 106554.72668233266
+  },
+  {
+   "stage": "S8",
+   "code": "8.17",
+   "loc": "First-floor roof",
+   "desc": "Zig-zag stair FF to 2nd floor: 6\" waist (flights 11.65 + 9.59 ft), 6\" landing 8'-3\"x3'-6\", 21 concrete steps; riser 6.57\", tread 10\u00bd\", width 3'-6\"",
+   "dims": "flights 11.65 + 9.59 ft (on slope) x 3'-6\" x 6\" waist; landing 8'-3\" x 3'-6\" x 6\"; 21 steps 10\u00bd\" x 6.57\"",
+   "work": "waist 37.2 + landing 14.4 + steps 17.6 = 69.2 cft; #4 @ 5\" main, #3 @ 9\"/12\" distribution (S-03)",
+   "qty": 69.2213937982784,
+   "unit": "cft",
+   "mat": {
+    "CEM": 12.420295801519668,
+    "SNDC": 31.05073950379917,
+    "CRS": 62.10147900759834,
+    "ST4": 235.0960738861069,
+    "ST3": 48.3937699553
+   },
+   "reg": "E1",
+   "group": "Stairs",
+   "info": {},
+   "ref": "8.ST-FF",
+   "cost": 106554.72668233266
+  },
+  {
+   "stage": "S8",
+   "code": "8.18",
+   "loc": "Stair",
+   "desc": "Stair base footing + stem (8\" slab, #4@6\" both ways; stem #4@5\")",
+   "dims": "base 4'-6\" x 3'-0\" x 8\" + stem 3'-6\" x 2'-0\" x 6\"",
+   "work": "4.5 x 3.0 x 0.667 + 3.5 x 2.0 x 0.5 = 12.5 cft; #4: 180.75 ft",
+   "qty": 12.5045,
+   "unit": "cft",
+   "mat": {
+    "CEM": 2.2436645714285715,
+    "SNDC": 5.609161428571428,
+    "CRS": 11.218322857142857,
+    "ST4": 54.76719634617001
+   },
+   "reg": "E1",
+   "group": "Stairs",
+   "info": {},
+   "ref": "8.SF",
+   "cost": 20217.565316061547
+  },
+  {
+   "stage": "S8",
+   "code": "8.19",
+   "loc": "Stair",
+   "desc": "P.C.C 1:4:8 under stair footing",
+   "dims": "5'-0\" x 3'-6\" x 3\"",
+   "work": "5.0 x 3.5 x 0.25 = 4.38 cft",
+   "qty": 4.375,
+   "unit": "cft",
+   "mat": {
+    "CEM": 0.4226923076923077,
+    "SNDC": 2.1134615384615385,
+    "CRS": 4.226923076923077
+   },
+   "reg": "E1",
+   "group": "Stairs",
+   "info": {},
+   "ref": "8.SP",
+   "cost": 1315.7566153846155
+  },
+  {
+   "stage": "S8",
+   "code": "8.20",
+   "loc": "Ground-floor roof",
+   "desc": "R.C.C sunshade (chajja) GF: 12.5 ft long x 1'-3\" projection, 4\"-3\" thick, #3@6\" main",
+   "dims": "12.5 ft x 1'-3\" x 4\" (tapering to 3\")",
+   "work": "12.5 x 1.25 x 0.333 = 5.21 cft; #3 @ 6\" x 2'-9\" + 3 distribution bars",
+   "qty": 5.208333333333333,
+   "unit": "cft",
+   "mat": {
+    "CEM": 0.9345238095238096,
+    "SNDC": 2.336309523809524,
+    "CRS": 4.672619047619048,
+    "ST3": 18.59002969208
+   },
+   "reg": "E1",
+   "group": "Chajjas",
+   "info": {},
+   "ref": "8.SH-GF",
+   "cost": 7270.700576212245
+  },
+  {
+   "stage": "S8",
+   "code": "8.21",
+   "loc": "First-floor roof",
+   "desc": "R.C.C sunshade (chajja) FF: 8.0 ft long x 1'-3\" projection, 4\"-3\" thick, #3@6\" main",
+   "dims": "8.0 ft x 1'-3\" x 4\" (tapering to 3\")",
+   "work": "8.0 x 1.25 x 0.333 = 3.33 cft; #3 @ 6\" x 2'-9\" + 3 distribution bars",
+   "qty": 3.333333333333333,
+   "unit": "cft",
+   "mat": {
+    "CEM": 0.5980952380952381,
+    "SNDC": 1.4952380952380953,
+    "CRS": 2.9904761904761905,
+    "ST3": 12.06646422674
+   },
+   "reg": "E1",
+   "group": "Chajjas",
+   "info": {},
+   "ref": "8.SH-FF",
+   "cost": 4699.255315359259
+  },
+  {
+   "stage": "S8",
+   "code": "8.22",
+   "loc": "Mumty roof",
+   "desc": "R.C.C sunshade (chajja) SF: 6.0 ft long x 1'-3\" projection, 4\"-3\" thick, #3@6\" main",
+   "dims": "6.0 ft x 1'-3\" x 4\" (tapering to 3\")",
+   "work": "6.0 x 1.25 x 0.333 = 2.50 cft; #3 @ 6\" x 2'-9\" + 3 distribution bars",
+   "qty": 2.5,
+   "unit": "cft",
+   "mat": {
+    "CEM": 0.44857142857142857,
+    "SNDC": 1.1214285714285714,
+    "CRS": 2.242857142857143,
+    "ST3": 9.1671017977
+   },
+   "reg": "E1",
+   "group": "Chajjas",
+   "info": {},
+   "ref": "8.SH-SF",
+   "cost": 3556.3907549801534
+  },
+  {
+   "stage": "S8",
+   "code": "8.23",
+   "loc": "Front elevation",
+   "desc": "Provisional: front elevation canopy / RCC fins & projections",
+   "dims": "provisional allowance (front canopy, fins and projections on the 3D views)",
+   "work": "20 cft concrete + 150 ft of #3",
+   "qty": 20.0,
+   "unit": "cft",
+   "mat": {
+    "CEM": 3.5885714285714285,
+    "SNDC": 8.971428571428572,
+    "CRS": 17.942857142857143,
+    "ST3": 25.582609668
+   },
+   "reg": "E1",
+   "group": "Elevation RCC",
+   "info": {},
+   "ref": "8.PR",
+   "cost": 15439.060339479498
+  },
+  {
+   "stage": "S8",
+   "code": "8.24",
+   "loc": "All parapets",
+   "desc": "Parapet coping 3\" x 9\" (1:2:4) with 2#3",
+   "dims": "terrace 125.6 ft + mumty 94.2 ft = 219.8 ft x 9\" x 3\"",
+   "work": "219.8 x 0.75 x 0.25 = 41.2 cft; #3: 2 x 219.8 x 1.05",
+   "qty": 41.212500000000006,
+   "unit": "cft",
+   "mat": {
+    "CEM": 7.394700000000002,
+    "SNDC": 18.486750000000004,
+    "CRS": 36.97350000000001,
+    "ST3": 78.72280647036962
+   },
+   "reg": "E1",
+   "group": "Coping",
+   "info": {},
+   "ref": "8.CP",
+   "cost": 38900.403367046325
+  },
+  {
+   "stage": "S8",
+   "code": "8.25",
+   "loc": "Ground-floor roof",
+   "desc": "Slab steel GF roof (44 bar sets incl. cranked, extra top, trimmer 2#6/2#4 & chairs) - 0.84 kg/sft",
+   "dims": "1,705.0 sft of slab; every bar set on S-06 (bar size, spacing, width covered, bar length)",
+   "work": "bars = width x 12 / spacing + 1; length + 0.6 ft (cranked) or + 0.3 ft (extra top); trimmers; chairs 1.5 ft per 12 sft = 1,435.4 kg",
+   "qty": 1705.0,
+   "unit": "sft",
+   "mat": {
+    "ST3": 1168.2460728086764,
+    "ST4": 224.37431018701162,
+    "ST6": 42.7717465408772
+   },
+   "reg": "E1, E4",
+   "group": "Slabs",
+   "info": {},
+   "ref": "8.GF",
+   "cost": 391115.6474561233
+  },
+  {
+   "stage": "S8",
+   "code": "8.26",
+   "loc": "First-floor roof",
+   "desc": "Slab steel FF roof (40 bar sets incl. cranked, extra top, trimmer 2#6/2#4 & chairs) - 0.88 kg/sft",
+   "dims": "1,650.7 sft of slab; every bar set on S-07 (bar size, spacing, width covered, bar length)",
+   "work": "bars = width x 12 / spacing + 1; length + 0.6 ft (cranked) or + 0.3 ft (extra top); trimmers; chairs 1.5 ft per 12 sft = 1,446.9 kg",
+   "qty": 1650.7,
+   "unit": "sft",
+   "mat": {
+    "ST3": 1078.9222592687156,
+    "ST4": 355.70953152171364,
+    "ST6": 12.263323315320001
+   },
+   "reg": "E1, E4",
+   "group": "Slabs",
+   "info": {},
+   "ref": "8.FF",
+   "cost": 394249.9806915346
+  },
+  {
+   "stage": "S8",
+   "code": "8.27",
+   "loc": "Mumty roof",
+   "desc": "Slab steel SF roof (11 bar sets incl. cranked, extra top, trimmer 2#6/2#4 & chairs) - 0.73 kg/sft",
+   "dims": "353.2 sft of slab; every bar set on S-08 (bar size, spacing, width covered, bar length)",
+   "work": "bars = width x 12 / spacing + 1; length + 0.6 ft (cranked) or + 0.3 ft (extra top); trimmers; chairs 1.5 ft per 12 sft = 259.0 kg",
+   "qty": 353.2,
+   "unit": "sft",
+   "mat": {
+    "ST3": 258.97105216185287
+   },
+   "reg": "E1, E4",
+   "group": "Slabs",
+   "info": {},
+   "ref": "8.SF",
+   "cost": 70564.43229306166
+  },
+  {
+   "stage": "S8",
+   "code": "8.28",
+   "loc": "3 first-floor baths + mumty bath",
+   "desc": "Sunken slab 6\": extra concrete (1:2:4) and steel at the drop (U-bars #3 @ 9\" + 2 #3 along each edge)",
+   "dims": "baths 191 sft, perimeter 111.2 ft; drop 6\" x slab 5\u00bd\"",
+   "work": "concrete 111.2 x 0.5 x 0.458; #3: 111.2 x 12/9 x 2.5 + 2 x 111.2",
+   "qty": 25.494791666666664,
+   "unit": "cft",
+   "mat": {
+    "CEM": 4.574494047619048,
+    "SNDC": 11.43623511904762,
+    "CRS": 22.87247023809524,
+    "ST3": 101.19343379786669
+   },
+   "reg": "E3",
+   "group": "Sunken slabs",
+   "info": {},
+   "ref": "8.SK1",
+   "cost": 38368.077894814145
+  },
+  {
+   "stage": "S8",
+   "code": "8.29",
+   "loc": "3 first-floor baths + mumty bath",
+   "desc": "Waterproof coating in sunk areas: polymer-modified cementitious, 2 coats (~1.5 kg/m2 per coat)",
+   "dims": "floor 191 sft + sides 111.2 ft x 6\"",
+   "work": "247 sft = 22.9 m2 x 3.0 kg",
+   "qty": 246.75,
+   "unit": "sft",
+   "mat": {
+    "COATW": 68.77147536
+   },
+   "reg": "E3",
+   "group": "",
+   "info": {},
+   "ref": "8.SK2",
+   "cost": 32494.522107599998
+  },
+  {
+   "stage": "S8",
+   "code": "8.30",
+   "loc": "3 first-floor baths + mumty bath",
+   "desc": "Lightweight filling in sunk areas: brick-bat coba (broken bricks in 1:6 mortar), 9\" deep to underside of floor finish",
+   "dims": "191 sft x 9\" (6\" drop + 3\" floor base)",
+   "work": "143 cft: bats 0.70 cft/cft (9.5 bricks), 1:6 mortar 0.30 cft/cft",
+   "qty": 143.34375,
+   "unit": "cft",
+   "mat": {
+    "BRK": 1354.5984374999998,
+    "CEM": 6.536475,
+    "SNDM": 49.023562500000004
+   },
+   "reg": "E3",
+   "group": "",
+   "info": {},
+   "ref": "8.SK3",
+   "cost": 35377.87968
+  },
+  {
+   "stage": "S8",
+   "code": "8.31",
+   "loc": "First floor + mumty floor",
+   "desc": "Floor sub-base: 3\" PCC 1:4:8 over first-floor and mumty floors (levels the 4\" beam upstands, covers conduits), excluding sunken baths",
+   "dims": "1,554 sft x 3\"",
+   "work": "(1,705 - 245 walls - 165 baths) + (353 - 68 walls - 26 bath) = 1,554 sft",
+   "qty": 388.51875,
+   "unit": "cft",
+   "mat": {
+    "CEM": 37.53688846153846,
+    "SNDC": 187.6844423076923,
+    "CRS": 375.3688846153846
+   },
+   "reg": "D2 (Rev 0 assumption kept), E3",
+   "group": "",
+   "info": {},
+   "ref": "8.UF",
+   "cost": 116844.82640307694
+  },
+  {
+   "stage": "S9",
+   "code": "9.1",
+   "loc": "Terrace, mumty roof, first-floor front balcony",
+   "desc": "Slope screed 1:4 cement-sand at 1:100 to the drawn rain-water outlets, min \u00be\" at outlets",
+   "dims": "terrace 1,302 sft (avg 2.9\", max 5.4\"); mumty 319 sft (avg 2.7\", max 4.9\"); balcony 38 sft (avg 1\u00bd\")",
+   "work": "grid calculation of screed thickness by outlet catchment = 393.3 cft",
+   "qty": 393.315420658799,
+   "unit": "cft",
+   "mat": {
+    "CEM": 83.69752151619244,
+    "SNDC": 418.48760758096216
+   },
+   "reg": "F3",
+   "group": "",
+   "info": {},
+   "ref": "9.1",
+   "cost": 163863.00762440154
+  },
+  {
+   "stage": "S9",
+   "code": "9.2",
+   "loc": "Terrace, mumty roof, balcony",
+   "desc": "Bitumen primer, ~0.3 L/m2",
+   "dims": "1,659 sft roof + upturns",
+   "work": "2,256 sft = 209.6 m2 x 0.3 L",
+   "qty": 62.88716691186624,
+   "unit": "L",
+   "mat": {
+    "PRIM": 62.88716691186624
+   },
+   "reg": "F3",
+   "group": "",
+   "info": {},
+   "ref": "9.2",
+   "cost": 59428.37273171359
+  },
+  {
+   "stage": "S9",
+   "code": "9.3",
+   "loc": "Terrace, mumty roof, balcony",
+   "desc": "4 mm torch-applied modified-bitumen membrane, 4\" laps, turned 12\" up parapets and mumty walls into a groove, dressed round solar plinths and tank platform",
+   "dims": "roof 1,659 sft; upturns 276 ft x 12\"; 34 plinths; tank platform",
+   "work": "1,659 x 1.10 + 276 x 1.10 + 34 x 5 ft x 8\" + platform = 2,256 sft = 209.6 m2",
+   "qty": 209.6238897062208,
+   "unit": "m2",
+   "mat": {
+    "MEMB": 209.6238897062208
+   },
+   "reg": "F3, J3",
+   "group": "",
+   "info": {},
+   "ref": "9.3",
+   "cost": 154073.5589340723
+  },
+  {
+   "stage": "S9",
+   "code": "9.4",
+   "loc": "Terrace, mumty roof, balcony",
+   "desc": "LPG for torching membrane (~0.4 kg per m2)",
+   "dims": "",
+   "work": "209.6 m2 x 0.4 kg",
+   "qty": 83.84955588248833,
+   "unit": "kg",
+   "mat": {
+    "LPG": 83.84955588248833
+   },
+   "reg": "F3",
+   "group": "",
+   "info": {},
+   "ref": "9.4",
+   "cost": 25154.8667647465
+  },
+  {
+   "stage": "S9",
+   "code": "9.5",
+   "loc": "All parapet and mumty-wall junctions",
+   "desc": "Cement fillet (gola) 4\" x 4\" in 1:3 at every parapet / wall junction",
+   "dims": "276 ft",
+   "work": "276 x 0.0556 cft/ft",
+   "qty": 15.316666666666665,
+   "unit": "cft",
+   "mat": {
+    "CEM": 4.074233333333333,
+    "SNDM": 15.278374999999997
+   },
+   "reg": "F3",
+   "group": "",
+   "info": {},
+   "ref": "9.5",
+   "cost": 7206.503919999999
+  },
+  {
+   "stage": "S9",
+   "code": "9.6",
+   "loc": "Terrace, mumty roof, balcony",
+   "desc": "Bhatta tiles 9\" x 4\u00bd\" x 1\u00bd\" laid in 1:4 mortar (\u00be\" bed), joints filled",
+   "dims": "1,581 sft (less plinths and tank platform)",
+   "work": "tiles 1,581 x 3.15/sft; mortar bed 1,581 x 0.0625 + joints = 121.3 cft",
+   "qty": 1580.6956999999995,
+   "unit": "sft",
+   "mat": {
+    "TILE": 4979.191454999998,
+    "CEM": 25.8075379133698,
+    "SNDM": 129.037689566849
+   },
+   "reg": "F3",
+   "group": "",
+   "info": {},
+   "ref": "9.6",
+   "cost": 151605.0006634904
+  },
+  {
+   "stage": "S10",
+   "code": "10.1",
+   "loc": "All brick / RCC junctions, both faces",
+   "desc": "Galvanised chicken mesh strips 12\" wide over every brick/RCC junction (slab edges, lintels, plinth beam, coping, chajjas, column, stairs)",
+   "dims": "slab edges 2 x 889 ft; lintels 2 x 316 ft; plinth beam 174; coping 2 x 220; chajjas 26.5; column 22; stairs 59",
+   "work": "3,131 rft of 12\" strip (3 strips per 3-ft-wide roll = 300 rft/roll)",
+   "qty": 3131.4592706979925,
+   "unit": "rft",
+   "mat": {
+    "MESH": 11.48201732589264,
+    "NAIL": 10.438197568993308
+   },
+   "reg": "D3",
+   "group": "",
+   "info": {},
+   "ref": "10.1",
+   "cost": 71005.83896307698
+  },
+  {
+   "stage": "S10",
+   "code": "10.2",
+   "loc": "All concealed conduit and pipe chases",
+   "desc": "Galvanised chicken mesh strips 9\" wide over every concealed chase",
+   "dims": "electrical chases 909 rft; plumbing / gas / AC-drain chases 896 rft",
+   "work": "1,805 rft of 9\" strip (4 strips per roll = 400 rft/roll)",
+   "qty": 1804.8,
+   "unit": "rft",
+   "mat": {
+    "MESH": 4.9632000000000005,
+    "NAIL": 4.512
+   },
+   "reg": "D3",
+   "group": "",
+   "info": {},
+   "ref": "10.2",
+   "cost": 30692.880000000005
+  },
+  {
+   "stage": "S10",
+   "code": "10.3",
+   "loc": "Ground floor",
+   "desc": "Internal plaster \u00bd\" 1:4 on all walls",
+   "dims": "walls 361.6 ft x 2 faces x 11.00 ft = 7,955 sft",
+   "work": "less outer faces 1,467 and property-line faces 443 = 6,044; less openings 982; plus 0.6 x reveals 285 = 5,234 sft",
+   "qty": 5233.667688202584,
+   "unit": "sft",
+   "mat": {
+    "CEM": 58.00648354424531,
+    "SNDM": 290.0324177212266
+   },
+   "reg": "F1, F2",
+   "group": "",
+   "info": {},
+   "ref": "10.IGF",
+   "cost": 105734.21820445036
+  },
+  {
+   "stage": "S10",
+   "code": "10.4",
+   "loc": "First floor",
+   "desc": "Internal plaster \u00bd\" 1:4 on all walls",
+   "dims": "walls 403.6 ft x 2 faces x 11.54 ft = 9,316 sft",
+   "work": "less outer faces 1,639 and property-line faces 416 = 7,262; less openings 1,038; plus 0.6 x reveals 282 = 6,393 sft",
+   "qty": 6393.1310416666665,
+   "unit": "sft",
+   "mat": {
+    "CEM": 70.85720237847222,
+    "SNDM": 354.2860118923611
+   },
+   "reg": "F1, F2",
+   "group": "",
+   "info": {},
+   "ref": "10.IFF",
+   "cost": 129158.50849547917
+  },
+  {
+   "stage": "S10",
+   "code": "10.5",
+   "loc": "Mumty",
+   "desc": "Internal plaster \u00bd\" 1:4 on all walls",
+   "dims": "walls 124.2 ft x 2 faces x 9.54 ft = 2,371 sft",
+   "work": "less outer faces 779 and property-line faces 121 = 1,472; less openings 265; plus 0.6 x reveals 76 = 1,252 sft",
+   "qty": 1252.0749999999998,
+   "unit": "sft",
+   "mat": {
+    "CEM": 13.877164583333334,
+    "SNDM": 69.38582291666667
+   },
+   "reg": "F1, F2",
+   "group": "",
+   "info": {},
+   "ref": "10.ISF",
+   "cost": 25295.295602500006
+  },
+  {
+   "stage": "S10",
+   "code": "10.6",
+   "loc": "Ground floor",
+   "desc": "External plaster \u00be\" 1:4 on outer faces incl. exposed plinth",
+   "dims": "outer walls 133.4 ft x 11.00 ft = 1,467 sft + exposed plinth 133.4 ft x 2'-0\" (outside levels now +1'-0\" to +1'-3\"; was 3'-3\")",
+   "work": "less openings 420; plus 0.4 x reveals 285; plus plinth 266.8 = 1,428 sft",
+   "qty": 1428.45625,
+   "unit": "sft",
+   "mat": {
+    "CEM": 23.74808515625,
+    "SNDM": 118.74042578125
+   },
+   "reg": "F1, F2",
+   "group": "",
+   "info": {},
+   "ref": "10.EGF",
+   "cost": 43288.009622812504
+  },
+  {
+   "stage": "S10",
+   "code": "10.7",
+   "loc": "First floor",
+   "desc": "External plaster \u00be\" 1:4 on outer faces",
+   "dims": "outer walls 142.0 ft x 11.54 ft = 1,639 sft",
+   "work": "less openings 448; plus 0.4 x reveals 282 = 1,304 sft",
+   "qty": 1304.0020833333333,
+   "unit": "sft",
+   "mat": {
+    "CEM": 21.679034635416663,
+    "SNDM": 108.39517317708332
+   },
+   "reg": "F1, F2",
+   "group": "",
+   "info": {},
+   "ref": "10.EFF",
+   "cost": 39516.544333437494
+  },
+  {
+   "stage": "S10",
+   "code": "10.8",
+   "loc": "Mumty",
+   "desc": "External plaster \u00be\" 1:4 on outer faces",
+   "dims": "outer walls 81.6 ft x 9.54 ft = 779 sft",
+   "work": "less openings 129; plus 0.4 x reveals 76 = 680 sft",
+   "qty": 679.7541666666666,
+   "unit": "sft",
+   "mat": {
+    "CEM": 11.300913020833335,
+    "SNDM": 56.50456510416667
+   },
+   "reg": "F1, F2",
+   "group": "",
+   "info": {},
+   "ref": "10.ESF",
+   "cost": 20599.304254375005
+  },
+  {
+   "stage": "S10",
+   "code": "10.9",
+   "loc": "Terrace and mumty parapets",
+   "desc": "Parapet plaster \u00be\" 1:4, both faces and top",
+   "dims": "terrace 125.6 ft x (2 x 3.04 + 0.75) + mumty 94.2 ft x (2 x 2.04 + 0.75)",
+   "work": "858 + 455 = 1,314 sft",
+   "qty": 1313.5666666666666,
+   "unit": "sft",
+   "mat": {
+    "CEM": 21.838045833333336,
+    "SNDM": 109.19022916666668
+   },
+   "reg": "F1",
+   "group": "",
+   "info": {},
+   "ref": "10.P",
+   "cost": 39806.389945
+  },
+  {
+   "stage": "S10",
+   "code": "10.10",
+   "loc": "Car-porch slab, entrance canopy, chajjas, stair over rear porch",
+   "desc": "External soffit plaster \u215c\" 1:3 (separate line - can be deleted)",
+   "dims": "porch 102 + canopy 39 + entrance 33 + chajjas 33 + stair 34 sft",
+   "work": "241 sft",
+   "qty": 240.79422418674585,
+   "unit": "sft",
+   "mat": {
+    "CEM": 2.502002485690406,
+    "SNDM": 9.382509321339024
+   },
+   "reg": "F1",
+   "group": "",
+   "info": {},
+   "ref": "10.S",
+   "cost": 4425.5419966891905
+  },
+  {
+   "stage": "S11",
+   "code": "11.1",
+   "loc": "Manholes (9 nos, sheet 17)",
+   "desc": "Manholes / inspection chambers - 9 nos 2'x2' internal, avg 3'-6\" deep: excavation",
+   "dims": "9 nos x 4'-6\" x 4'-6\" x 4'-3\" deep (2'-0\" inside + 9\" walls + 6\" working space each side)",
+   "work": "9 x 4.5 x 4.5 x 4.25 = 774.6 cft",
+   "qty": 774.5625,
+   "unit": "cft",
+   "mat": {},
+   "reg": "H2",
+   "group": "Manholes",
+   "info": {
+    "EXC": 774.5625
+   },
+   "ref": "11.H7",
+   "cost": 0
+  },
+  {
+   "stage": "S11",
+   "code": "11.2",
+   "loc": "Manholes (9 nos, sheet 17)",
+   "desc": "Manholes: P.C.C 1:4:8 4\" base",
+   "dims": "9 nos x 3'-6\" x 3'-6\" x 4\"",
+   "work": "9 x 3.5 x 3.5 x 0.333 = 36.7 cft",
+   "qty": 36.71325,
+   "unit": "cft",
+   "mat": {
+    "CEM": 3.54706476923077,
+    "SNDC": 17.73532384615385,
+    "CRS": 35.4706476923077
+   },
+   "reg": "H2",
+   "group": "Manholes",
+   "info": {},
+   "ref": "11.H8",
+   "cost": 11041.30321366154
+  },
+  {
+   "stage": "S11",
+   "code": "11.3",
+   "loc": "Manholes (9 nos, sheet 17)",
+   "desc": "Manholes: 9\" brick walls 1:4",
+   "dims": "9 nos, 2'-0\" x 2'-0\" inside, 9\" walls, average 3'-6\" deep; centre-line 4 x 2'-9\" = 11 ft",
+   "work": "9 x 11 x 0.75 x 3.5 = 259.9 cft (Rev 0 took 9 x 11 x 3.5 = 346.5, missing the 9\" thickness - corrected)",
+   "qty": 259.875,
+   "unit": "cft",
+   "mat": {
+    "CEM": 16.59042,
+    "SNDM": 82.9521,
+    "BRK": 3508.3125
+   },
+   "reg": "H2",
+   "group": "Manholes",
+   "info": {},
+   "ref": "11.H9",
+   "cost": 89180.667576
+  },
+  {
+   "stage": "S11",
+   "code": "11.4",
+   "loc": "Manholes (9 nos, sheet 17)",
+   "desc": "Manholes: benching/channels 1:2:4",
+   "dims": "9 nos x 1.5 cft (benching and half-round channels)",
+   "work": "9 x 1.5 = 13.5 cft",
+   "qty": 13.5,
+   "unit": "cft",
+   "mat": {
+    "CEM": 2.4222857142857146,
+    "SNDC": 6.055714285714286,
+    "CRS": 12.111428571428572
+   },
+   "reg": "H2",
+   "group": "Manholes",
+   "info": {},
+   "ref": "11.H10",
+   "cost": 5716.109828571429
+  },
+  {
+   "stage": "S11",
+   "code": "11.5",
+   "loc": "Manholes (9 nos, sheet 17)",
+   "desc": "Manholes: inside plaster \u00bd\" 1:3",
+   "dims": "9 nos x (4 walls x 2'-0\" x 3'-6\" + benching 4 sft)",
+   "work": "9 x 32 = 288.0 sft",
+   "qty": 288,
+   "unit": "sft",
+   "mat": {
+    "CEM": 3.9900000000000007,
+    "SNDM": 14.962500000000002
+   },
+   "reg": "H2",
+   "group": "Manholes",
+   "info": {},
+   "ref": "11.H11",
+   "cost": 7057.5120000000015
+  },
+  {
+   "stage": "S11",
+   "code": "11.6",
+   "loc": "Manholes",
+   "desc": "Back-filling around manholes with excavated earth",
+   "dims": "",
+   "work": "775 - 9 x 3.5 x 3.5 x 3.0",
+   "qty": 443.8125,
+   "unit": "cft",
+   "mat": {},
+   "reg": "H2",
+   "group": "",
+   "info": {
+    "BACKFILL": 443.8125
+   },
+   "ref": "11.MB",
+   "cost": 0
+  },
+  {
+   "stage": "S11",
+   "code": "11.7",
+   "loc": "7 manholes in passages and lawn",
+   "desc": "RCC cover slabs 3\" (1:2:4), #3 @ 6\" both ways",
+   "dims": "7 x 2'-9\" x 2'-9\" x 3\"",
+   "work": "7 x 2.75 x 2.75 x 0.25; #3: 7 x 35 ft",
+   "qty": 13.234375,
+   "unit": "cft",
+   "mat": {
+    "CEM": 2.374625,
+    "SNDC": 5.9365625,
+    "CRS": 11.873125,
+    "ST3": 41.7849291244
+   },
+   "reg": "H2",
+   "group": "Manhole covers",
+   "info": {},
+   "ref": "11.MC",
+   "cost": 16989.197562816513
+  },
+  {
+   "stage": "S11",
+   "code": "11.8",
+   "loc": "Manholes in front and rear car porches",
+   "desc": "Heavy-duty cast-iron manhole cover with frame, 20\" x 20\"",
+   "dims": "2 nos",
+   "work": "2",
+   "qty": 2,
+   "unit": "nos",
+   "mat": {
+    "CICOV": 2
+   },
+   "reg": "H2",
+   "group": "",
+   "info": {},
+   "ref": "11.CI",
+   "cost": 30000.0
+  },
+  {
+   "stage": "S11",
+   "code": "11.9",
+   "loc": "House, passages, roofs",
+   "desc": "Sewerage (UPVC) 5\": Main sewer: rear manholes -> side passage -> septic tank -> road sewer; car-porch MH -> septic tank",
+   "dims": "",
+   "work": "measured on sewerage drawing (GF 135.9 ft) + 20 ft street connection",
+   "qty": 155.90500041506047,
+   "unit": "ft",
+   "mat": {
+    "UP5": 155.90500041506047
+   },
+   "reg": "H2",
+   "group": "",
+   "info": {},
+   "ref": "11.P1",
+   "cost": 70063.70718652818
+  },
+  {
+   "stage": "S11",
+   "code": "11.10",
+   "loc": "House, passages, roofs",
+   "desc": "Sewerage (UPVC) 4\": WC connections GF/FF/2F (horizontal 47.8 ft) + soil stacks 3x13 ft (FF), 1x25 ft (2F) + 4 vent pipes x 4 ft",
+   "dims": "",
+   "work": "measured + vertical stacks",
+   "qty": 127.84719931731792,
+   "unit": "ft",
+   "mat": {
+    "UP4": 127.84719931731792
+   },
+   "reg": "H2",
+   "group": "",
+   "info": {},
+   "ref": "11.P2",
+   "cost": 41038.95098085905
+  },
+  {
+   "stage": "S11",
+   "code": "11.11",
+   "loc": "House, passages, roofs",
+   "desc": "Sewerage (UPVC) 3\": Floor traps, basins, showers, sinks (horizontal 116.1 ft) + waste stacks 4x13 ft + 2x25 ft",
+   "dims": "",
+   "work": "measured + vertical stacks",
+   "qty": 218.0824245733926,
+   "unit": "ft",
+   "mat": {
+    "UP3": 218.0824245733926
+   },
+   "reg": "H2",
+   "group": "",
+   "info": {},
+   "ref": "11.P3",
+   "cost": 46669.638858706014
+  },
+  {
+   "stage": "S11",
+   "code": "11.12",
+   "loc": "House, passages, roofs",
+   "desc": "Rain water (UPVC) 3\": 4 rain-water down pipes in 9\"x6\" ducts (38+29+29+16 ft)",
+   "dims": "",
+   "work": "roof sumps on roof plans",
+   "qty": 112,
+   "unit": "ft",
+   "mat": {
+    "RWP3": 112
+   },
+   "reg": "H2",
+   "group": "",
+   "info": {},
+   "ref": "11.P4",
+   "cost": 23968.0
+  },
+  {
+   "stage": "S11",
+   "code": "11.13",
+   "loc": "Sewer / rain-water system",
+   "desc": "UPVC fittings: 5\" (bends 8, Y-tees 6, sockets 9); 4\" (WC connectors 8, bends 20, Y-tees 10, sockets 8, vent cowls 4, clean-outs 4); 3\" (floor traps 14, gully traps 3, bends 40, Y-tees 20, sockets 15, roof outlets 4, RWP shoes 4)",
+   "dims": "",
+   "work": "counts from sanitary and sewerage sheets",
+   "qty": 177,
+   "unit": "nos",
+   "mat": {
+    "FUP5": 23,
+    "FUP4": 54,
+    "FUP3": 100
+   },
+   "reg": "H2",
+   "group": "",
+   "info": {},
+   "ref": "11.F",
+   "cost": 92250.0
+  },
+  {
+   "stage": "S11",
+   "code": "11.14",
+   "loc": "10 A.C points to nearest washroom floor trap",
+   "desc": "A.C condensate drains \u00be\" (20 mm) PVC, concealed; stainless-steel mesh cap on each outlet",
+   "dims": "10 x ~20 ft",
+   "work": "200 ft; 10 caps",
+   "qty": 200,
+   "unit": "ft",
+   "mat": {
+    "PVC20": 200,
+    "SSCAP": 10
+   },
+   "reg": "H3, J1",
+   "group": "",
+   "info": {},
+   "ref": "11.AC",
+   "cost": 10990.0
+  },
+  {
+   "stage": "S12",
+   "code": "12.1",
+   "loc": "Front lawn (sheet 17 position)",
+   "desc": "Excavation for septic tank, 1'-0\" working space each side",
+   "dims": "pit 9.33 x 7.92 x 3'-6\" below NSL",
+   "work": "(9.33 x 7.92) x 3.5",
+   "qty": 258.61276349999997,
+   "unit": "cft",
+   "mat": {},
+   "reg": "H1",
+   "group": "",
+   "info": {
+    "EXC": 258.61276349999997
+   },
+   "ref": "12.1",
+   "cost": 0
+  },
+  {
+   "stage": "S12",
+   "code": "12.2",
+   "loc": "Septic tank",
+   "desc": "PCC 1:4:8, 3\", under base",
+   "dims": "7.33 x 5.92 x 3\"",
+   "work": "",
+   "qty": 10.84734025,
+   "unit": "cft",
+   "mat": {
+    "CEM": 1.0480199503076923,
+    "SNDC": 5.2400997515384615,
+    "CRS": 10.480199503076923
+   },
+   "reg": "H1",
+   "group": "",
+   "info": {},
+   "ref": "12.2",
+   "cost": 3262.276501317785
+  },
+  {
+   "stage": "S12",
+   "code": "12.3",
+   "loc": "Septic tank",
+   "desc": "RCC base 6\" (1:2:4), #3 @ 6\" both ways",
+   "dims": "6.83 x 5.42 x 6\"",
+   "work": "#3: (%d + %d) bars x length",
+   "qty": 18.5071805,
+   "unit": "cft",
+   "mat": {
+    "CEM": 3.320716958285714,
+    "SNDC": 8.301792395714285,
+    "CRS": 16.60358479142857,
+    "ST3": 26.691359971011124
+   },
+   "reg": "H1",
+   "group": "Septic tank",
+   "info": {},
+   "ref": "12.3",
+   "cost": 15109.08964306374
+  },
+  {
+   "stage": "S12",
+   "code": "12.4",
+   "loc": "Septic tank",
+   "desc": "9\" brick walls in 1:4 (5'-0\" high) + two 4\u00bd\" baffle walls (4'-6\" high) forming THREE chambers",
+   "dims": "internal 4'-10\" x 3'-5\", depth 5'-0\" (4'-0\" liquid + 1'-0\" freeboard)",
+   "work": "walls 2 x (5.58 + 4.17) x 0.75 x 5.0 + baffles 2 x 3.42 x 0.375 x 4.5",
+   "qty": 84.657375,
+   "unit": "cft",
+   "mat": {
+    "CEM": 5.404526819999999,
+    "SNDM": 27.022634099999998,
+    "BRK": 1142.8745625000001
+   },
+   "reg": "H1",
+   "group": "",
+   "info": {},
+   "ref": "12.4",
+   "cost": 29051.664137496
+  },
+  {
+   "stage": "S12",
+   "code": "12.5",
+   "loc": "Septic tank",
+   "desc": "RCC top slab 5\" (1:2:4) with two 1'-9\" x 1'-9\" openings, #3 @ 6\" both ways + trimmers",
+   "dims": "6.33 x 4.92 x 5\"",
+   "work": "",
+   "qty": 10.422650416666666,
+   "unit": "cft",
+   "mat": {
+    "CEM": 1.870121274761905,
+    "SNDC": 4.675303186904762,
+    "CRS": 9.350606373809525,
+    "ST3": 25.582609668
+   },
+   "reg": "H1",
+   "group": "Septic tank",
+   "info": {},
+   "ref": "12.5",
+   "cost": 11383.861666519784
+  },
+  {
+   "stage": "S12",
+   "code": "12.6",
+   "loc": "Septic tank",
+   "desc": "Two RCC covers 2'-0\" x 2'-0\" x 3\" (1:2:4) with lifting hooks",
+   "dims": "2 nos",
+   "work": "",
+   "qty": 2.0,
+   "unit": "cft",
+   "mat": {
+    "CEM": 0.3588571428571429,
+    "SNDC": 0.8971428571428571,
+    "CRS": 1.7942857142857143,
+    "ST3": 6.8220292448
+   },
+   "reg": "H1",
+   "group": "Septic tank",
+   "info": {},
+   "ref": "12.6",
+   "cost": 2705.69761433739
+  },
+  {
+   "stage": "S12",
+   "code": "12.7",
+   "loc": "Septic tank",
+   "desc": "\u00be\" 1:3 waterproof plaster (with waterproofing compound) inside and outside",
+   "dims": "inside walls + floor + baffles 161 sft; outside 112 sft",
+   "work": "",
+   "qty": 273.020361,
+   "unit": "sft",
+   "mat": {
+    "CEM": 5.67370437703125,
+    "SNDM": 21.276391413867188,
+    "ADMX": 5.67370437703125
+   },
+   "reg": "H1",
+   "group": "",
+   "info": {},
+   "ref": "12.7",
+   "cost": 12021.444834053811
+  },
+  {
+   "stage": "S12",
+   "code": "12.8",
+   "loc": "Septic tank",
+   "desc": "T-pipe inlet and outlet (5\" UPVC tees with 2 ft pipe each) and 3\" vent pipe 12 ft with cowl",
+   "dims": "2 tees 5\" + 2 x 2 ft of 5\" pipe; vent 3\" x 12 ft + cowl",
+   "work": "counted",
+   "qty": 1,
+   "unit": "set",
+   "mat": {
+    "FUP5": 2,
+    "UP5": 4.0,
+    "UP3": 12.0,
+    "COWL": 1
+   },
+   "reg": "H1",
+   "group": "",
+   "info": {},
+   "ref": "12.8",
+   "cost": 6865.6
+  },
+  {
+   "stage": "S12",
+   "code": "12.9",
+   "loc": "Septic tank",
+   "desc": "Back-filling around tank with excavated earth",
+   "dims": "",
+   "work": "259 - 115 (tank below NSL)",
+   "qty": 143.62499999999997,
+   "unit": "cft",
+   "mat": {},
+   "reg": "H1",
+   "group": "",
+   "info": {
+    "BACKFILL": 143.62499999999997
+   },
+   "ref": "12.9",
+   "cost": 0
+  },
+  {
+   "stage": "S13",
+   "code": "13.1",
+   "loc": "Rear car porch (back of house)",
+   "desc": "Excavation for underground water tank, 1'-0\" working space each side",
+   "dims": "pit 8.83 x 7.42 x 3'-4\" below NSL",
+   "work": "",
+   "qty": 218.38120333333333,
+   "unit": "cft",
+   "mat": {},
+   "reg": "I1",
+   "group": "",
+   "info": {
+    "EXC": 218.38120333333333
+   },
+   "ref": "13.1",
+   "cost": 0
+  },
+  {
+   "stage": "S13",
+   "code": "13.2",
+   "loc": "Underground water tank",
+   "desc": "PCC 1:4:8, 3\", under base",
+   "dims": "6.83 x 5.42 x 3\"",
+   "work": "",
+   "qty": 9.25359025,
+   "unit": "cft",
+   "mat": {
+    "CEM": 0.8940391810769232,
+    "SNDC": 4.470195905384616,
+    "CRS": 8.940391810769231
+   },
+   "reg": "I2",
+   "group": "",
+   "info": {},
+   "ref": "13.2",
+   "cost": 2782.965162856246
+  },
+  {
+   "stage": "S13",
+   "code": "13.3",
+   "loc": "Underground water tank",
+   "desc": "RCC base 6\" (1:1.5:3) with integral waterproofing admixture, #3 @ 6\" both ways",
+   "dims": "6.33 x 4.92 x 6\"",
+   "work": "",
+   "qty": 15.5696805,
+   "unit": "cft",
+   "mat": {
+    "CEM": 3.5555488560000006,
+    "SNDC": 6.666654105000001,
+    "CRS": 13.333308210000002,
+    "ADMX": 3.5555488560000006,
+    "ST3": 26.81927301935112
+   },
+   "reg": "I2",
+   "group": "Water tank",
+   "info": {},
+   "ref": "13.3",
+   "cost": 16273.209730159597
+  },
+  {
+   "stage": "S13",
+   "code": "13.4",
+   "loc": "Underground water tank",
+   "desc": "RCC walls 6\" (1:1.5:3) with integral waterproofing admixture, #3 @ 6\" both ways (one central mesh)",
+   "dims": "centre-line 18.5 ft x 6\" x 5.5 ft",
+   "work": "#3: verticals 38 x 7.0 + horizontals 12 x 20.5",
+   "qty": 50.875,
+   "unit": "cft",
+   "mat": {
+    "CEM": 11.618,
+    "SNDC": 21.78375,
+    "CRS": 43.5675,
+    "ADMX": 11.618,
+    "ST3": 87.32197433344001
+   },
+   "reg": "I2",
+   "group": "Water tank",
+   "info": {},
+   "ref": "13.4",
+   "cost": 53088.85946637574
+  },
+  {
+   "stage": "S13",
+   "code": "13.5",
+   "loc": "Underground water tank",
+   "desc": "RCC top slab 5\" (1:1.5:3) with one 1'-9\" x 1'-9\" opening; top 7\" above porch level",
+   "dims": "5.83 x 4.42 x 5\"",
+   "work": "",
+   "qty": 9.459108750000002,
+   "unit": "cft",
+   "mat": {
+    "CEM": 2.160116470909091,
+    "SNDC": 4.050218382954546,
+    "CRS": 8.100436765909093,
+    "ADMX": 2.160116470909091,
+    "ST3": 20.4660877344
+   },
+   "reg": "I2",
+   "group": "Water tank",
+   "info": {},
+   "ref": "13.5",
+   "cost": 11023.441273090131
+  },
+  {
+   "stage": "S13",
+   "code": "13.6",
+   "loc": "Underground water tank",
+   "desc": "PVC water-stop 6\" (150 mm) at base-to-wall joint",
+   "dims": "18.5 ft + laps",
+   "work": "",
+   "qty": 20.0,
+   "unit": "ft",
+   "mat": {
+    "WSTOP": 20.0
+   },
+   "reg": "I2",
+   "group": "",
+   "info": {},
+   "ref": "13.6",
+   "cost": 13650.0
+  },
+  {
+   "stage": "S13",
+   "code": "13.7",
+   "loc": "Underground water tank",
+   "desc": "Food-safe cementitious waterproof coating inside (walls, floor, soffit), 2 coats ~1.5 kg/m2 each",
+   "dims": "124 sft",
+   "work": "11.5 m2 x 3.0 kg",
+   "qty": 123.778722,
+   "unit": "sft",
+   "mat": {
+    "COATF": 34.498258683344645
+   },
+   "reg": "I2",
+   "group": "",
+   "info": {},
+   "ref": "13.7",
+   "cost": 19922.744389631534
+  },
+  {
+   "stage": "S13",
+   "code": "13.8",
+   "loc": "Underground water tank",
+   "desc": "Hot bitumen coat on outside of walls below ground (1 coat, 0.2 kg/sft)",
+   "dims": "111 sft",
+   "work": "",
+   "qty": 110.7,
+   "unit": "sft",
+   "mat": {
+    "BIT": 22.14
+   },
+   "reg": "I2",
+   "group": "",
+   "info": {},
+   "ref": "13.8",
+   "cost": 6509.16
+  },
+  {
+   "stage": "S13",
+   "code": "13.9",
+   "loc": "Underground water tank",
+   "desc": "Lockable steel / CI manhole cover with frame, 2'-0\" x 2'-0\"",
+   "dims": "1 no",
+   "work": "",
+   "qty": 1,
+   "unit": "nos",
+   "mat": {
+    "UGTCOV": 1
+   },
+   "reg": "I2",
+   "group": "",
+   "info": {},
+   "ref": "13.9",
+   "cost": 12000.0
+  },
+  {
+   "stage": "S13",
+   "code": "13.10",
+   "loc": "Underground water tank",
+   "desc": "Back-filling around tank with excavated earth",
+   "dims": "",
+   "work": "218 - 91",
+   "qty": 127.0,
+   "unit": "cft",
+   "mat": {},
+   "reg": "I1",
+   "group": "",
+   "info": {
+    "BACKFILL": 127.0
+   },
+   "ref": "13.10",
+   "cost": 0
+  },
+  {
+   "stage": "S13",
+   "code": "13.11",
+   "loc": "Mumty roof, rear-right corner (sheet 24)",
+   "desc": "Plastic roof tank platform: RCC slab 5'-0\" x 5'-0\" x 4\" (1:2:4), #3 @ 6\" both ways, cast before membrane",
+   "dims": "5' x 5' x 4\"",
+   "work": "",
+   "qty": 8.333333333333332,
+   "unit": "cft",
+   "mat": {
+    "CEM": 1.495238095238095,
+    "SNDC": 3.7380952380952377,
+    "CRS": 7.476190476190475,
+    "ST3": 20.4660877344
+   },
+   "reg": "I4",
+   "group": "Tank platform",
+   "info": {},
+   "ref": "13.11",
+   "cost": 9105.062443012168
+  },
+  {
+   "stage": "S13",
+   "code": "13.12",
+   "loc": "Mumty roof",
+   "desc": "Platform supports: two 9\" brick walls 1'-6\" high in 1:4, placed directly over the mumty walls below",
+   "dims": "2 x 5'-0\" x 9\" x 1'-6\"",
+   "work": "",
+   "qty": 11.25,
+   "unit": "cft",
+   "mat": {
+    "CEM": 0.7182000000000001,
+    "SNDM": 3.591,
+    "BRK": 151.875
+   },
+   "reg": "I4",
+   "group": "",
+   "info": {},
+   "ref": "13.12",
+   "cost": 3860.6349600000003
+  },
+  {
+   "stage": "S13",
+   "code": "13.13",
+   "loc": "Mumty roof",
+   "desc": "Plaster \u00be\" 1:4 on platform walls and slab edges",
+   "dims": "2 walls x 2 faces x 5'-0\" x 1'-6\" + slab edges 2 x 5'-0\" x 4\"",
+   "work": "2 x 2 x 5.0 x 1.5 + 2 x 5.0 x 0.33 = 33.3 sft",
+   "qty": 33.3,
+   "unit": "sft",
+   "mat": {
+    "CEM": 0.5536125000000001,
+    "SNDM": 2.7680625
+   },
+   "reg": "I4",
+   "group": "",
+   "info": {},
+   "ref": "13.13",
+   "cost": 1009.1248650000001
+  },
+  {
+   "stage": "S13",
+   "code": "13.14",
+   "loc": "House",
+   "desc": "Cold water PPR 1\u00bc\" PN-16: tank down-take",
+   "dims": "",
+   "work": "measured on sheets 21-24 + risers (Rev 0), updated for pump at back",
+   "qty": 38.0,
+   "unit": "ft",
+   "mat": {
+    "PPR114": 38.0
+   },
+   "reg": "I3, I5",
+   "group": "",
+   "info": {},
+   "ref": "13.W1",
+   "cost": 10978.2
+  },
+  {
+   "stage": "S13",
+   "code": "13.15",
+   "loc": "House",
+   "desc": "Cold water PPR 1\" PN-16: pump rising main from UGT at back to roof tank (53 ft) + floor mains (40 ft)",
+   "dims": "",
+   "work": "measured on sheets 21-24 + risers (Rev 0), updated for pump at back",
+   "qty": 93.0,
+   "unit": "ft",
+   "mat": {
+    "PPR1": 93.0
+   },
+   "reg": "I3, I5",
+   "group": "",
+   "info": {},
+   "ref": "13.W2",
+   "cost": 17414.25
+  },
+  {
+   "stage": "S13",
+   "code": "13.16",
+   "loc": "House",
+   "desc": "Cold water PPR \u00be\" PN-16: branch lines (measured 370 ft) + society supply to UGT (60 ft)",
+   "dims": "",
+   "work": "measured on sheets 21-24 + risers (Rev 0), updated for pump at back",
+   "qty": 430.0,
+   "unit": "ft",
+   "mat": {
+    "PPR34C": 430.0
+   },
+   "reg": "I3, I5",
+   "group": "",
+   "info": {},
+   "ref": "13.W3",
+   "cost": 50611.0
+  },
+  {
+   "stage": "S13",
+   "code": "13.17",
+   "loc": "House",
+   "desc": "Cold water PPR \u00bd\" PN-16: fixture drops 35 x 4 ft",
+   "dims": "",
+   "work": "measured on sheets 21-24 + risers (Rev 0), updated for pump at back",
+   "qty": 140.0,
+   "unit": "ft",
+   "mat": {
+    "PPR12C": 140.0
+   },
+   "reg": "I3, I5",
+   "group": "",
+   "info": {},
+   "ref": "13.W4",
+   "cost": 10486.0
+  },
+  {
+   "stage": "S13",
+   "code": "13.18",
+   "loc": "House",
+   "desc": "Hot water PPR \u00be\" PN-20: hot lines (measured) + geyser risers 36 ft",
+   "dims": "",
+   "work": "measured on sheets 21-24 + risers (Rev 0), updated for pump at back",
+   "qty": 360.0,
+   "unit": "ft",
+   "mat": {
+    "PPR34H": 360.0
+   },
+   "reg": "I3, I5",
+   "group": "",
+   "info": {},
+   "ref": "13.W5",
+   "cost": 52002.00000000001
+  },
+  {
+   "stage": "S13",
+   "code": "13.19",
+   "loc": "House",
+   "desc": "Hot water PPR \u00bd\" PN-20: fixture drops 20 x 4 ft",
+   "dims": "",
+   "work": "measured on sheets 21-24 + risers (Rev 0), updated for pump at back",
+   "qty": 80.0,
+   "unit": "ft",
+   "mat": {
+    "PPR12H": 80.0
+   },
+   "reg": "I3, I5",
+   "group": "",
+   "info": {},
+   "ref": "13.W6",
+   "cost": 7276.000000000001
+  },
+  {
+   "stage": "S13",
+   "code": "13.20",
+   "loc": "House",
+   "desc": "Gas: SNGPL-approved medium-class GI \u00bd\"-\u00be\" to kitchens, geyser, heaters + riser from meter",
+   "dims": "",
+   "work": "measured on sheets 21-24 + risers (Rev 0), updated for pump at back",
+   "qty": 189.8,
+   "unit": "ft",
+   "mat": {
+    "GI": 189.8
+   },
+   "reg": "I3, I5",
+   "group": "",
+   "info": {},
+   "ref": "13.W7",
+   "cost": 52802.36
+  },
+  {
+   "stage": "S13",
+   "code": "13.21",
+   "loc": "House",
+   "desc": "PPR fittings (elbows ~120, tees ~60, sockets ~80, adaptors ~55, unions ~20), 24 ball/gate valves, \u00be\" float valve for UGT; GI fittings ~36",
+   "dims": "",
+   "work": "approximate counts",
+   "qty": 1,
+   "unit": "set",
+   "mat": {
+    "FPPR": 335,
+    "VALVE": 24,
+    "FLOAT": 1,
+    "FGI": 36
+   },
+   "reg": "I3, I5",
+   "group": "",
+   "info": {},
+   "ref": "13.WF",
+   "cost": 73300.0
+  },
+  {
+   "stage": "S14",
+   "code": "14.1",
+   "loc": "House",
+   "desc": "\u00be\" PVC conduit: light/fan points 115 x 12 ft",
+   "dims": "",
+   "work": "allowance per point / measured run",
+   "qty": 1380,
+   "unit": "ft",
+   "mat": {
+    "C34": 1380
+   },
+   "reg": "J8",
+   "group": "",
+   "info": {},
+   "ref": "14.C1",
+   "cost": 36915.0
+  },
+  {
+   "stage": "S14",
+   "code": "14.2",
+   "loc": "House",
+   "desc": "\u00be\" PVC conduit: socket points 79 x 8 ft",
+   "dims": "",
+   "work": "allowance per point / measured run",
+   "qty": 632,
+   "unit": "ft",
+   "mat": {
+    "C34": 632
+   },
+   "reg": "J8",
+   "group": "",
+   "info": {},
+   "ref": "14.C2",
+   "cost": 16906.0
+  },
+  {
+   "stage": "S14",
+   "code": "14.3",
+   "loc": "House",
+   "desc": "\u00be\" PVC conduit: call bells at 2 gates x 40 ft",
+   "dims": "",
+   "work": "allowance per point / measured run",
+   "qty": 80,
+   "unit": "ft",
+   "mat": {
+    "C34": 80
+   },
+   "reg": "J2, J8",
+   "group": "",
+   "info": {},
+   "ref": "14.C3",
+   "cost": 2140.0
+  },
+  {
+   "stage": "S14",
+   "code": "14.4",
+   "loc": "House",
+   "desc": "\u00be\" PVC conduit: Cat6 data to 5 Wi-Fi access points (2 GF, 2 FF, 1 mumty) to router point",
+   "dims": "",
+   "work": "allowance per point / measured run",
+   "qty": 220,
+   "unit": "ft",
+   "mat": {
+    "C34": 220
+   },
+   "reg": "J2, J8",
+   "group": "",
+   "info": {},
+   "ref": "14.C4",
+   "cost": 5885.0
+  },
+  {
+   "stage": "S14",
+   "code": "14.5",
+   "loc": "House",
+   "desc": "\u00be\" PVC conduit: Cat6 to 7 CCTV cameras to NVR point (gates, porches, back gali, passages)",
+   "dims": "",
+   "work": "allowance per point / measured run",
+   "qty": 350,
+   "unit": "ft",
+   "mat": {
+    "C34": 350
+   },
+   "reg": "J2, J8",
+   "group": "",
+   "info": {},
+   "ref": "14.C5",
+   "cost": 9362.5
+  },
+  {
+   "stage": "S14",
+   "code": "14.6",
+   "loc": "House",
+   "desc": "1\" PVC conduit: DB to 39 switch-boards x 25 ft",
+   "dims": "",
+   "work": "allowance per point / measured run",
+   "qty": 975,
+   "unit": "ft",
+   "mat": {
+    "C1": 975
+   },
+   "reg": "J8",
+   "group": "",
+   "info": {},
+   "ref": "14.C6",
+   "cost": 39643.5
+  },
+  {
+   "stage": "S14",
+   "code": "14.7",
+   "loc": "House",
+   "desc": "1\" PVC conduit: own run to each of 10 A.C points (5 x 45 + 4 x 30 + 1 x 40 ft)",
+   "dims": "",
+   "work": "allowance per point / measured run",
+   "qty": 385,
+   "unit": "ft",
+   "mat": {
+    "C1": 385
+   },
+   "reg": "J1, J5, J7, J8",
+   "group": "",
+   "info": {},
+   "ref": "14.C7",
+   "cost": 15654.100000000002
+  },
+  {
+   "stage": "S14",
+   "code": "14.8",
+   "loc": "House",
+   "desc": "1\" PVC conduit: earth conductors from 3 earth pits (house 25, lightning/surge 45, solar 55 ft)",
+   "dims": "",
+   "work": "allowance per point / measured run",
+   "qty": 125,
+   "unit": "ft",
+   "mat": {
+    "C1": 125
+   },
+   "reg": "J1, J5, J7, J8",
+   "group": "",
+   "info": {},
+   "ref": "14.C8",
+   "cost": 5082.5
+  },
+  {
+   "stage": "S14",
+   "code": "14.9",
+   "loc": "House",
+   "desc": "1\" PVC conduit: water pump at UGT from backup DB",
+   "dims": "",
+   "work": "allowance per point / measured run",
+   "qty": 60,
+   "unit": "ft",
+   "mat": {
+    "C1": 60
+   },
+   "reg": "J1, J5, J7, J8",
+   "group": "",
+   "info": {},
+   "ref": "14.C9",
+   "cost": 2439.6
+  },
+  {
+   "stage": "S14",
+   "code": "14.10",
+   "loc": "House",
+   "desc": "1\" PVC conduit: spare AC conduit, roof to inverter position",
+   "dims": "",
+   "work": "allowance per point / measured run",
+   "qty": 30,
+   "unit": "ft",
+   "mat": {
+    "C1": 30
+   },
+   "reg": "J1, J5, J7, J8",
+   "group": "",
+   "info": {},
+   "ref": "14.C10",
+   "cost": 1219.8
+  },
+  {
+   "stage": "S14",
+   "code": "14.11",
+   "loc": "House",
+   "desc": "1\u00bc\" PVC conduit: spare DC conduit, roof to inverter position",
+   "dims": "",
+   "work": "allowance per point / measured run",
+   "qty": 30,
+   "unit": "ft",
+   "mat": {
+    "C114": 30
+   },
+   "reg": "J4, J5",
+   "group": "",
+   "info": {},
+   "ref": "14.C11",
+   "cost": 1797.6000000000001
+  },
+  {
+   "stage": "S14",
+   "code": "14.12",
+   "loc": "House",
+   "desc": "1\u00bc\" PVC conduit: inverter AC-out to GF backup DB (45) + grid to inverter AC-in (45)",
+   "dims": "",
+   "work": "allowance per point / measured run",
+   "qty": 90,
+   "unit": "ft",
+   "mat": {
+    "C114": 90
+   },
+   "reg": "J4, J5",
+   "group": "",
+   "info": {},
+   "ref": "14.C12",
+   "cost": 5392.800000000001
+  },
+  {
+   "stage": "S14",
+   "code": "14.13",
+   "loc": "House",
+   "desc": "1\u00bc\" PVC conduit: backup risers GF->FF backup DB (20) and ->mumty backup DB (32)",
+   "dims": "",
+   "work": "allowance per point / measured run",
+   "qty": 52,
+   "unit": "ft",
+   "mat": {
+    "C114": 52
+   },
+   "reg": "J4, J5",
+   "group": "",
+   "info": {},
+   "ref": "14.C13",
+   "cost": 3115.84
+  },
+  {
+   "stage": "S14",
+   "code": "14.14",
+   "loc": "House",
+   "desc": "1\u00bd\" PVC conduit: meter to main DB + risers to FF and mumty DBs",
+   "dims": "",
+   "work": "allowance per point / measured run",
+   "qty": 85,
+   "unit": "ft",
+   "mat": {
+    "C112": 85
+   },
+   "reg": "J6, J8",
+   "group": "",
+   "info": {},
+   "ref": "14.C14",
+   "cost": 6821.25
+  },
+  {
+   "stage": "S14",
+   "code": "14.15",
+   "loc": "House",
+   "desc": "1\u00bd\" PVC conduit: EV charger at front car porch from main DB (7.4 kW 1-ph / 11 kW 3-ph)",
+   "dims": "",
+   "work": "allowance per point / measured run",
+   "qty": 35,
+   "unit": "ft",
+   "mat": {
+    "C112": 35
+   },
+   "reg": "J6, J8",
+   "group": "",
+   "info": {},
+   "ref": "14.C15",
+   "cost": 2808.75
+  },
+  {
+   "stage": "S14",
+   "code": "14.16",
+   "loc": "House",
+   "desc": "Conduit accessories: one bend and one coupler per 10 ft of conduit; PVC solvent",
+   "dims": "",
+   "work": "by conduit length",
+   "qty": 1,
+   "unit": "set",
+   "mat": {
+    "BEND34": 267,
+    "CPL34": 267,
+    "BEND1": 158,
+    "CPL1": 158,
+    "BEND114": 18,
+    "CPL114": 18,
+    "BEND112": 12,
+    "CPL112": 12,
+    "SOLV": 5
+   },
+   "reg": "J8",
+   "group": "",
+   "info": {},
+   "ref": "14.A",
+   "cost": 33430.0
+  },
+  {
+   "stage": "S14",
+   "code": "14.17",
+   "loc": "House",
+   "desc": "Back boxes: 39 switch-board boxes, 79 socket boxes, 10 A.C boxes, 13 fan boxes with hooks, 110 light junction boxes, 5 access-point boxes, 7 CCTV boxes, 1 NVR/router box, 2 bell boxes",
+   "dims": "",
+   "work": "point count from sheets 13-16 + J2",
+   "qty": 266,
+   "unit": "nos",
+   "mat": {
+    "BXSB": 39,
+    "BXSKT": 79,
+    "BXAC": 10,
+    "BXFAN": 13,
+    "BXLT": 110,
+    "BXAP": 5,
+    "BXCC": 7,
+    "BXNVR": 1,
+    "BXBELL": 2
+   },
+   "reg": "J1, J2, J8",
+   "group": "",
+   "info": {},
+   "ref": "14.B",
+   "cost": 32110.0
+  },
+  {
+   "stage": "S14",
+   "code": "14.18",
+   "loc": "GF, FF, mumty",
+   "desc": "DB enclosures (empty): main 12-way GF, 8-way FF, 4-way mumty; backup (essential-load) 8-way GF, 6-way FF, 4-way mumty; EV isolator box",
+   "dims": "one main + one backup DB per floor + EV box",
+   "work": "3 main + 3 backup + 1 EV = 7 nos",
+   "qty": 7,
+   "unit": "nos",
+   "mat": {
+    "DB12": 1,
+    "DB8": 2,
+    "DB6": 1,
+    "DB4": 2,
+    "EVBOX": 1
+   },
+   "reg": "J5, J6",
+   "group": "",
+   "info": {},
+   "ref": "14.D",
+   "cost": 20200.0
+  },
+  {
+   "stage": "S14",
+   "code": "14.19",
+   "loc": "Lawn near front door",
+   "desc": "3 earth pits (house, solar/inverter, lightning/surge): copper-bonded rod 5/8\" x 10 ft, 2 bags earthing compound each, inspection chamber with cover",
+   "dims": "3 nos",
+   "work": "",
+   "qty": 3,
+   "unit": "nos",
+   "mat": {
+    "ROD": 3,
+    "ECMP": 6,
+    "ECHM": 3
+   },
+   "reg": "J7",
+   "group": "",
+   "info": {},
+   "ref": "14.E",
+   "cost": 57000.0
+  },
+  {
+   "stage": "S14",
+   "code": "14.20",
+   "loc": "Mumty and roof walls",
+   "desc": "2\" PVC sleeves through walls for DC/AC conduits, pump cable and earth leads (6 nos x 1 ft)",
+   "dims": "6 nos x 1 ft",
+   "work": "6 x 1 = 6 ft",
+   "qty": 6,
+   "unit": "ft",
+   "mat": {
+    "SLV2": 6
+   },
+   "reg": "J4",
+   "group": "",
+   "info": {},
+   "ref": "14.S",
+   "cost": 720.0
+  },
+  {
+   "stage": "S14",
+   "code": "14.21",
+   "loc": "Terrace and mumty roof",
+   "desc": "Solar mounting plinths 15\" x 15\" x 12\" high (1:2:4), 4 #3 starter bars cast into slab + 2 #2 links; 2 cast-in M12 x 250 mm galvanised J-bolts each; cast before membrane",
+   "dims": "34 nos (23 panels x 650 W = 14.95 kWp)",
+   "work": "34 x 1.25 x 1.25 x 1.0",
+   "qty": 53.125,
+   "unit": "cft",
+   "mat": {
+    "CEM": 9.532142857142857,
+    "SNDC": 23.830357142857142,
+    "CRS": 47.660714285714285,
+    "ST3": 40.59107400656,
+    "ST2": 23.179477291740003,
+    "JBOLT": 68
+   },
+   "reg": "J3",
+   "group": "Solar plinths",
+   "info": {},
+   "ref": "14.P",
+   "cost": 57063.00378311378
+  },
+  {
+   "stage": "S14",
+   "code": "14.22",
+   "loc": "Mumty laundry (inverter + sodium-ion battery position)",
+   "desc": "Raised RCC plinth 3'-0\" x 1'-6\" x 6\" for battery cabinet (1:2:4)",
+   "dims": "3'-0\" x 1'-6\" x 6\"",
+   "work": "3.0 x 1.5 x 0.5 = 2.25 cft",
+   "qty": 2.25,
+   "unit": "cft",
+   "mat": {
+    "CEM": 0.40371428571428575,
+    "SNDC": 1.0092857142857143,
+    "CRS": 2.0185714285714287
+   },
+   "reg": "J4",
+   "group": "",
+   "info": {},
+   "ref": "14.I",
+   "cost": 952.6849714285715
+  },
+  {
+   "stage": "S15",
+   "code": "15.1",
+   "loc": "All boundary walls",
+   "desc": "Excavation to PCC bottom 2'-3\" below NSL (into firm soil)",
+   "dims": "141.9 ft x 2'-3\" x 2'-3\"",
+   "work": "141.9 x 2.25 x 2.25 x 1.10",
+   "qty": 790.1777812500001,
+   "unit": "cft",
+   "mat": {},
+   "reg": "G1, G3",
+   "group": "",
+   "info": {
+    "EXC": 790.1777812500001
+   },
+   "ref": "15.1",
+   "cost": 0
+  },
+  {
+   "stage": "S15",
+   "code": "15.2",
+   "loc": "All boundary walls",
+   "desc": "PCC 1:4:8, 3\" x 2'-3\"",
+   "dims": "141.9 ft",
+   "work": "",
+   "qty": 79.8159375,
+   "unit": "cft",
+   "mat": {
+    "CEM": 7.7114475,
+    "SNDC": 38.5572375,
+    "CRS": 77.114475
+   },
+   "reg": "G3",
+   "group": "",
+   "info": {},
+   "ref": "15.2",
+   "cost": 24004.193778
+  },
+  {
+   "stage": "S15",
+   "code": "15.3",
+   "loc": "All boundary walls",
+   "desc": "Brick footing steps 22\u00bd\" / 18\" / 13\u00bd\" (6\" each) in 1:6, eccentric (all projections inside plot)",
+   "dims": "141.9 ft",
+   "work": "141.9 x 4.5 x 0.5",
+   "qty": 319.26375,
+   "unit": "cft",
+   "mat": {
+    "CEM": 14.558427,
+    "SNDM": 109.1882025,
+    "BRK": 4310.060625
+   },
+   "reg": "G3, C4",
+   "group": "",
+   "info": {},
+   "ref": "15.3",
+   "cost": 100518.4293516
+  },
+  {
+   "stage": "S15",
+   "code": "15.4",
+   "loc": "All boundary walls",
+   "desc": "Wall 9\" and pillar bases in 1:6 from step top (-2'-0\") to underside of plinth band (+7\u00bd\")",
+   "dims": "panels 122.0 ft x 9\" x 2'-7\u00bd\"; pillars",
+   "work": "",
+   "qty": 298.92023437500006,
+   "unit": "cft",
+   "mat": {
+    "CEM": 13.630762687500004,
+    "SNDM": 102.23072015625003,
+    "BRK": 4035.4231640625007
+   },
+   "reg": "G3, D1",
+   "group": "",
+   "info": {},
+   "ref": "15.4",
+   "cost": 94113.38575327504
+  },
+  {
+   "stage": "S15",
+   "code": "15.5",
+   "loc": "All boundary walls",
+   "desc": "RCC plinth band 9\" x 6\" (1:2:4), 4 #3 + #2 rings @ 9\" (as before)",
+   "dims": "141.9 ft",
+   "work": "",
+   "qty": 53.21062500000001,
+   "unit": "cft",
+   "mat": {
+    "CEM": 9.547506428571431,
+    "SNDC": 23.868766071428578,
+    "CRS": 47.737532142857155,
+    "ST3": 101.64124316754409,
+    "ST2": 26.365049520927514
+   },
+   "reg": "G3",
+   "group": "Boundary walls",
+   "info": {},
+   "ref": "15.5",
+   "cost": 57628.717513911724
+  },
+  {
+   "stage": "S15",
+   "code": "15.6",
+   "loc": "All boundary walls",
+   "desc": "DPC 1\u00bd\" 1:2:4 with waterproofing compound + 2 coats hot bitumen on plinth band (top at plinth level +1'-3\")",
+   "dims": "141.9 ft x 9\"",
+   "work": "",
+   "qty": 13.302656250000002,
+   "unit": "cft",
+   "mat": {
+    "CEM": 2.3868766071428578,
+    "SNDC": 5.967191517857144,
+    "CRS": 11.934383035714289,
+    "ADMX": 2.3868766071428578,
+    "BIT": 42.56850000000001
+   },
+   "reg": "G3, B4",
+   "group": "",
+   "info": {},
+   "ref": "15.6",
+   "cost": 18983.09723003572
+  },
+  {
+   "stage": "S15",
+   "code": "15.7",
+   "loc": "All boundary walls",
+   "desc": "Boundary wall 9\" in 1:6 from DPC (+1'-3\") to underside of coping; heights per sheets 11-12, back 7'-0\", right 6'-0\" / 7'-0\"",
+   "dims": "Front panels: 23.6 ft to 6'-0\"; Left short panel at side gate: 3.0 ft to 6'-0\"; Left long panel: 43.8 ft to 7'-3\"; Back wall on gali, 37'-3\": 37.3 ft to 7'-0\"; Right side, front stretch: 9.0 ft to 6'-0\"; Right side, rear-passage stretch: 5.4 ft to 7'-0\"",
+   "work": "sum L x 0.75 x (H - 3\" coping - 1'-3\")",
+   "qty": 484.84687499999995,
+   "unit": "cft",
+   "mat": {
+    "CEM": 22.1090175,
+    "SNDM": 165.81763125,
+    "BRK": 6545.432812499999
+   },
+   "reg": "G1, G2, D1",
+   "group": "",
+   "info": {},
+   "ref": "15.7",
+   "cost": 152651.36223899998
+  },
+  {
+   "stage": "S15",
+   "code": "15.8",
+   "loc": "Gates and corners",
+   "desc": "Brick pillars in 1:4: 7 nos 13\u00bd\" x 13\u00bd\" + 3 nos 4'-0\" x 13\u00bd\" feature pillars, DPC to cap (6'-6\" above road)",
+   "dims": "",
+   "work": "7 x 1.266 x 5.0 + 3 x 4.5 x 5.0",
+   "qty": 111.796875,
+   "unit": "cft",
+   "mat": {
+    "CEM": 7.137112500000001,
+    "SNDM": 35.6855625,
+    "BRK": 1509.2578125
+   },
+   "reg": "G2, D1",
+   "group": "",
+   "info": {},
+   "ref": "15.8",
+   "cost": 38365.059915000005
+  },
+  {
+   "stage": "S15",
+   "code": "15.9",
+   "loc": "All boundary walls",
+   "desc": "RCC coping 3\" x 12\" on panels + 10 pillar caps (1:2:4), 2 #3",
+   "dims": "panels 122.0 ft x 12\" x 3\" + 10 caps 1'-6\" x 1'-6\" x 3\"",
+   "work": "122.0 x 1.0 x 0.25 + 10 x 1.5 x 1.5 x 0.25 = 36.1 cft; #3: 2 x 122.0 x 1.05",
+   "qty": 36.13,
+   "unit": "cft",
+   "mat": {
+    "CEM": 6.482754285714286,
+    "SNDC": 16.206885714285715,
+    "CRS": 32.41377142857143,
+    "ST3": 43.70226044365104
+   },
+   "reg": "G3",
+   "group": "Boundary walls",
+   "info": {},
+   "ref": "15.9",
+   "cost": 27205.995489114604
+  },
+  {
+   "stage": "S15",
+   "code": "15.10",
+   "loc": "All boundary walls",
+   "desc": "Plaster \u00be\" 1:4 on BOTH faces of all boundary walls (all sides), coping and pillars",
+   "dims": "outside face from road / gali / neighbour level, inside face from passage / porch / lawn level",
+   "work": "",
+   "qty": 2089.6322000000005,
+   "unit": "sft",
+   "mat": {
+    "CEM": 34.74013532500001,
+    "SNDM": 173.70067662500006
+   },
+   "reg": "F1",
+   "group": "",
+   "info": {},
+   "ref": "15.10",
+   "cost": 63324.31867041002
+  },
+  {
+   "stage": "S15",
+   "code": "15.11",
+   "loc": "All boundary walls",
+   "desc": "Back-filling with excavated earth",
+   "dims": "",
+   "work": "790 - 445",
+   "qty": 345.34059375000004,
+   "unit": "cft",
+   "mat": {},
+   "reg": "G3",
+   "group": "",
+   "info": {
+    "BACKFILL": 345.34059375000004
+   },
+   "ref": "15.11",
+   "cost": 0
+  },
+  {
+   "stage": "S16",
+   "code": "16.1",
+   "loc": "Edge walls",
+   "desc": "Back-filling around edge walls with excavated earth",
+   "dims": "trench 264.3 cft less PCC, brick steps and wall below NSL",
+   "work": "264.3 - (42.7 x 2.5 x 0.25 + 42.7 x 2.25 + 42.7 x 0.75 x 0.5) = 125.5 cft",
+   "qty": 125.46062499999996,
+   "unit": "cft",
+   "mat": {},
+   "reg": "C6",
+   "group": "",
+   "info": {
+    "BACKFILL": 125.46062499999996
+   },
+   "ref": "16.1",
+   "cost": 0
+  },
+  {
+   "stage": "S16",
+   "code": "16.2",
+   "loc": "Column footing",
+   "desc": "Back-filling around column footing",
+   "dims": "pit 33.7 cft less PCC, footing and column below NSL",
+   "work": "33.7 - (3.5 x 3.5 x 0.25 + 9.0 + 1.266 x 1.25) = 20.0 cft",
+   "qty": 20.0425,
+   "unit": "cft",
+   "mat": {},
+   "reg": "C5",
+   "group": "",
+   "info": {
+    "BACKFILL": 20.0425
+   },
+   "ref": "16.2",
+   "cost": 0
+  },
+  {
+   "stage": "S16",
+   "code": "16.3",
+   "loc": "Left and rear passages",
+   "desc": "Earth filling to underside of paving (+4\"), compacted",
+   "dims": "265 sft x 1.833 ft",
+   "work": "265.0 x 1.833 x 1.20",
+   "qty": 583.0,
+   "unit": "cft",
+   "mat": {},
+   "reg": "A5, G4",
+   "group": "",
+   "info": {
+    "EFILL": 583.0
+   },
+   "ref": "16.3",
+   "cost": 0
+  },
+  {
+   "stage": "S16",
+   "code": "16.4",
+   "loc": "Left and rear passages",
+   "desc": "Sand 2\" under paving base",
+   "dims": "265 sft x 2\"",
+   "work": "",
+   "qty": 48.583333333333336,
+   "unit": "cft",
+   "mat": {
+    "SNDM": 48.583333333333336
+   },
+   "reg": "G4",
+   "group": "",
+   "info": {},
+   "ref": "16.4",
+   "cost": 2098.8
+  },
+  {
+   "stage": "S16",
+   "code": "16.5",
+   "loc": "Left and rear passages",
+   "desc": "PCC 1:4:8, 3\" paving base sloped 1:60 away from house to drains (tuff-tile finish in finishing estimate)",
+   "dims": "265 sft x 3\"",
+   "work": "",
+   "qty": 66.25,
+   "unit": "cft",
+   "mat": {
+    "CEM": 6.400769230769231,
+    "SNDC": 32.003846153846155,
+    "CRS": 64.00769230769231
+   },
+   "reg": "G4",
+   "group": "",
+   "info": {},
+   "ref": "16.5",
+   "cost": 19924.314461538463
+  },
+  {
+   "stage": "S16",
+   "code": "16.6",
+   "loc": "Outside main and side gates",
+   "desc": "Ramps 1:6 (road to porch +1'-3\"): compacted earth fill",
+   "dims": "183 sft",
+   "work": "",
+   "qty": 64.155,
+   "unit": "cft",
+   "mat": {},
+   "reg": "G4",
+   "group": "",
+   "info": {
+    "EFILL": 64.155
+   },
+   "ref": "16.6",
+   "cost": 0
+  },
+  {
+   "stage": "S16",
+   "code": "16.7",
+   "loc": "Outside main and side gates",
+   "desc": "Ramps: sand 2\"",
+   "dims": "183 sft",
+   "work": "",
+   "qty": 33.605000000000004,
+   "unit": "cft",
+   "mat": {
+    "SNDM": 33.605000000000004
+   },
+   "reg": "G4",
+   "group": "",
+   "info": {},
+   "ref": "16.7",
+   "cost": 1451.7360000000003
+  },
+  {
+   "stage": "S16",
+   "code": "16.8",
+   "loc": "Outside main and side gates",
+   "desc": "Ramps: PCC 1:4:8 3\" base (finish in finishing estimate)",
+   "dims": "183 sft",
+   "work": "",
+   "qty": 45.825,
+   "unit": "cft",
+   "mat": {
+    "CEM": 4.4274000000000004,
+    "SNDC": 22.137,
+    "CRS": 44.274
+   },
+   "reg": "G4",
+   "group": "",
+   "info": {},
+   "ref": "16.8",
+   "cost": 13781.610720000002
+  },
+  {
+   "stage": "S16",
+   "code": "16.9",
+   "loc": "Entrance, porch, rear and side doors",
+   "desc": "Steps: brick 1:5 + PCC 1:4:8 tread base (allowance, as before)",
+   "dims": "entrance, two porch, rear-door and side-door steps",
+   "work": "allowance: brickwork 40 cft (1:5) + PCC 20 cft (1:4:8) under treads",
+   "qty": 40.0,
+   "unit": "cft",
+   "mat": {
+    "CEM": 4.060307692307693,
+    "SNDC": 22.961538461538467,
+    "CRS": 19.323076923076925,
+    "BRK": 540.0
+   },
+   "reg": "G4",
+   "group": "",
+   "info": {},
+   "ref": "16.9",
+   "cost": 19439.817784615385
+  },
+  {
+   "stage": "S16",
+   "code": "16.10",
+   "loc": "Toe walls and rear-porch edges",
+   "desc": "Plaster \u00be\" 1:4 on exposed face of edge walls",
+   "dims": "22.3 ft x 1'-3\"",
+   "work": "",
+   "qty": 27.875,
+   "unit": "sft",
+   "mat": {
+    "CEM": 0.46342187500000004,
+    "SNDM": 2.3171093750000002
+   },
+   "reg": "C6, F1",
+   "group": "",
+   "info": {},
+   "ref": "16.10",
+   "cost": 844.7253937500002
+  }
+ ],
+ "summary": [
+  {
+   "key": "CEM",
+   "name": "Cement OPC, 50 kg bag (Lucky / Bestway / Maple Leaf)",
+   "unit": "bag",
+   "net": 1498.885768123221,
+   "w": 0.03,
+   "gross": 1543.8523411669175,
+   "buy": 1544,
+   "buy_unit": "bag",
+   "unit_size": 1,
+   "rate": 1560,
+   "line_cost": 2408409.652220391,
+   "cost": 2408640,
+   "group": "Cement"
+  },
+  {
+   "key": "BRK",
+   "name": "Bricks, first class (awwal), 9\" x 4\u00bd\" x 3\"",
+   "unit": "nos",
+   "net": 126535.5088825214,
+   "w": 0.05,
+   "gross": 132862.28432664747,
+   "buy": 133000,
+   "buy_unit": "1,000 bricks",
+   "unit_size": 1000,
+   "rate": 16.0,
+   "line_cost": 2125796.5492263595,
+   "cost": 2128000.0,
+   "group": "Bricks"
+  },
+  {
+   "key": "ST2",
+   "name": "Steel Grade 60 deformed, #2 (6 mm) rings",
+   "unit": "kg",
+   "net": 155.1303143610122,
+   "w": 0.04,
+   "gross": 161.3355269354527,
+   "buy": 170,
+   "buy_unit": "10 kg",
+   "unit_size": 10,
+   "rate": 270,
+   "line_cost": 43560.59227257223,
+   "cost": 45900,
+   "group": "Steel"
+  },
+  {
+   "key": "ST3",
+   "name": "Steel Grade 60 deformed, #3 (10 mm) (Amreli / Mughal / FF Steel)",
+   "unit": "kg",
+   "net": 3785.627291618599,
+   "w": 0.04,
+   "gross": 3937.0523832833433,
+   "buy": 3940,
+   "buy_unit": "10 kg",
+   "unit_size": 10,
+   "rate": 262,
+   "line_cost": 1031507.724420236,
+   "cost": 1032280,
+   "group": "Steel"
+  },
+  {
+   "key": "ST4",
+   "name": "Steel Grade 60 deformed, #4 (12 mm)",
+   "unit": "kg",
+   "net": 2165.033049286885,
+   "w": 0.04,
+   "gross": 2251.6343712583607,
+   "buy": 2260,
+   "buy_unit": "10 kg",
+   "unit_size": 10,
+   "rate": 262,
+   "line_cost": 589928.2052696905,
+   "cost": 592120,
+   "group": "Steel"
+  },
+  {
+   "key": "ST6",
+   "name": "Steel Grade 60 deformed, #6 (20 mm)",
+   "unit": "kg",
+   "net": 974.5926018840345,
+   "w": 0.04,
+   "gross": 1013.5763059593959,
+   "buy": 1020,
+   "buy_unit": "10 kg",
+   "unit_size": 10,
+   "rate": 262,
+   "line_cost": 265556.99216136173,
+   "cost": 267240,
+   "group": "Steel"
+  },
+  {
+   "key": "BWIRE",
+   "name": "Binding wire, annealed 18 gauge",
+   "unit": "kg",
+   "net": 73.63598587436553,
+   "w": 0.0,
+   "gross": 73.63598587436553,
+   "buy": 75,
+   "buy_unit": "5 kg",
+   "unit_size": 5,
+   "rate": 400,
+   "line_cost": 29454.394349746213,
+   "cost": 30000,
+   "group": "Steel"
+  },
+  {
+   "key": "SNDC",
+   "name": "Chenab sand (concrete, screed)",
+   "unit": "cft",
+   "net": 2332.467078894359,
+   "w": 0.08,
+   "gross": 2519.0644452059078,
+   "buy": 2550,
+   "buy_unit": "50 cft",
+   "unit_size": 50,
+   "rate": 65,
+   "line_cost": 163739.188938384,
+   "cost": 165750,
+   "group": "Sand"
+  },
+  {
+   "key": "SNDM",
+   "name": "Ravi sand (mortar, plaster, blinding, fill)",
+   "unit": "cft",
+   "net": 4960.408888126283,
+   "w": 0.08,
+   "gross": 5357.241599176386,
+   "buy": 5400,
+   "buy_unit": "50 cft",
+   "unit_size": 50,
+   "rate": 40,
+   "line_cost": 214289.66396705544,
+   "cost": 216000,
+   "group": "Sand"
+  },
+  {
+   "key": "CRS",
+   "name": "Crush \u00be\" down, Sargodha (bajri)",
+   "unit": "cft",
+   "net": 3801.358942626793,
+   "w": 0.05,
+   "gross": 3991.426889758133,
+   "buy": 4000,
+   "buy_unit": "50 cft",
+   "unit_size": 50,
+   "rate": 110,
+   "line_cost": 439056.9578733946,
+   "cost": 440000,
+   "group": "Crush"
+  },
+  {
+   "key": "KHG",
+   "name": "Stone ballast (khangar) 1\u00bd\"-2\u00bd\"",
+   "unit": "cft",
+   "net": 665.0557734333333,
+   "w": 0.05,
+   "gross": 698.3085621050001,
+   "buy": 700,
+   "buy_unit": "50 cft",
+   "unit_size": 50,
+   "rate": 90,
+   "line_cost": 62847.77058945001,
+   "cost": 63000,
+   "group": "Stone ballast"
+  },
+  {
+   "key": "EARTH",
+   "name": "Earth (mitti) for filling, delivered",
+   "unit": "cft",
+   "net": 4184.79885862453,
+   "w": 0.0,
+   "gross": 4184.79885862453,
+   "buy": 4200,
+   "buy_unit": "50 cft",
+   "unit_size": 50,
+   "rate": 25,
+   "line_cost": 104619.97146561326,
+   "cost": 105000,
+   "group": "Earth"
+  },
+  {
+   "key": "POLY",
+   "name": "Polythene sheet 0.2 mm (800 gauge)",
+   "unit": "kg",
+   "net": 37.36772917713,
+   "w": 0.05,
+   "gross": 39.2361156359865,
+   "buy": 40,
+   "buy_unit": "kg",
+   "unit_size": 1,
+   "rate": 550,
+   "line_cost": 21579.863599792574,
+   "cost": 22000,
+   "group": "Waterproofing"
+  },
+  {
+   "key": "BIT",
+   "name": "Hot bitumen 60/70 (drum)",
+   "unit": "kg",
+   "net": 472.34284181032444,
+   "w": 0.05,
+   "gross": 495.9599839008407,
+   "buy": 500,
+   "buy_unit": "10 kg",
+   "unit_size": 10,
+   "rate": 280,
+   "line_cost": 138868.7954922354,
+   "cost": 140000,
+   "group": "Waterproofing"
+  },
+  {
+   "key": "ADMX",
+   "name": "Integral waterproofing compound (powder), 1 kg per bag of cement",
+   "unit": "kg",
+   "net": 47.07060540763856,
+   "w": 0.0,
+   "gross": 47.07060540763856,
+   "buy": 48,
+   "buy_unit": "kg",
+   "unit_size": 1,
+   "rate": 350,
+   "line_cost": 16474.711892673495,
+   "cost": 16800,
+   "group": "Waterproofing"
+  },
+  {
+   "key": "PRIM",
+   "name": "Bitumen primer",
+   "unit": "L",
+   "net": 62.88716691186624,
+   "w": 0.05,
+   "gross": 66.03152525745955,
+   "buy": 68,
+   "buy_unit": "4 L tin",
+   "unit_size": 4,
+   "rate": 900,
+   "line_cost": 59428.37273171359,
+   "cost": 61200,
+   "group": "Waterproofing"
+  },
+  {
+   "key": "MEMB",
+   "name": "4 mm APP/SBS modified-bitumen membrane (1 m x 10 m roll)",
+   "unit": "m2",
+   "net": 209.6238897062208,
+   "w": 0.05,
+   "gross": 220.10508419153186,
+   "buy": 230,
+   "buy_unit": "roll (10 m2)",
+   "unit_size": 10,
+   "rate": 700,
+   "line_cost": 154073.5589340723,
+   "cost": 161000,
+   "group": "Waterproofing"
+  },
+  {
+   "key": "LPG",
+   "name": "LPG for torching (11.8 kg cylinder)",
+   "unit": "kg",
+   "net": 83.84955588248833,
+   "w": 0.0,
+   "gross": 83.84955588248833,
+   "buy": 94.4,
+   "buy_unit": "cylinder (11.8 kg)",
+   "unit_size": 11.8,
+   "rate": 300,
+   "line_cost": 25154.8667647465,
+   "cost": 28320.0,
+   "group": "Waterproofing"
+  },
+  {
+   "key": "COATW",
+   "name": "Polymer-modified cementitious waterproof coating (2-component)",
+   "unit": "kg",
+   "net": 68.77147536,
+   "w": 0.05,
+   "gross": 72.210049128,
+   "buy": 75,
+   "buy_unit": "5 kg",
+   "unit_size": 5,
+   "rate": 450,
+   "line_cost": 32494.522107599998,
+   "cost": 33750,
+   "group": "Waterproofing"
+  },
+  {
+   "key": "COATF",
+   "name": "Food-safe (potable-water) cementitious coating",
+   "unit": "kg",
+   "net": 34.498258683344645,
+   "w": 0.05,
+   "gross": 36.22317161751188,
+   "buy": 40,
+   "buy_unit": "5 kg",
+   "unit_size": 5,
+   "rate": 550,
+   "line_cost": 19922.744389631534,
+   "cost": 22000,
+   "group": "Waterproofing"
+  },
+  {
+   "key": "WSTOP",
+   "name": "PVC water-stop 150 mm",
+   "unit": "ft",
+   "net": 20.0,
+   "w": 0.05,
+   "gross": 21.0,
+   "buy": 21,
+   "buy_unit": "ft",
+   "unit_size": 1,
+   "rate": 650,
+   "line_cost": 13650.0,
+   "cost": 13650,
+   "group": "Waterproofing"
+  },
+  {
+   "key": "TERM",
+   "name": "Termiticide: bifenthrin 10% EC (1 L makes 200 L emulsion)",
+   "unit": "L",
+   "net": 11.267286783699129,
+   "w": 0.05,
+   "gross": 11.830651122884086,
+   "buy": 12,
+   "buy_unit": "L",
+   "unit_size": 1,
+   "rate": 3500,
+   "line_cost": 41407.278930094304,
+   "cost": 42000,
+   "group": "Anti-termite"
+  },
+  {
+   "key": "TILE",
+   "name": "Bhatta (brick) roof tiles 9\" x 4\u00bd\" x 1\u00bd\"",
+   "unit": "nos",
+   "net": 4979.191454999998,
+   "w": 0.05,
+   "gross": 5228.151027749998,
+   "buy": 5300,
+   "buy_unit": "100 tiles",
+   "unit_size": 100,
+   "rate": 20,
+   "line_cost": 104563.02055499997,
+   "cost": 106000,
+   "group": "Roof tiles"
+  },
+  {
+   "key": "MESH",
+   "name": "Galvanised chicken mesh, roll 3 ft x 100 ft",
+   "unit": "roll",
+   "net": 16.445217325892642,
+   "w": 0.05,
+   "gross": 17.267478192187276,
+   "buy": 18,
+   "buy_unit": "roll",
+   "unit_size": 1,
+   "rate": 5500,
+   "line_cost": 94971.13005703002,
+   "cost": 99000,
+   "group": "Chicken mesh"
+  },
+  {
+   "key": "NAIL",
+   "name": "Concrete nails with washers for mesh",
+   "unit": "kg",
+   "net": 14.950197568993307,
+   "w": 0.0,
+   "gross": 14.950197568993307,
+   "buy": 15,
+   "buy_unit": "kg",
+   "unit_size": 1,
+   "rate": 450,
+   "line_cost": 6727.588906046988,
+   "cost": 6750,
+   "group": "Chicken mesh"
+  },
+  {
+   "key": "UP5",
+   "name": "UPVC sewer pipe 5\" (Dadex / Beta)",
+   "unit": "ft",
+   "net": 159.90500041506047,
+   "w": 0.07,
+   "gross": 171.09835044411471,
+   "buy": 180,
+   "buy_unit": "20-ft length",
+   "unit_size": 20,
+   "rate": 420,
+   "line_cost": 71861.30718652818,
+   "cost": 75600,
+   "group": "Sewer pipes"
+  },
+  {
+   "key": "UP4",
+   "name": "UPVC sewer pipe 4\"",
+   "unit": "ft",
+   "net": 127.84719931731792,
+   "w": 0.07,
+   "gross": 136.79650326953018,
+   "buy": 140,
+   "buy_unit": "20-ft length",
+   "unit_size": 20,
+   "rate": 300,
+   "line_cost": 41038.95098085905,
+   "cost": 42000,
+   "group": "Sewer pipes"
+  },
+  {
+   "key": "UP3",
+   "name": "UPVC pipe 3\" (waste / vent)",
+   "unit": "ft",
+   "net": 230.0824245733926,
+   "w": 0.07,
+   "gross": 246.18819429353007,
+   "buy": 260,
+   "buy_unit": "20-ft length",
+   "unit_size": 20,
+   "rate": 200,
+   "line_cost": 49237.638858706014,
+   "cost": 52000,
+   "group": "Sewer pipes"
+  },
+  {
+   "key": "RWP3",
+   "name": "UPVC rain-water pipe 3\"",
+   "unit": "ft",
+   "net": 112,
+   "w": 0.07,
+   "gross": 119.84,
+   "buy": 120,
+   "buy_unit": "20-ft length",
+   "unit_size": 20,
+   "rate": 200,
+   "line_cost": 23968.0,
+   "cost": 24000,
+   "group": "Sewer pipes"
+  },
+  {
+   "key": "FUP5",
+   "name": "UPVC fittings 5\" (bends, tees, sockets)",
+   "unit": "nos",
+   "net": 25,
+   "w": 0.0,
+   "gross": 25.0,
+   "buy": 25,
+   "buy_unit": "nos",
+   "unit_size": 1,
+   "rate": 950,
+   "line_cost": 23750.0,
+   "cost": 23750,
+   "group": "Sewer pipes"
+  },
+  {
+   "key": "FUP4",
+   "name": "UPVC fittings 4\"",
+   "unit": "nos",
+   "net": 54,
+   "w": 0.0,
+   "gross": 54.0,
+   "buy": 54,
+   "buy_unit": "nos",
+   "unit_size": 1,
+   "rate": 600,
+   "line_cost": 32400.0,
+   "cost": 32400,
+   "group": "Sewer pipes"
+  },
+  {
+   "key": "FUP3",
+   "name": "UPVC fittings 3\" incl. floor / gully traps, roof outlets",
+   "unit": "nos",
+   "net": 100,
+   "w": 0.0,
+   "gross": 100.0,
+   "buy": 100,
+   "buy_unit": "nos",
+   "unit_size": 1,
+   "rate": 380,
+   "line_cost": 38000.0,
+   "cost": 38000,
+   "group": "Sewer pipes"
+  },
+  {
+   "key": "COWL",
+   "name": "Vent cowl 3\"",
+   "unit": "nos",
+   "net": 1,
+   "w": 0.0,
+   "gross": 1.0,
+   "buy": 1,
+   "buy_unit": "nos",
+   "unit_size": 1,
+   "rate": 600,
+   "line_cost": 600.0,
+   "cost": 600,
+   "group": "Sewer pipes"
+  },
+  {
+   "key": "CICOV",
+   "name": "Heavy-duty CI manhole cover with frame 20\" x 20\"",
+   "unit": "nos",
+   "net": 2,
+   "w": 0.0,
+   "gross": 2.0,
+   "buy": 2,
+   "buy_unit": "nos",
+   "unit_size": 1,
+   "rate": 15000,
+   "line_cost": 30000.0,
+   "cost": 30000,
+   "group": "Covers"
+  },
+  {
+   "key": "UGTCOV",
+   "name": "Lockable steel / CI tank cover 2' x 2'",
+   "unit": "nos",
+   "net": 1,
+   "w": 0.0,
+   "gross": 1.0,
+   "buy": 1,
+   "buy_unit": "nos",
+   "unit_size": 1,
+   "rate": 12000,
+   "line_cost": 12000.0,
+   "cost": 12000,
+   "group": "Covers"
+  },
+  {
+   "key": "PVC20",
+   "name": "PVC drain pipe \u00be\" (20 mm) for A.C condensate",
+   "unit": "ft",
+   "net": 200,
+   "w": 0.07,
+   "gross": 214.0,
+   "buy": 220,
+   "buy_unit": "10-ft length",
+   "unit_size": 10,
+   "rate": 35,
+   "line_cost": 7490.0,
+   "cost": 7700,
+   "group": "Sewer pipes"
+  },
+  {
+   "key": "SSCAP",
+   "name": "Stainless-steel mesh cap for A.C drain outlet",
+   "unit": "nos",
+   "net": 10,
+   "w": 0.0,
+   "gross": 10.0,
+   "buy": 10,
+   "buy_unit": "nos",
+   "unit_size": 1,
+   "rate": 350,
+   "line_cost": 3500.0,
+   "cost": 3500,
+   "group": "Sewer pipes"
+  },
+  {
+   "key": "PPR114",
+   "name": "PPR pipe 1\u00bc\" (40 mm) PN-16 (Popular / Dadex / Master)",
+   "unit": "ft",
+   "net": 38.0,
+   "w": 0.07,
+   "gross": 40.660000000000004,
+   "buy": 52,
+   "buy_unit": "13-ft length",
+   "unit_size": 13,
+   "rate": 270,
+   "line_cost": 10978.2,
+   "cost": 14040,
+   "group": "Water pipes"
+  },
+  {
+   "key": "PPR1",
+   "name": "PPR pipe 1\" (32 mm) PN-16",
+   "unit": "ft",
+   "net": 93.0,
+   "w": 0.07,
+   "gross": 99.51,
+   "buy": 104,
+   "buy_unit": "13-ft length",
+   "unit_size": 13,
+   "rate": 175,
+   "line_cost": 17414.25,
+   "cost": 18200,
+   "group": "Water pipes"
+  },
+  {
+   "key": "PPR34C",
+   "name": "PPR pipe \u00be\" (25 mm) PN-16, cold",
+   "unit": "ft",
+   "net": 430.0,
+   "w": 0.07,
+   "gross": 460.1,
+   "buy": 468,
+   "buy_unit": "13-ft length",
+   "unit_size": 13,
+   "rate": 110,
+   "line_cost": 50611.0,
+   "cost": 51480,
+   "group": "Water pipes"
+  },
+  {
+   "key": "PPR12C",
+   "name": "PPR pipe \u00bd\" (20 mm) PN-16, cold",
+   "unit": "ft",
+   "net": 140.0,
+   "w": 0.07,
+   "gross": 149.8,
+   "buy": 156,
+   "buy_unit": "13-ft length",
+   "unit_size": 13,
+   "rate": 70,
+   "line_cost": 10486.0,
+   "cost": 10920,
+   "group": "Water pipes"
+  },
+  {
+   "key": "PPR34H",
+   "name": "PPR pipe \u00be\" (25 mm) PN-20, hot",
+   "unit": "ft",
+   "net": 360.0,
+   "w": 0.07,
+   "gross": 385.20000000000005,
+   "buy": 390,
+   "buy_unit": "13-ft length",
+   "unit_size": 13,
+   "rate": 135,
+   "line_cost": 52002.00000000001,
+   "cost": 52650,
+   "group": "Water pipes"
+  },
+  {
+   "key": "PPR12H",
+   "name": "PPR pipe \u00bd\" (20 mm) PN-20, hot",
+   "unit": "ft",
+   "net": 80.0,
+   "w": 0.07,
+   "gross": 85.60000000000001,
+   "buy": 91,
+   "buy_unit": "13-ft length",
+   "unit_size": 13,
+   "rate": 85,
+   "line_cost": 7276.000000000001,
+   "cost": 7735,
+   "group": "Water pipes"
+  },
+  {
+   "key": "GI",
+   "name": "GI pipe medium class \u00bd\"-\u00be\" for gas (SNGPL-approved)",
+   "unit": "ft",
+   "net": 189.8,
+   "w": 0.07,
+   "gross": 203.086,
+   "buy": 220,
+   "buy_unit": "20-ft length",
+   "unit_size": 20,
+   "rate": 260,
+   "line_cost": 52802.36,
+   "cost": 57200,
+   "group": "Gas pipes"
+  },
+  {
+   "key": "FPPR",
+   "name": "PPR fittings (average)",
+   "unit": "nos",
+   "net": 335,
+   "w": 0.0,
+   "gross": 335.0,
+   "buy": 335,
+   "buy_unit": "nos",
+   "unit_size": 1,
+   "rate": 120,
+   "line_cost": 40200.0,
+   "cost": 40200,
+   "group": "Water pipes"
+  },
+  {
+   "key": "VALVE",
+   "name": "Ball / gate valves (average)",
+   "unit": "nos",
+   "net": 24,
+   "w": 0.0,
+   "gross": 24.0,
+   "buy": 24,
+   "buy_unit": "nos",
+   "unit_size": 1,
+   "rate": 900,
+   "line_cost": 21600.0,
+   "cost": 21600,
+   "group": "Water pipes"
+  },
+  {
+   "key": "FLOAT",
+   "name": "Float valve \u00be\" for underground tank",
+   "unit": "nos",
+   "net": 1,
+   "w": 0.0,
+   "gross": 1.0,
+   "buy": 1,
+   "buy_unit": "nos",
+   "unit_size": 1,
+   "rate": 2500,
+   "line_cost": 2500.0,
+   "cost": 2500,
+   "group": "Water pipes"
+  },
+  {
+   "key": "FGI",
+   "name": "GI fittings \u00bd\"-\u00be\"",
+   "unit": "nos",
+   "net": 36,
+   "w": 0.0,
+   "gross": 36.0,
+   "buy": 36,
+   "buy_unit": "nos",
+   "unit_size": 1,
+   "rate": 250,
+   "line_cost": 9000.0,
+   "cost": 9000,
+   "group": "Gas pipes"
+  },
+  {
+   "key": "C34",
+   "name": "PVC conduit \u00be\" heavy gauge",
+   "unit": "ft",
+   "net": 2662,
+   "w": 0.07,
+   "gross": 2848.34,
+   "buy": 2850,
+   "buy_unit": "10-ft length",
+   "unit_size": 10,
+   "rate": 25,
+   "line_cost": 71208.5,
+   "cost": 71250,
+   "group": "Electrical"
+  },
+  {
+   "key": "C1",
+   "name": "PVC conduit 1\" heavy gauge",
+   "unit": "ft",
+   "net": 1575,
+   "w": 0.07,
+   "gross": 1685.25,
+   "buy": 1690,
+   "buy_unit": "10-ft length",
+   "unit_size": 10,
+   "rate": 38,
+   "line_cost": 64039.5,
+   "cost": 64220,
+   "group": "Electrical"
+  },
+  {
+   "key": "C114",
+   "name": "PVC conduit 1\u00bc\" heavy gauge",
+   "unit": "ft",
+   "net": 172,
+   "w": 0.07,
+   "gross": 184.04000000000002,
+   "buy": 190,
+   "buy_unit": "10-ft length",
+   "unit_size": 10,
+   "rate": 56,
+   "line_cost": 10306.240000000002,
+   "cost": 10640,
+   "group": "Electrical"
+  },
+  {
+   "key": "C112",
+   "name": "PVC conduit 1\u00bd\" heavy gauge",
+   "unit": "ft",
+   "net": 120,
+   "w": 0.07,
+   "gross": 128.4,
+   "buy": 130,
+   "buy_unit": "10-ft length",
+   "unit_size": 10,
+   "rate": 75,
+   "line_cost": 9630.0,
+   "cost": 9750,
+   "group": "Electrical"
+  },
+  {
+   "key": "BEND34",
+   "name": "Conduit bend \u00be\"",
+   "unit": "nos",
+   "net": 267,
+   "w": 0.0,
+   "gross": 267.0,
+   "buy": 267,
+   "buy_unit": "nos",
+   "unit_size": 1,
+   "rate": 35,
+   "line_cost": 9345.0,
+   "cost": 9345,
+   "group": "Electrical"
+  },
+  {
+   "key": "BEND1",
+   "name": "Conduit bend 1\"",
+   "unit": "nos",
+   "net": 158,
+   "w": 0.0,
+   "gross": 158.0,
+   "buy": 158,
+   "buy_unit": "nos",
+   "unit_size": 1,
+   "rate": 55,
+   "line_cost": 8690.0,
+   "cost": 8690,
+   "group": "Electrical"
+  },
+  {
+   "key": "BEND114",
+   "name": "Conduit bend 1\u00bc\"",
+   "unit": "nos",
+   "net": 18,
+   "w": 0.0,
+   "gross": 18.0,
+   "buy": 18,
+   "buy_unit": "nos",
+   "unit_size": 1,
+   "rate": 90,
+   "line_cost": 1620.0,
+   "cost": 1620,
+   "group": "Electrical"
+  },
+  {
+   "key": "BEND112",
+   "name": "Conduit bend 1\u00bd\"",
+   "unit": "nos",
+   "net": 12,
+   "w": 0.0,
+   "gross": 12.0,
+   "buy": 12,
+   "buy_unit": "nos",
+   "unit_size": 1,
+   "rate": 120,
+   "line_cost": 1440.0,
+   "cost": 1440,
+   "group": "Electrical"
+  },
+  {
+   "key": "CPL34",
+   "name": "Conduit coupler \u00be\"",
+   "unit": "nos",
+   "net": 267,
+   "w": 0.0,
+   "gross": 267.0,
+   "buy": 267,
+   "buy_unit": "nos",
+   "unit_size": 1,
+   "rate": 15,
+   "line_cost": 4005.0,
+   "cost": 4005,
+   "group": "Electrical"
+  },
+  {
+   "key": "CPL1",
+   "name": "Conduit coupler 1\"",
+   "unit": "nos",
+   "net": 158,
+   "w": 0.0,
+   "gross": 158.0,
+   "buy": 158,
+   "buy_unit": "nos",
+   "unit_size": 1,
+   "rate": 25,
+   "line_cost": 3950.0,
+   "cost": 3950,
+   "group": "Electrical"
+  },
+  {
+   "key": "CPL114",
+   "name": "Conduit coupler 1\u00bc\"",
+   "unit": "nos",
+   "net": 18,
+   "w": 0.0,
+   "gross": 18.0,
+   "buy": 18,
+   "buy_unit": "nos",
+   "unit_size": 1,
+   "rate": 40,
+   "line_cost": 720.0,
+   "cost": 720,
+   "group": "Electrical"
+  },
+  {
+   "key": "CPL112",
+   "name": "Conduit coupler 1\u00bd\"",
+   "unit": "nos",
+   "net": 12,
+   "w": 0.0,
+   "gross": 12.0,
+   "buy": 12,
+   "buy_unit": "nos",
+   "unit_size": 1,
+   "rate": 55,
+   "line_cost": 660.0,
+   "cost": 660,
+   "group": "Electrical"
+  },
+  {
+   "key": "SOLV",
+   "name": "PVC solvent cement (tin)",
+   "unit": "nos",
+   "net": 5,
+   "w": 0.0,
+   "gross": 5.0,
+   "buy": 5,
+   "buy_unit": "nos",
+   "unit_size": 1,
+   "rate": 600,
+   "line_cost": 3000.0,
+   "cost": 3000,
+   "group": "Electrical"
+  },
+  {
+   "key": "BXSB",
+   "name": "Switch-board back box (assorted 3\"x3\" to 12\"x3\")",
+   "unit": "nos",
+   "net": 39,
+   "w": 0.0,
+   "gross": 39.0,
+   "buy": 39,
+   "buy_unit": "nos",
+   "unit_size": 1,
+   "rate": 250,
+   "line_cost": 9750.0,
+   "cost": 9750,
+   "group": "Electrical"
+  },
+  {
+   "key": "BXSKT",
+   "name": "Socket back box",
+   "unit": "nos",
+   "net": 79,
+   "w": 0.0,
+   "gross": 79.0,
+   "buy": 79,
+   "buy_unit": "nos",
+   "unit_size": 1,
+   "rate": 120,
+   "line_cost": 9480.0,
+   "cost": 9480,
+   "group": "Electrical"
+  },
+  {
+   "key": "BXAC",
+   "name": "A.C point box",
+   "unit": "nos",
+   "net": 10,
+   "w": 0.0,
+   "gross": 10.0,
+   "buy": 10,
+   "buy_unit": "nos",
+   "unit_size": 1,
+   "rate": 150,
+   "line_cost": 1500.0,
+   "cost": 1500,
+   "group": "Electrical"
+  },
+  {
+   "key": "BXFAN",
+   "name": "Fan box with hook",
+   "unit": "nos",
+   "net": 13,
+   "w": 0.0,
+   "gross": 13.0,
+   "buy": 13,
+   "buy_unit": "nos",
+   "unit_size": 1,
+   "rate": 180,
+   "line_cost": 2340.0,
+   "cost": 2340,
+   "group": "Electrical"
+  },
+  {
+   "key": "BXLT",
+   "name": "Round light junction box",
+   "unit": "nos",
+   "net": 110,
+   "w": 0.0,
+   "gross": 110.0,
+   "buy": 110,
+   "buy_unit": "nos",
+   "unit_size": 1,
+   "rate": 60,
+   "line_cost": 6600.0,
+   "cost": 6600,
+   "group": "Electrical"
+  },
+  {
+   "key": "BXAP",
+   "name": "Ceiling box for Wi-Fi access point",
+   "unit": "nos",
+   "net": 5,
+   "w": 0.0,
+   "gross": 5.0,
+   "buy": 5,
+   "buy_unit": "nos",
+   "unit_size": 1,
+   "rate": 150,
+   "line_cost": 750.0,
+   "cost": 750,
+   "group": "Electrical"
+  },
+  {
+   "key": "BXCC",
+   "name": "CCTV camera junction box",
+   "unit": "nos",
+   "net": 7,
+   "w": 0.0,
+   "gross": 7.0,
+   "buy": 7,
+   "buy_unit": "nos",
+   "unit_size": 1,
+   "rate": 150,
+   "line_cost": 1050.0,
+   "cost": 1050,
+   "group": "Electrical"
+  },
+  {
+   "key": "BXNVR",
+   "name": "NVR / router enclosure box",
+   "unit": "nos",
+   "net": 1,
+   "w": 0.0,
+   "gross": 1.0,
+   "buy": 1,
+   "buy_unit": "nos",
+   "unit_size": 1,
+   "rate": 400,
+   "line_cost": 400.0,
+   "cost": 400,
+   "group": "Electrical"
+  },
+  {
+   "key": "BXBELL",
+   "name": "Bell push box",
+   "unit": "nos",
+   "net": 2,
+   "w": 0.0,
+   "gross": 2.0,
+   "buy": 2,
+   "buy_unit": "nos",
+   "unit_size": 1,
+   "rate": 120,
+   "line_cost": 240.0,
+   "cost": 240,
+   "group": "Electrical"
+  },
+  {
+   "key": "DB12",
+   "name": "DB enclosure 12-way (empty)",
+   "unit": "nos",
+   "net": 1,
+   "w": 0.0,
+   "gross": 1.0,
+   "buy": 1,
+   "buy_unit": "nos",
+   "unit_size": 1,
+   "rate": 4500,
+   "line_cost": 4500.0,
+   "cost": 4500,
+   "group": "Electrical"
+  },
+  {
+   "key": "DB8",
+   "name": "DB enclosure 8-way (empty)",
+   "unit": "nos",
+   "net": 2,
+   "w": 0.0,
+   "gross": 2.0,
+   "buy": 2,
+   "buy_unit": "nos",
+   "unit_size": 1,
+   "rate": 3200,
+   "line_cost": 6400.0,
+   "cost": 6400,
+   "group": "Electrical"
+  },
+  {
+   "key": "DB6",
+   "name": "DB enclosure 6-way (empty)",
+   "unit": "nos",
+   "net": 1,
+   "w": 0.0,
+   "gross": 1.0,
+   "buy": 1,
+   "buy_unit": "nos",
+   "unit_size": 1,
+   "rate": 2800,
+   "line_cost": 2800.0,
+   "cost": 2800,
+   "group": "Electrical"
+  },
+  {
+   "key": "DB4",
+   "name": "DB enclosure 4-way (empty)",
+   "unit": "nos",
+   "net": 2,
+   "w": 0.0,
+   "gross": 2.0,
+   "buy": 2,
+   "buy_unit": "nos",
+   "unit_size": 1,
+   "rate": 2000,
+   "line_cost": 4000.0,
+   "cost": 4000,
+   "group": "Electrical"
+  },
+  {
+   "key": "EVBOX",
+   "name": "EV charger isolator enclosure",
+   "unit": "nos",
+   "net": 1,
+   "w": 0.0,
+   "gross": 1.0,
+   "buy": 1,
+   "buy_unit": "nos",
+   "unit_size": 1,
+   "rate": 2500,
+   "line_cost": 2500.0,
+   "cost": 2500,
+   "group": "Electrical"
+  },
+  {
+   "key": "ROD",
+   "name": "Copper-bonded earth rod 5/8\" x 10 ft",
+   "unit": "nos",
+   "net": 3,
+   "w": 0.0,
+   "gross": 3.0,
+   "buy": 3,
+   "buy_unit": "nos",
+   "unit_size": 1,
+   "rate": 9000,
+   "line_cost": 27000.0,
+   "cost": 27000,
+   "group": "Earthing"
+  },
+  {
+   "key": "ECMP",
+   "name": "Earthing compound, 25 kg bag",
+   "unit": "bag",
+   "net": 6,
+   "w": 0.0,
+   "gross": 6.0,
+   "buy": 6,
+   "buy_unit": "bag",
+   "unit_size": 1,
+   "rate": 3500,
+   "line_cost": 21000.0,
+   "cost": 21000,
+   "group": "Earthing"
+  },
+  {
+   "key": "ECHM",
+   "name": "Earth-pit inspection chamber with cover",
+   "unit": "nos",
+   "net": 3,
+   "w": 0.0,
+   "gross": 3.0,
+   "buy": 3,
+   "buy_unit": "nos",
+   "unit_size": 1,
+   "rate": 3000,
+   "line_cost": 9000.0,
+   "cost": 9000,
+   "group": "Earthing"
+  },
+  {
+   "key": "SLV2",
+   "name": "PVC sleeve 2\"",
+   "unit": "ft",
+   "net": 6,
+   "w": 0.0,
+   "gross": 6.0,
+   "buy": 6,
+   "buy_unit": "ft",
+   "unit_size": 1,
+   "rate": 120,
+   "line_cost": 720.0,
+   "cost": 720,
+   "group": "Electrical"
+  },
+  {
+   "key": "JBOLT",
+   "name": "M12 x 250 mm galvanised J-bolt with nut and washer",
+   "unit": "nos",
+   "net": 68,
+   "w": 0.0,
+   "gross": 68.0,
+   "buy": 68,
+   "buy_unit": "nos",
+   "unit_size": 1,
+   "rate": 250,
+   "line_cost": 17000.0,
+   "cost": 17000,
+   "group": "Solar plinths"
+  }
+ ],
+ "rates": {
+  "CEM": [
+   "Cement OPC, 50 kg bag (Lucky / Bestway / Maple Leaf)",
+   "bag",
+   "bag",
+   1,
+   0.03,
+   1560,
+   "Sep 2026",
+   "ARY News \"Cement Price in Pakistan Today\", 15 Aug 2026 (Rs 1,500-1,610/bag); Sep 2026 brand list (Lucky 1,500-1,540, Bestway 1,430-1,570, Maple Leaf 1,570) - Faisalabad estimate",
+   "Cement"
+  ],
+  "BRK": [
+   "Bricks, first class (awwal), 9\" x 4\u00bd\" x 3\"",
+   "nos",
+   "1,000 bricks",
+   1000,
+   0.05,
+   16.0,
+   "Jan-Oct 2026",
+   "The News (PBS) Jan 2026: Lahore Rs 17,463/1,000; Pak Observer: Faisalabad DC-fixed A-class Rs 12,000/1,000 - market estimate Rs 16,000/1,000",
+   "Bricks"
+  ],
+  "ST2": [
+   "Steel Grade 60 deformed, #2 (6 mm) rings",
+   "kg",
+   "10 kg",
+   10,
+   0.04,
+   270,
+   "Sep 2026",
+   "Grade 60 Rs 258-265/kg (Daily Ausaf 19 Sep 2026 / Daily Qudrat 26 Sep 2026 price reports) + small-bar premium (estimated)",
+   "Steel"
+  ],
+  "ST3": [
+   "Steel Grade 60 deformed, #3 (10 mm) (Amreli / Mughal / FF Steel)",
+   "kg",
+   "10 kg",
+   10,
+   0.04,
+   262,
+   "Sep 2026",
+   "Grade 60 Rs 258-265/kg (Daily Ausaf 19 Sep 2026 / Daily Qudrat 26 Sep 2026 price reports)",
+   "Steel"
+  ],
+  "ST4": [
+   "Steel Grade 60 deformed, #4 (12 mm)",
+   "kg",
+   "10 kg",
+   10,
+   0.04,
+   262,
+   "Sep 2026",
+   "as #3",
+   "Steel"
+  ],
+  "ST6": [
+   "Steel Grade 60 deformed, #6 (20 mm)",
+   "kg",
+   "10 kg",
+   10,
+   0.04,
+   262,
+   "Sep 2026",
+   "as #3",
+   "Steel"
+  ],
+  "BWIRE": [
+   "Binding wire, annealed 18 gauge",
+   "kg",
+   "5 kg",
+   5,
+   0.0,
+   400,
+   "Oct 2026",
+   "estimated",
+   "Steel"
+  ],
+  "SNDC": [
+   "Chenab sand (concrete, screed)",
+   "cft",
+   "50 cft",
+   50,
+   0.08,
+   65,
+   "Jul 2026",
+   "toolsfluent.com Pakistan construction cost guide 2026: river sand Rs 65/cft",
+   "Sand"
+  ],
+  "SNDM": [
+   "Ravi sand (mortar, plaster, blinding, fill)",
+   "cft",
+   "50 cft",
+   50,
+   0.08,
+   40,
+   "Oct 2026",
+   "estimated (about 60% of Chenab sand rate)",
+   "Sand"
+  ],
+  "CRS": [
+   "Crush \u00be\" down, Sargodha (bajri)",
+   "cft",
+   "50 cft",
+   50,
+   0.05,
+   110,
+   "Jul 2026",
+   "toolsfluent.com 2026 guide: crush Rs 105/cft + delivery to Faisalabad (estimated)",
+   "Crush"
+  ],
+  "KHG": [
+   "Stone ballast (khangar) 1\u00bd\"-2\u00bd\"",
+   "cft",
+   "50 cft",
+   50,
+   0.05,
+   90,
+   "Oct 2026",
+   "estimated",
+   "Stone ballast"
+  ],
+  "EARTH": [
+   "Earth (mitti) for filling, delivered",
+   "cft",
+   "50 cft",
+   50,
+   0.0,
+   25,
+   "Oct 2026",
+   "estimated (~Rs 2,500 per 100-cft tractor-trolley); 20% compaction already in quantity",
+   "Earth"
+  ],
+  "POLY": [
+   "Polythene sheet 0.2 mm (800 gauge)",
+   "kg",
+   "kg",
+   1,
+   0.05,
+   550,
+   "Oct 2026",
+   "estimated",
+   "Waterproofing"
+  ],
+  "BIT": [
+   "Hot bitumen 60/70 (drum)",
+   "kg",
+   "10 kg",
+   10,
+   0.05,
+   280,
+   "2025-26",
+   "Argus Media: NRL 60/70 bitumen FOB Karachi $380-420/t (Sep-Nov 2025) + local drum and dealer margin (estimated)",
+   "Waterproofing"
+  ],
+  "ADMX": [
+   "Integral waterproofing compound (powder), 1 kg per bag of cement",
+   "kg",
+   "kg",
+   1,
+   0.0,
+   350,
+   "Oct 2026",
+   "estimated",
+   "Waterproofing"
+  ],
+  "PRIM": [
+   "Bitumen primer",
+   "L",
+   "4 L tin",
+   4,
+   0.05,
+   900,
+   "Oct 2026",
+   "estimated",
+   "Waterproofing"
+  ],
+  "MEMB": [
+   "4 mm APP/SBS modified-bitumen membrane (1 m x 10 m roll)",
+   "m2",
+   "roll (10 m2)",
+   10,
+   0.05,
+   700,
+   "Oct 2026",
+   "estimated, material only",
+   "Waterproofing"
+  ],
+  "LPG": [
+   "LPG for torching (11.8 kg cylinder)",
+   "kg",
+   "cylinder (11.8 kg)",
+   11.8,
+   0.0,
+   300,
+   "Oct 2026",
+   "estimated (often supplied by applicator)",
+   "Waterproofing"
+  ],
+  "COATW": [
+   "Polymer-modified cementitious waterproof coating (2-component)",
+   "kg",
+   "5 kg",
+   5,
+   0.05,
+   450,
+   "Oct 2026",
+   "estimated",
+   "Waterproofing"
+  ],
+  "COATF": [
+   "Food-safe (potable-water) cementitious coating",
+   "kg",
+   "5 kg",
+   5,
+   0.05,
+   550,
+   "Oct 2026",
+   "estimated",
+   "Waterproofing"
+  ],
+  "WSTOP": [
+   "PVC water-stop 150 mm",
+   "ft",
+   "ft",
+   1,
+   0.05,
+   650,
+   "Oct 2026",
+   "estimated",
+   "Waterproofing"
+  ],
+  "TERM": [
+   "Termiticide: bifenthrin 10% EC (1 L makes 200 L emulsion)",
+   "L",
+   "L",
+   1,
+   0.05,
+   3500,
+   "Oct 2026",
+   "estimated",
+   "Anti-termite"
+  ],
+  "TILE": [
+   "Bhatta (brick) roof tiles 9\" x 4\u00bd\" x 1\u00bd\"",
+   "nos",
+   "100 tiles",
+   100,
+   0.05,
+   20,
+   "Oct 2026",
+   "estimated",
+   "Roof tiles"
+  ],
+  "MESH": [
+   "Galvanised chicken mesh, roll 3 ft x 100 ft",
+   "roll",
+   "roll",
+   1,
+   0.05,
+   5500,
+   "Oct 2026",
+   "estimated",
+   "Chicken mesh"
+  ],
+  "NAIL": [
+   "Concrete nails with washers for mesh",
+   "kg",
+   "kg",
+   1,
+   0.0,
+   450,
+   "Oct 2026",
+   "estimated",
+   "Chicken mesh"
+  ],
+  "UP5": [
+   "UPVC sewer pipe 5\" (Dadex / Beta)",
+   "ft",
+   "20-ft length",
+   20,
+   0.07,
+   420,
+   "Oct 2026",
+   "estimated",
+   "Sewer pipes"
+  ],
+  "UP4": [
+   "UPVC sewer pipe 4\"",
+   "ft",
+   "20-ft length",
+   20,
+   0.07,
+   300,
+   "Oct 2026",
+   "estimated",
+   "Sewer pipes"
+  ],
+  "UP3": [
+   "UPVC pipe 3\" (waste / vent)",
+   "ft",
+   "20-ft length",
+   20,
+   0.07,
+   200,
+   "Oct 2026",
+   "estimated",
+   "Sewer pipes"
+  ],
+  "RWP3": [
+   "UPVC rain-water pipe 3\"",
+   "ft",
+   "20-ft length",
+   20,
+   0.07,
+   200,
+   "Oct 2026",
+   "estimated",
+   "Sewer pipes"
+  ],
+  "FUP5": [
+   "UPVC fittings 5\" (bends, tees, sockets)",
+   "nos",
+   "nos",
+   1,
+   0.0,
+   950,
+   "Oct 2026",
+   "estimated",
+   "Sewer pipes"
+  ],
+  "FUP4": [
+   "UPVC fittings 4\"",
+   "nos",
+   "nos",
+   1,
+   0.0,
+   600,
+   "Oct 2026",
+   "estimated",
+   "Sewer pipes"
+  ],
+  "FUP3": [
+   "UPVC fittings 3\" incl. floor / gully traps, roof outlets",
+   "nos",
+   "nos",
+   1,
+   0.0,
+   380,
+   "Oct 2026",
+   "estimated",
+   "Sewer pipes"
+  ],
+  "COWL": [
+   "Vent cowl 3\"",
+   "nos",
+   "nos",
+   1,
+   0.0,
+   600,
+   "Oct 2026",
+   "estimated",
+   "Sewer pipes"
+  ],
+  "CICOV": [
+   "Heavy-duty CI manhole cover with frame 20\" x 20\"",
+   "nos",
+   "nos",
+   1,
+   0.0,
+   15000,
+   "Oct 2026",
+   "estimated",
+   "Covers"
+  ],
+  "UGTCOV": [
+   "Lockable steel / CI tank cover 2' x 2'",
+   "nos",
+   "nos",
+   1,
+   0.0,
+   12000,
+   "Oct 2026",
+   "estimated",
+   "Covers"
+  ],
+  "PVC20": [
+   "PVC drain pipe \u00be\" (20 mm) for A.C condensate",
+   "ft",
+   "10-ft length",
+   10,
+   0.07,
+   35,
+   "Oct 2026",
+   "estimated",
+   "Sewer pipes"
+  ],
+  "SSCAP": [
+   "Stainless-steel mesh cap for A.C drain outlet",
+   "nos",
+   "nos",
+   1,
+   0.0,
+   350,
+   "Oct 2026",
+   "estimated",
+   "Sewer pipes"
+  ],
+  "PPR114": [
+   "PPR pipe 1\u00bc\" (40 mm) PN-16 (Popular / Dadex / Master)",
+   "ft",
+   "13-ft length",
+   13,
+   0.07,
+   270,
+   "May 2026",
+   "icons.com.pk PPRC price list 25 May 2026 (32 mm Rs 463-751/m) - 40 mm estimated",
+   "Water pipes"
+  ],
+  "PPR1": [
+   "PPR pipe 1\" (32 mm) PN-16",
+   "ft",
+   "13-ft length",
+   13,
+   0.07,
+   175,
+   "May 2026",
+   "icons.com.pk 25 May 2026: 32 mm Rs 463-751/m",
+   "Water pipes"
+  ],
+  "PPR34C": [
+   "PPR pipe \u00be\" (25 mm) PN-16, cold",
+   "ft",
+   "13-ft length",
+   13,
+   0.07,
+   110,
+   "May 2026",
+   "icons.com.pk 25 May 2026: 25 mm Rs 288-462/m",
+   "Water pipes"
+  ],
+  "PPR12C": [
+   "PPR pipe \u00bd\" (20 mm) PN-16, cold",
+   "ft",
+   "13-ft length",
+   13,
+   0.07,
+   70,
+   "May 2026",
+   "icons.com.pk 25 May 2026 (from Rs 186/m) - estimated",
+   "Water pipes"
+  ],
+  "PPR34H": [
+   "PPR pipe \u00be\" (25 mm) PN-20, hot",
+   "ft",
+   "13-ft length",
+   13,
+   0.07,
+   135,
+   "May 2026",
+   "icons.com.pk 25 May 2026 upper range - estimated",
+   "Water pipes"
+  ],
+  "PPR12H": [
+   "PPR pipe \u00bd\" (20 mm) PN-20, hot",
+   "ft",
+   "13-ft length",
+   13,
+   0.07,
+   85,
+   "May 2026",
+   "estimated",
+   "Water pipes"
+  ],
+  "GI": [
+   "GI pipe medium class \u00bd\"-\u00be\" for gas (SNGPL-approved)",
+   "ft",
+   "20-ft length",
+   20,
+   0.07,
+   260,
+   "Oct 2026",
+   "estimated",
+   "Gas pipes"
+  ],
+  "FPPR": [
+   "PPR fittings (average)",
+   "nos",
+   "nos",
+   1,
+   0.0,
+   120,
+   "Oct 2026",
+   "estimated",
+   "Water pipes"
+  ],
+  "VALVE": [
+   "Ball / gate valves (average)",
+   "nos",
+   "nos",
+   1,
+   0.0,
+   900,
+   "Oct 2026",
+   "estimated",
+   "Water pipes"
+  ],
+  "FLOAT": [
+   "Float valve \u00be\" for underground tank",
+   "nos",
+   "nos",
+   1,
+   0.0,
+   2500,
+   "Oct 2026",
+   "estimated",
+   "Water pipes"
+  ],
+  "FGI": [
+   "GI fittings \u00bd\"-\u00be\"",
+   "nos",
+   "nos",
+   1,
+   0.0,
+   250,
+   "Oct 2026",
+   "estimated",
+   "Gas pipes"
+  ],
+  "C34": [
+   "PVC conduit \u00be\" heavy gauge",
+   "ft",
+   "10-ft length",
+   10,
+   0.07,
+   25,
+   "Oct 2026",
+   "estimated",
+   "Electrical"
+  ],
+  "C1": [
+   "PVC conduit 1\" heavy gauge",
+   "ft",
+   "10-ft length",
+   10,
+   0.07,
+   38,
+   "Oct 2026",
+   "estimated",
+   "Electrical"
+  ],
+  "C114": [
+   "PVC conduit 1\u00bc\" heavy gauge",
+   "ft",
+   "10-ft length",
+   10,
+   0.07,
+   56,
+   "Oct 2026",
+   "estimated",
+   "Electrical"
+  ],
+  "C112": [
+   "PVC conduit 1\u00bd\" heavy gauge",
+   "ft",
+   "10-ft length",
+   10,
+   0.07,
+   75,
+   "Oct 2026",
+   "estimated",
+   "Electrical"
+  ],
+  "BEND34": [
+   "Conduit bend \u00be\"",
+   "nos",
+   "nos",
+   1,
+   0.0,
+   35,
+   "Oct 2026",
+   "estimated",
+   "Electrical"
+  ],
+  "BEND1": [
+   "Conduit bend 1\"",
+   "nos",
+   "nos",
+   1,
+   0.0,
+   55,
+   "Oct 2026",
+   "estimated",
+   "Electrical"
+  ],
+  "BEND114": [
+   "Conduit bend 1\u00bc\"",
+   "nos",
+   "nos",
+   1,
+   0.0,
+   90,
+   "Oct 2026",
+   "estimated",
+   "Electrical"
+  ],
+  "BEND112": [
+   "Conduit bend 1\u00bd\"",
+   "nos",
+   "nos",
+   1,
+   0.0,
+   120,
+   "Oct 2026",
+   "estimated",
+   "Electrical"
+  ],
+  "CPL34": [
+   "Conduit coupler \u00be\"",
+   "nos",
+   "nos",
+   1,
+   0.0,
+   15,
+   "Oct 2026",
+   "estimated",
+   "Electrical"
+  ],
+  "CPL1": [
+   "Conduit coupler 1\"",
+   "nos",
+   "nos",
+   1,
+   0.0,
+   25,
+   "Oct 2026",
+   "estimated",
+   "Electrical"
+  ],
+  "CPL114": [
+   "Conduit coupler 1\u00bc\"",
+   "nos",
+   "nos",
+   1,
+   0.0,
+   40,
+   "Oct 2026",
+   "estimated",
+   "Electrical"
+  ],
+  "CPL112": [
+   "Conduit coupler 1\u00bd\"",
+   "nos",
+   "nos",
+   1,
+   0.0,
+   55,
+   "Oct 2026",
+   "estimated",
+   "Electrical"
+  ],
+  "SOLV": [
+   "PVC solvent cement (tin)",
+   "nos",
+   "nos",
+   1,
+   0.0,
+   600,
+   "Oct 2026",
+   "estimated",
+   "Electrical"
+  ],
+  "BXSB": [
+   "Switch-board back box (assorted 3\"x3\" to 12\"x3\")",
+   "nos",
+   "nos",
+   1,
+   0.0,
+   250,
+   "Oct 2026",
+   "estimated",
+   "Electrical"
+  ],
+  "BXSKT": [
+   "Socket back box",
+   "nos",
+   "nos",
+   1,
+   0.0,
+   120,
+   "Oct 2026",
+   "estimated",
+   "Electrical"
+  ],
+  "BXAC": [
+   "A.C point box",
+   "nos",
+   "nos",
+   1,
+   0.0,
+   150,
+   "Oct 2026",
+   "estimated",
+   "Electrical"
+  ],
+  "BXFAN": [
+   "Fan box with hook",
+   "nos",
+   "nos",
+   1,
+   0.0,
+   180,
+   "Oct 2026",
+   "estimated",
+   "Electrical"
+  ],
+  "BXLT": [
+   "Round light junction box",
+   "nos",
+   "nos",
+   1,
+   0.0,
+   60,
+   "Oct 2026",
+   "estimated",
+   "Electrical"
+  ],
+  "BXAP": [
+   "Ceiling box for Wi-Fi access point",
+   "nos",
+   "nos",
+   1,
+   0.0,
+   150,
+   "Oct 2026",
+   "estimated",
+   "Electrical"
+  ],
+  "BXCC": [
+   "CCTV camera junction box",
+   "nos",
+   "nos",
+   1,
+   0.0,
+   150,
+   "Oct 2026",
+   "estimated",
+   "Electrical"
+  ],
+  "BXNVR": [
+   "NVR / router enclosure box",
+   "nos",
+   "nos",
+   1,
+   0.0,
+   400,
+   "Oct 2026",
+   "estimated",
+   "Electrical"
+  ],
+  "BXBELL": [
+   "Bell push box",
+   "nos",
+   "nos",
+   1,
+   0.0,
+   120,
+   "Oct 2026",
+   "estimated",
+   "Electrical"
+  ],
+  "DB12": [
+   "DB enclosure 12-way (empty)",
+   "nos",
+   "nos",
+   1,
+   0.0,
+   4500,
+   "Oct 2026",
+   "estimated",
+   "Electrical"
+  ],
+  "DB8": [
+   "DB enclosure 8-way (empty)",
+   "nos",
+   "nos",
+   1,
+   0.0,
+   3200,
+   "Oct 2026",
+   "estimated",
+   "Electrical"
+  ],
+  "DB6": [
+   "DB enclosure 6-way (empty)",
+   "nos",
+   "nos",
+   1,
+   0.0,
+   2800,
+   "Oct 2026",
+   "estimated",
+   "Electrical"
+  ],
+  "DB4": [
+   "DB enclosure 4-way (empty)",
+   "nos",
+   "nos",
+   1,
+   0.0,
+   2000,
+   "Oct 2026",
+   "estimated",
+   "Electrical"
+  ],
+  "EVBOX": [
+   "EV charger isolator enclosure",
+   "nos",
+   "nos",
+   1,
+   0.0,
+   2500,
+   "Oct 2026",
+   "estimated",
+   "Electrical"
+  ],
+  "ROD": [
+   "Copper-bonded earth rod 5/8\" x 10 ft",
+   "nos",
+   "nos",
+   1,
+   0.0,
+   9000,
+   "Oct 2026",
+   "estimated",
+   "Earthing"
+  ],
+  "ECMP": [
+   "Earthing compound, 25 kg bag",
+   "bag",
+   "bag",
+   1,
+   0.0,
+   3500,
+   "Oct 2026",
+   "estimated",
+   "Earthing"
+  ],
+  "ECHM": [
+   "Earth-pit inspection chamber with cover",
+   "nos",
+   "nos",
+   1,
+   0.0,
+   3000,
+   "Oct 2026",
+   "estimated",
+   "Earthing"
+  ],
+  "SLV2": [
+   "PVC sleeve 2\"",
+   "ft",
+   "ft",
+   1,
+   0.0,
+   120,
+   "Oct 2026",
+   "estimated",
+   "Electrical"
+  ],
+  "JBOLT": [
+   "M12 x 250 mm galvanised J-bolt with nut and washer",
+   "nos",
+   "nos",
+   1,
+   0.0,
+   250,
+   "Oct 2026",
+   "estimated",
+   "Solar plinths"
+  ]
+ },
+ "cost_lines": 9132444.064140985,
+ "cost_total": 9189795.0,
+ "covered": 4104,
+ "stage_cost": {
+  "S1": 0,
+  "S2": 0,
+  "S3": 41407.2789300943,
+  "S4": 853543.9291840794,
+  "S5": 405590.36372152524,
+  "S6": 333581.32134096214,
+  "S7": 1697074.607386489,
+  "S8": 2760483.1002229927,
+  "S9": 561331.3106384244,
+  "S10": 509522.5314178207,
+  "S11": 444965.08720714273,
+  "S12": 80399.63439678852,
+  "S13": 424095.0122901254,
+  "S14": 356659.9287545424,
+  "S15": 576794.559940347,
+  "S16": 57541.00435990385
+ },
+ "bw_cost": 29454.394349746213,
+ "steel_rows": [
+  [
+   "Column footing",
+   {
+    "ST2": 0.0,
+    "ST3": 0.0,
+    "ST4": 11.665488571660001,
+    "ST6": 0.0
+   }
+  ],
+  [
+   "Plinth beam",
+   {
+    "ST2": 78.69259439482417,
+    "ST3": 0.0,
+    "ST4": 489.9505225107454,
+    "ST6": 0.0
+   }
+  ],
+  [
+   "Column",
+   {
+    "ST2": 0.0,
+    "ST3": 23.194899432320003,
+    "ST4": 0.0,
+    "ST6": 51.77847622024
+   }
+  ],
+  [
+   "Slabs",
+   {
+    "ST2": 0.0,
+    "ST3": 2506.1393842392445,
+    "ST4": 580.0838417087252,
+    "ST6": 55.035069856197204
+   }
+  ],
+  [
+   "Concealed beams",
+   {
+    "ST2": 0.0,
+    "ST3": 268.0713955305144,
+    "ST4": 107.87692371611419,
+    "ST6": 867.7790558075973
+   }
+  ],
+  [
+   "Lintels",
+   {
+    "ST2": 26.893193153520542,
+    "ST3": 204.22269840560648,
+    "ST4": 393.00273498664643,
+    "ST6": 0.0
+   }
+  ],
+  [
+   "Bed plates",
+   {
+    "ST2": 0.0,
+    "ST3": 0.0,
+    "ST4": 57.49419367461,
+    "ST6": 0.0
+   }
+  ],
+  [
+   "Stairs",
+   {
+    "ST2": 0.0,
+    "ST3": 96.7875399106,
+    "ST4": 524.9593441183838,
+    "ST6": 0.0
+   }
+  ],
+  [
+   "Chajjas",
+   {
+    "ST2": 0.0,
+    "ST3": 39.82359571652,
+    "ST4": 0.0,
+    "ST6": 0.0
+   }
+  ],
+  [
+   "Elevation RCC",
+   {
+    "ST2": 0.0,
+    "ST3": 25.582609668,
+    "ST4": 0.0,
+    "ST6": 0.0
+   }
+  ],
+  [
+   "Coping",
+   {
+    "ST2": 0.0,
+    "ST3": 78.72280647036962,
+    "ST4": 0.0,
+    "ST6": 0.0
+   }
+  ],
+  [
+   "Sunken slabs",
+   {
+    "ST2": 0.0,
+    "ST3": 101.19343379786669,
+    "ST4": 0.0,
+    "ST6": 0.0
+   }
+  ],
+  [
+   "Manhole covers",
+   {
+    "ST2": 0.0,
+    "ST3": 41.7849291244,
+    "ST4": 0.0,
+    "ST6": 0.0
+   }
+  ],
+  [
+   "Septic tank",
+   {
+    "ST2": 0.0,
+    "ST3": 59.09599888381113,
+    "ST4": 0.0,
+    "ST6": 0.0
+   }
+  ],
+  [
+   "Water tank",
+   {
+    "ST2": 0.0,
+    "ST3": 134.60733508719113,
+    "ST4": 0.0,
+    "ST6": 0.0
+   }
+  ],
+  [
+   "Tank platform",
+   {
+    "ST2": 0.0,
+    "ST3": 20.4660877344,
+    "ST4": 0.0,
+    "ST6": 0.0
+   }
+  ],
+  [
+   "Solar plinths",
+   {
+    "ST2": 23.179477291740003,
+    "ST3": 40.59107400656,
+    "ST4": 0.0,
+    "ST6": 0.0
+   }
+  ],
+  [
+   "Boundary walls",
+   {
+    "ST2": 26.365049520927514,
+    "ST3": 145.34350361119513,
+    "ST4": 0.0,
+    "ST6": 0.0
+   }
+  ]
+ ],
+ "steel_keys": [
+  "ST2",
+  "ST3",
+  "ST4",
+  "ST6"
+ ],
+ "stage_buy": {
+  "S1": {},
+  "S2": {},
+  "S3": {
+   "TERM": 11.830651122884085
+  },
+  "S4": {
+   "CEM": 142.1352551622427,
+   "SNDC": 142.7866814110269,
+   "CRS": 277.64076941033005,
+   "SNDM": 894.1327976643764,
+   "BRK": 34314.30692790919,
+   "ST4": 12.132108114526401,
+   "ADMX": 0.7184432142857142,
+   "BIT": 13.453650000000001,
+   "BWIRE": 0.12132108114526402
+  },
+  "S5": {
+   "CEM": 59.08977255634854,
+   "SNDC": 114.6940053130816,
+   "CRS": 223.01612144210313,
+   "ST4": 509.5485434111752,
+   "ST2": 81.84029817061715,
+   "ADMX": 20.957915882269646,
+   "BIT": 414.5624089008407,
+   "SNDM": 60.30227247038887,
+   "BWIRE": 5.913888415817923
+  },
+  "S6": {
+   "KHG": 698.3085621050001,
+   "SNDM": 204.0512032125,
+   "POLY": 39.2361156359865,
+   "CEM": 45.12426676443539,
+   "SNDC": 236.57382575529235,
+   "CRS": 460.0046611908462,
+   "EARTH": 4184.79885862453
+  },
+  "S7": {
+   "CEM": 277.27189450300455,
+   "SNDM": 1895.1610034559772,
+   "BRK": 74295.25073897267
+  },
+  "S8": {
+   "CEM": 455.19878137700954,
+   "SNDC": 1274.8629189499095,
+   "CRS": 2478.9001201803794,
+   "ST6": 1013.5763059593958,
+   "ST3": 3477.487897697884,
+   "ST4": 1729.953719732659,
+   "ST2": 27.968920879661365,
+   "COATW": 72.210049128,
+   "BRK": 1422.3283593749998,
+   "SNDM": 52.94544750000001,
+   "BWIRE": 62.489868442696
+  },
+  "S9": {
+   "CEM": 116.98667154578243,
+   "SNDC": 451.9666161874392,
+   "PRIM": 66.03152525745955,
+   "MEMB": 220.10508419153186,
+   "LPG": 83.84955588248833,
+   "SNDM": 155.8613497321969,
+   "TILE": 5228.151027749998
+  },
+  "S10": {
+   "MESH": 17.267478192187273,
+   "NAIL": 14.950197568993307,
+   "CEM": 230.5231995867018,
+   "SNDM": 1205.1905274872208
+  },
+  "S11": {
+   "CEM": 29.79212734802198,
+   "SNDC": 32.10580868241759,
+   "CRS": 62.42796132692308,
+   "SNDM": 105.74776800000002,
+   "BRK": 3683.728125,
+   "ST3": 43.456326289376,
+   "CICOV": 2.0,
+   "UP5": 166.8183504441147,
+   "UP4": 136.79650326953018,
+   "UP3": 233.34819429353007,
+   "RWP3": 119.84,
+   "FUP5": 23.0,
+   "FUP4": 54.0,
+   "FUP3": 100.0,
+   "PVC20": 214.0,
+   "SSCAP": 10.0,
+   "BWIRE": 0.43456326289376
+  },
+  "S12": {
+   "CEM": 18.206224918941018,
+   "SNDC": 20.643485246604396,
+   "CRS": 40.14011020173077,
+   "ST3": 61.459838839163574,
+   "SNDM": 52.16294755497657,
+   "BRK": 1200.0182906250002,
+   "ADMX": 5.67370437703125,
+   "FUP5": 2.0,
+   "UP5": 4.28,
+   "UP3": 12.84,
+   "COWL": 1.0,
+   "BWIRE": 0.6145983883916357
+  },
+  "S13": {
+   "CEM": 21.624597756320835,
+   "SNDC": 43.965626721949164,
+   "CRS": 85.48871862601224,
+   "ADMX": 17.33366532690909,
+   "ST3": 161.2763597344548,
+   "WSTOP": 21.0,
+   "COATF": 36.22317161751188,
+   "BIT": 23.247,
+   "UGTCOV": 1.0,
+   "SNDM": 6.8677875,
+   "BRK": 159.46875,
+   "PPR114": 40.660000000000004,
+   "PPR1": 99.51,
+   "PPR34C": 460.1,
+   "PPR12C": 149.8,
+   "PPR34H": 385.20000000000005,
+   "PPR12H": 85.60000000000001,
+   "GI": 203.086,
+   "FPPR": 335.0,
+   "VALVE": 24.0,
+   "FLOAT": 1.0,
+   "FGI": 36.0,
+   "BWIRE": 1.612763597344548
+  },
+  "S14": {
+   "C34": 2848.34,
+   "C1": 1685.25,
+   "C114": 184.04000000000002,
+   "C112": 128.4,
+   "BEND34": 267.0,
+   "CPL34": 267.0,
+   "BEND1": 158.0,
+   "CPL1": 158.0,
+   "BEND114": 18.0,
+   "CPL114": 18.0,
+   "BEND112": 12.0,
+   "CPL112": 12.0,
+   "SOLV": 5.0,
+   "BXSB": 39.0,
+   "BXSKT": 79.0,
+   "BXAC": 10.0,
+   "BXFAN": 13.0,
+   "BXLT": 110.0,
+   "BXAP": 5.0,
+   "BXCC": 7.0,
+   "BXNVR": 1.0,
+   "BXBELL": 2.0,
+   "DB12": 1.0,
+   "DB8": 2.0,
+   "DB6": 1.0,
+   "DB4": 2.0,
+   "EVBOX": 1.0,
+   "ROD": 3.0,
+   "ECMP": 6.0,
+   "ECHM": 3.0,
+   "SLV2": 6.0,
+   "CEM": 10.233932857142857,
+   "SNDC": 26.82681428571429,
+   "CRS": 52.163250000000005,
+   "ST3": 42.2147169668224,
+   "ST2": 24.106656383409604,
+   "JBOLT": 68.0,
+   "BWIRE": 0.66321373350232
+  },
+  "S15": {
+   "CEM": 121.85316102894646,
+   "SNDC": 91.36808726785716,
+   "CRS": 177.66016968750003,
+   "SNDM": 633.5526164737502,
+   "BRK": 17220.183134765626,
+   "ST3": 151.15724375564292,
+   "ST2": 27.419651501764616,
+   "ADMX": 2.3868766071428578,
+   "BIT": 44.69692500000001,
+   "BWIRE": 1.7857689525740754
+  },
+  "S16": {
+   "SNDM": 91.26587812500001,
+   "CEM": 15.812455762019233,
+   "SNDC": 83.2705753846154,
+   "CRS": 133.9850076923077,
+   "BRK": 567.0
+  }
+ },
+ "levels": [
+  [
+   -48,
+   "Bottom of PCC under house footings (2'-6\" below NSL; ~6\" into the firm stratum)",
+   "C2"
+  ],
+  [
+   -45,
+   "Top of PCC 3\" / bottom of 27\" (22\u00bd\") brick step",
+   "C3"
+  ],
+  [
+   -27,
+   "Top of three 6\" brick steps; 13\u00bd\" foundation wall (9\" under 4\u00bd\" walls) starts",
+   "C1"
+  ],
+  [
+   -42,
+   "Firm natural soil starts (about 2'-0\" below NSL)",
+   "A2"
+  ],
+  [
+   -18,
+   "Natural surface level (NSL)",
+   "A1"
+  ],
+  [
+   0,
+   "Road crown; 13\u00bd\" wall steps to 9\" plinth wall",
+   "A1, C1"
+  ],
+  [
+   12,
+   "Finished level of side and rear passages (assumed, sloping 1:60 to drains)",
+   "G4"
+  ],
+  [
+   14,
+   "Finished lawn level (lawn filling excluded)",
+   "A3, A5"
+  ],
+  [
+   15,
+   "Finished level of both car porches; highest adjoining outside level",
+   "A3"
+  ],
+  [
+   22.5,
+   "Underside of 9\"x9\" RCC plinth beam",
+   "B4"
+  ],
+  [
+   23.5,
+   "Top of compacted earth fill inside the house",
+   "A3, A5"
+  ],
+  [
+   27.5,
+   "Top of 4\" khangar (stone ballast)",
+   "B2"
+  ],
+  [
+   28.5,
+   "Top of 1\" sand blinding; 0.2 mm polythene laid here",
+   "B2"
+  ],
+  [
+   31.5,
+   "Top of 3\" PCC sub-floor = top of plinth beam = underside of DPC",
+   "B2, B4"
+  ],
+  [
+   33,
+   "Top of DPC = finished floor level (top of tile, +2'-9\")",
+   "B4, B5"
+  ]
+ ],
+ "dpc_clear": 18,
+ "revlog": [
+  [
+   "Foundations",
+   "Excavation of house trenches (cft)",
+   2666.3334852731,
+   2550.3658710609793,
+   "C1, C2",
+   "sheet-05 widths 3'-0\" / 2'-6\"; PCC bottom 2'-6\" below NSL"
+  ],
+  [
+   "Foundations",
+   "PCC 1:4:8 3\" under footings (cft)",
+   242.39395320664542,
+   231.8514428237254,
+   "C1, C3",
+   "narrower sheet-05 PCC"
+  ],
+  [
+   "Foundations",
+   "RCC strip footing 6\" (cft) - S-02",
+   416.77937907253096,
+   0,
+   "C1",
+   "removed; its 673 kg of #3 steel removed too"
+  ],
+  [
+   "Foundations",
+   "Foundation brickwork 1:6 below road (cft)",
+   1075.3909258981625,
+   1717.247313164114,
+   "C1",
+   "steps 27\" / 22\u00bd\" / 18\" + 13\u00bd\" wall up to road level"
+  ],
+  [
+   "Foundations",
+   "Plinth brickwork above road (cft)",
+   744.5944771292526,
+   507.3160178391791,
+   "B4",
+   "now from road level to underside of beam at floor level"
+  ],
+  [
+   "Foundations",
+   "RCC plinth beam 9\" x 9\" (cft)",
+   203.07122103525072,
+   202.92640713567164,
+   "B4",
+   "moved from road level to floor level (sheet 05); steel per S-02"
+  ],
+  [
+   "Foundations",
+   "DPC 1\u00bd\" 1:2:4 (cft)",
+   33.84520350587512,
+   33.82106785594527,
+   "B4, B5",
+   "now with waterproofing compound + 2 coats bitumen; top = FFL"
+  ],
+  [
+   "Foundations",
+   "Vertical DPC (sft)",
+   607.9265068785141,
+   716.4848116782488,
+   "B6",
+   "height 4'-1\u00bd\" (was 3'-6\"); bitumen at 0.2 kg/sft/coat (was 0.25)"
+  ],
+  [
+   "Foundations",
+   "Car-porch column (cft)",
+   21.515625,
+   20.8828125,
+   "C5",
+   "height 16'-6\" with new levels"
+  ],
+  [
+   "Foundations",
+   "Edge / toe walls (cft of brickwork)",
+   28.125,
+   196.19906249999997,
+   "C6",
+   "6 edge walls 42'-9\" (D-D) replace 15 ft lawn toe wall"
+  ],
+  [
+   "Earthwork",
+   "Back-filling of house trenches (cft)",
+   964.9653906797316,
+   1142.8232830539368,
+   "A3",
+   "from the sheet-05 profile"
+  ],
+  [
+   "Earthwork",
+   "Earth filling inside house (cft)",
+   5791.049999999998,
+   5654.79,
+   "A3, A5",
+   "floor build-up now 9\u00bd\""
+  ],
+  [
+   "Earthwork",
+   "Earth filling under car porches (cft)",
+   614.1750000000001,
+   1060.2929115499999,
+   "A5",
+   "both porches full area (451 sft, was 246)"
+  ],
+  [
+   "Earthwork",
+   "Earth to buy (cft)",
+   3250,
+   4184.79885862453,
+   "A3-A5, G4",
+   "porches, passages and ramps now filled"
+  ],
+  [
+   "Anti-termite",
+   "Termiticide concentrate (L)",
+   0,
+   11.267286783699129,
+   "B1",
+   "new: trenches, plinth fill, perimeter"
+  ],
+  [
+   "Sub-floor",
+   "Sand fill 4\" under floors (cft)",
+   589.699,
+   0,
+   "B2",
+   "replaced by khangar + sand blinding + polythene"
+  ],
+  [
+   "Sub-floor",
+   "Khangar 4\" (cft)",
+   0,
+   665.0557734333333,
+   "B2",
+   "new capillary break"
+  ],
+  [
+   "Sub-floor",
+   "Sand blinding 1\" (cft)",
+   0,
+   188.93629927083333,
+   "B2",
+   "new"
+  ],
+  [
+   "Sub-floor",
+   "Polythene 0.2 mm (sft)",
+   0,
+   2185.2473203,
+   "B2, B3",
+   "new (\"graphite sheet\")"
+  ],
+  [
+   "Sub-floor",
+   "PCC 3\" sub-floor, rooms + porches (cft)",
+   402.06749999999994,
+   453.44711824999996,
+   "A5, B2",
+   "porches full area"
+  ],
+  [
+   "Sub-floor",
+   "Upper-floor 3\" PCC sub-base (cft)",
+   436.3,
+   388.51875,
+   "E3",
+   "less sunken bath areas"
+  ],
+  [
+   "Masonry",
+   "9\" walls GF+FF+mumty: cement (bags)",
+   190.7726970336824,
+   163.51945460029918,
+   "D1",
+   "mortar 1:6 (was 1:5); brick volume unchanged"
+  ],
+  [
+   "RCC",
+   "Superstructure RCC (slabs, beams, lintels, stairs, chajjas, coping)",
+   1,
+   1,
+   "E1, E2",
+   "unchanged; dining-opening 8'-0\" lintel kept"
+  ],
+  [
+   "RCC",
+   "Sunken bath slabs: extra concrete (cft)",
+   0,
+   25.494791666666664,
+   "E3",
+   "new: + steel, coating and brick-bat fill"
+  ],
+  [
+   "Roof",
+   "Roof waterproofing and tiles (sft of roof)",
+   0,
+   1658.8206999999995,
+   "F3",
+   "was optional item O1 (not in total); now screed + membrane + gola + bhatta tiles"
+  ],
+  [
+   "Plaster",
+   "Ceiling plaster (sft)",
+   3442.1829958160565,
+   0,
+   "F1",
+   "deleted (false ceilings)"
+  ],
+  [
+   "Plaster",
+   "External soffit plaster (sft)",
+   0,
+   240.79422418674585,
+   "F1",
+   "new separate line"
+  ],
+  [
+   "Plaster",
+   "GF external plaster (sft)",
+   1595.20625,
+   1428.45625,
+   "A3, F1",
+   "exposed plinth 2'-0\" (was 3'-3\")"
+  ],
+  [
+   "Plaster",
+   "Chicken mesh (rolls 3' x 100')",
+   0,
+   16.445217325892642,
+   "D3",
+   "new: all junctions and chases"
+  ],
+  [
+   "Boundary",
+   "Boundary excavation (cft)",
+   877.9753125000002,
+   790.1777812500001,
+   "G3",
+   "PCC bottom 2'-3\" below NSL"
+  ],
+  [
+   "Boundary",
+   "Boundary brickwork below DPC (cft)",
+   319.26375,
+   618.1839843750001,
+   "G3",
+   "measured from natural ground (adds wall below band)"
+  ],
+  [
+   "Boundary",
+   "Boundary wall above DPC (cft)",
+   646.348125,
+   484.84687499999995,
+   "D1, G1, G2",
+   "mortar 1:6 (was 1:5); own back and right walls"
+  ],
+  [
+   "Boundary",
+   "Boundary DPC on plinth band (cft)",
+   0,
+   13.302656250000002,
+   "G3",
+   "new"
+  ],
+  [
+   "Boundary",
+   "Boundary plaster (sft)",
+   2055.2475000000004,
+   2089.6322000000005,
+   "F1",
+   "both faces on all sides"
+  ],
+  [
+   "Septic tank",
+   "Septic tank internal size",
+   "6'-0\" x 4'-0\" x 5'-6\", 2 chambers",
+   "4'-10\" x 3'-5\" x 5'-0\", 3 chambers",
+   "H1",
+   "drawing size, read as internal"
+  ],
+  [
+   "Sewerage",
+   "Manhole covers",
+   "9 RCC",
+   "7 RCC + 2 cast iron",
+   "H2",
+   "heavy covers in car porches"
+  ],
+  [
+   "Sewerage",
+   "Manhole 9\" brickwork (cft)",
+   346.5,
+   259.875,
+   "H2",
+   "arithmetic corrected: 9 x centre-line 11 ft x 9\" x 3'-6\" (Rev 0 left out the 9\" thickness)"
+  ],
+  [
+   "Sewerage",
+   "A.C condensate drains \u00be\" (ft)",
+   0,
+   200,
+   "H3",
+   "new, with stainless mesh caps"
+  ],
+  [
+   "Water",
+   "RCC overhead tank 1,000 gal (cft RCC)",
+   106.7,
+   0,
+   "I4",
+   "deleted; plastic tank (finishing) on RCC platform"
+  ],
+  [
+   "Water",
+   "Roof-tank platform (cft RCC)",
+   0,
+   8.333333333333332,
+   "I4",
+   "new"
+  ],
+  [
+   "Water",
+   "Underground water tank (cft RCC)",
+   0,
+   75.90378925,
+   "I1, I2",
+   "was optional O2; now ~515 gal, at back"
+  ],
+  [
+   "Water",
+   "PPR \u00be\" cold incl. society supply line (ft)",
+   369.7,
+   430,
+   "I3, I5",
+   "+60 ft supply to UGT"
+  ],
+  [
+   "Water",
+   "PPR 1\"-1\u00bc\" mains (ft)",
+   118,
+   131,
+   "I3",
+   "pump at back"
+  ],
+  [
+   "Electrical",
+   "\u00be\" conduit (ft)",
+   2900,
+   2662,
+   "J2, J8",
+   "no TV / intercom / +10% UPS; data + CCTV added"
+  ],
+  [
+   "Electrical",
+   "1\" conduit (ft)",
+   1390,
+   1575,
+   "J1, J5, J7",
+   "earth pits, pump, spare roof AC"
+  ],
+  [
+   "Electrical",
+   "1\u00bc\" conduit (ft)",
+   0,
+   172,
+   "J4, J5",
+   "inverter, backup DBs, DC spare"
+  ],
+  [
+   "Electrical",
+   "1\u00bd\" conduit (ft)",
+   85,
+   120,
+   "J6",
+   "EV charger run added"
+  ],
+  [
+   "Electrical",
+   "DB enclosures (nos)",
+   3,
+   6,
+   "J5",
+   "3 backup (essential-load) DBs added + EV box"
+  ],
+  [
+   "Electrical",
+   "Earth pits (nos)",
+   0,
+   3,
+   "J7",
+   "new"
+  ],
+  [
+   "Electrical",
+   "Solar mounting plinths (nos)",
+   0,
+   34,
+   "J3",
+   "new, 23 panels x 650 W"
+  ],
+  [
+   "External",
+   "Passage paving base (sft)",
+   0,
+   265.0,
+   "G4",
+   "was optional O3"
+  ],
+  [
+   "External",
+   "Ramps at both gates (sft)",
+   0,
+   183.3,
+   "G4",
+   "new"
+  ],
+  [
+   "Standards",
+   "Wastage cement / sand / steel / pipes",
+   "5% / 10% / 5% / 10%",
+   "3% / 8% / 4% / 7%",
+   "K2",
+   "crush and bricks stay 5%"
+  ],
+  [
+   "Standards",
+   "Binding wire (kg)",
+   85,
+   75,
+   "E4",
+   "10 kg per ton of steel"
+  ]
+ ],
+ "rec": [
+  [
+   "Two more terrace outlets (front-right, rear-right) and one mumty-roof spout",
+   -31443,
+   "with the drawn outlets the slope screed reaches ~5\u215c\" and the build-up ~7\u00be\" at the far corner (over the 6\u00bd\" allowed); 4 terrace outlets keep it within 5\u00be\" and save ~97 cft of screed"
+  ],
+  [
+   "Three 13\u00bd\" pillars in the new 37'-3\" back wall (about every 10 ft)",
+   5663,
+   "a free-standing 9\" wall 7'-0\" high and 37 ft long needs pillars for stability against wind and impact"
+  ],
+  [
+   "Roof thermal insulation: 1\" XPS board under the bhatta tiles (~1,581 sft)",
+   150195,
+   "cuts summer heat gain on the top floor; needs the extra outlets above so the build-up still fits"
+  ],
+  [
+   "Second (double) mesh of #3 @ 6\" in the underground tank walls",
+   23793,
+   "better crack control for a water-retaining wall"
+  ],
+  [
+   "Enlarge septic tank to a practical 3-chamber size, 7'-0\" x 3'-6\" internal",
+   30000,
+   "the drawing size gives chambers only ~1'-0\" long, too small to clean"
+  ],
+  [
+   "Vent / overflow pipe 1\u00bd\" with insect mesh for the underground tank",
+   2000,
+   "lets air out while filling; prevents insects"
+  ],
+  [
+   "Pump plinth 2'-0\" x 1'-6\" x 6\" RCC at the back",
+   635,
+   "keeps the pump off a wet floor"
+  ],
+  [
+   "ISP fibre / internet entry conduit 1\" from front wall to router point (~60 ft)",
+   2770,
+   "lets the internet cable come in concealed"
+  ]
+ ],
+ "ra": [
+  "The filled questionnaire was not attached to this session. The Final Decisions Register (which combines your answers) was used as the only record of your answers.",
+  "Plinth beam: sheet 05 gives size only (9\" x 9\"). Steel 2 #4 top + 2 #4 bottom with #2 rings @ 10\" and mix 1:2:4 are taken from the engineer's S-02 plinth beam.",
+  "DPC is 9\" wide on top of the plinth beam under ALL house walls, including 4\u00bd\" walls (sheet 05 section C-C shows the 9\" beam under 4\u00bd\" walls).",
+  "Finished level of side and rear passages taken as +1'-0\" (not drawn), sloping 1:60 to drains; paving finish allowance 3\" (finishing estimate).",
+  "Porch finish taken 1\u00bd\" thick (as house floor), so porch sub-floor PCC top is +1'-1\u00bd\".",
+  "Edge walls are founded like the boundary walls (PCC bottom 2'-3\" below NSL) and use the D-D section (steps 22\u00bd\"/18\"/13\u00bd\", 9\" wall, DPC at porch level).",
+  "Edge walls identified from the levels: toe wall lawn/porch 9'-3\", toe wall across left passage 4'-11\", rear porch edges 3'-1\" and 5'-0\", gate thresholds 12'-9\" and 7'-8\u00bc\" = 42'-9\".",
+  "Ramps are built outside the main and side gates on the road verge, slope 1:6, 7'-6\" long with 1'-0\" flares (gate thresholds stay at porch level +1'-3\").",
+  "Front car porch: 20'-0\" x 16'-7\u00bd\" (sheet 04, confirmed by measurement) less the entrance-lobby notch = 308 sft. The 8'-0\" \"drive way\" on the plans lies inside this zone and gets the porch sub-floor.",
+  "Rear car porch 16'-9\u00bd\" x 8'-6\" (sheets 06, 17, 21).",
+  "Right-side boundary walls: front stretch 9'-0\" long x 6'-0\" high, rear-passage stretch 5'-5\" x 7'-0\" high. The open patio stretch (4'-9\") stays open (D2: no privacy walls).",
+  "All boundary-wall footings are eccentric (projections inside the plot) because every boundary wall stands on a property line (C4).",
+  "Septic tank: the 4'-10\" x 3'-5\" rectangle on sheet 17 is read as the INTERNAL size. With two 4\u00bd\" baffles, three chambers come out about 2'-0\", 1'-0\" and 1'-0\" long - too small to clean. Drawing size used as instructed; enlargement listed in Recommended additions.",
+  "Septic tank liquid depth 4'-0\" + freeboard 1'-0\" (internal depth 5'-0\"); capacity ~410 gal liquid.",
+  "Underground tank: internal 4'-10\" x 3'-5\" (same as septic tank), 5'-0\" water + 6\" freeboard = about 515 imperial gallons; in the rear car porch, top 7\" above porch level.",
+  "Underground tank distance: no spot at the back is 10 ft from every manhole, because three manholes run along the rear. The chosen spot (rear car porch, toward the house) is about 8\u00bd ft (centre to centre) from the two nearest rear manholes - see points to confirm.",
+  "Plastic roof tank recommended 500 gallons. Platform 5'-0\" x 5'-0\" x 4\" RCC on two 9\" brick walls 1'-6\" high, set directly over the mumty walls at the sheet-24 position.",
+  "Solar: the drawings have no north arrow. The layout assumes the front (road side) faces south; if not, the rows must be re-placed (the plinth count stays about the same).",
+  "Solar: 650 W panels 2,384 x 1,303 mm, 2-high landscape tables tilted 15\u00b0, low edge about 1'-6\" above the roof tiles; row pitch 11'-6\" (no row-to-row shading at noon on 21 December, sun about 35\u00b0 high); front row set 2'-3\" back from the 3'-0\" front parapet so the parapet shadow stays off the panels; walkways 1'-6\" along the side parapets.",
+  "Anti-termite: bifenthrin 10% EC diluted 1:200 (0.05%), 5 L of emulsion per m2 on trench surfaces and plinth fill, 2.25 L per running metre along the perimeter (IS 6313-2 rates). If imidacloprid 30.5% SC is used, dilute 1:400 (about 5.6 L concentrate).",
+  "Roof build-up: screed 1:4 cement-sand (min \u00be\"), 4 mm membrane, \u00be\" mortar bed, 1\u00bd\" bhatta tiles; membrane laps +10%; LPG 0.4 kg per m2.",
+  "Upper-floor 3\" PCC sub-base kept from Rev 0 (the Register does not mention it; it covers the 4\" concealed-beam upstands and conduits).",
+  "Sunken slabs: 3 first-floor baths + mumty bath (laundry not sunk); filling 9\" deep (6\" drop + 3\" floor base) with brick-bat coba.",
+  "Chicken-mesh lengths for chases are allowances (electrical drops per point, 60% of water pipe length, 50% of gas pipe, 80% of A.C drains).",
+  "Electrical positions proposed: Wi-Fi access points - GF front lounge/drawing and GF rear lobby, FF lounge and FF rear lobby, mumty stair lobby (also covers the terrace); CCTV - main gate (outside), front porch, side gate / rear porch, back gali (from first-floor rear wall), rear passage, left passage front, left passage rear; NVR/router point in the GF lobby near the stair.",
+  "Inverter + sodium-ion battery position: mumty laundry (roofed, out of sun, ventilated on the terrace side) with a 6\" RCC plinth for the battery cabinet and wall space for the inverter.",
+  "Earth pits: copper-bonded rod 5/8\" x 10 ft in an augered bore with 2 bags of earthing compound each; chamber with cover.",
+  "Wall, slab, lintel and opening geometry is re-used from Rev 0 (measured from S-01 / S-04 to S-08). The architect's ground-floor master bedroom is 3\" longer (14'-3\" vs 14'-0\"); effect on quantities is under 0.1%.",
+  "Society water supply enters at the front; 60 ft of \u00be\" PPR runs to the underground tank at the back; pump rising main 53 ft.",
+  "Lawn filling to +1'-2\" is not included (A5); it belongs to landscaping.",
+  "Steps (entrance, porches, rear and side doors) kept as the Rev 0 allowance: 40 cft brickwork + 20 cft PCC.",
+  "Many rates are estimates (marked in the Rates sheet). Cement, steel, bricks, sand, crush and PPR rates come from 2026 published reports (sources listed)."
+ ],
+ "points": [
+  "Plinth beam steel and mix: sheet 05 shows size only. Confirm 2 #4 top + 2 #4 bottom, #2 @ 10\", 1:2:4 (from S-02) for the beam at floor level.",
+  "Eccentric plain brick footings on the right property line (house wall and powder-room wall) and under all boundary walls: confirm they are acceptable without the RCC footing of S-02, and whether the plinth beam should be tied to them.",
+  "Car-porch corner column sits on the property line: its 3' x 3' footing must be placed eccentric (edge on the line). Confirm a tie to the plinth beam.",
+  "Roof drainage: the drawn outlets make the slope screed too thick at the far corners (build-up ~7\u00be\" vs 6\u00bd\"). Approve two more terrace outlets and one mumty spout.",
+  "Underground water tank is about 8\u00bd ft from the two nearest rear manholes (less than 10 ft). Approve, or shift the rear-middle manhole about 2 ft to the right.",
+  "Septic tank at the drawing size is too small for three practical chambers. Confirm the drawing size or the enlarged 7'-0\" x 3'-6\" tank.",
+  "Sunken bath slabs (6\"): ask the engineer to detail the bars at the drop (S-06 / S-07 show no drop).",
+  "Upper-floor 3\" PCC sub-base adds about 37 kg/m2. Confirm, or specify a lighter fill.",
+  "Solar: confirm the roof slab can take the panels, frames and wind uplift on 34 plinths; place 4 #3 starter bars at each plinth position before the slab is cast. Confirm true north on site.",
+  "Roof tank platform: confirm the two support walls sit over mumty walls at the sheet-24 tank position.",
+  "Car-porch size: sheet 04 shows 16'-7\u00bd\" deep, other sheets 17'-9\". Confirm (estimate uses 16'-7\u00bd\", which matches the plot measurement).",
+  "Ground-floor master bedroom 14'-3\" (architect) vs 14'-0\" (structural layout): ask the engineer to update S-01 so setting-out matches.",
+  "Second stair flight passes over the rear car porch with about 7 ft headroom: check car height."
+ ],
+ "excl": [
+  [
+   "Excluded by K1",
+   "Labour, shuttering and formwork, scaffolding, tools, curing water and construction electricity."
+  ],
+  [
+   "Finishing estimate",
+   "Floor finishes (tiles / marble in house, tuff tiles on porches, passages, driveway strip and ramps); skirting; wall and ceiling finishes; false ceilings; paint."
+  ],
+  [
+   "Finishing estimate",
+   "Doors, windows, glazing, grills, railings (incl. glass railing on the front balcony), main and side steel gates."
+  ],
+  [
+   "Finishing estimate",
+   "Plastic roof water tank (500 gal recommended), pump, float switch, geyser, sanitary fixtures and taps, kitchen work."
+  ],
+  [
+   "Finishing estimate",
+   "Electrical wires and cables (incl. Cat6, PV and earth cables), switches, sockets, breakers, DB internals, inverter, sodium-ion batteries, solar panels and mounting frames, EV charger, CCTV cameras, NVR, Wi-Fi access points."
+  ],
+  [
+   "Finishing estimate",
+   "Lawn soil and landscaping (lawn filling to +1'-2\"), planters, external lights."
+  ],
+  [
+   "Not included",
+   "Recommended additions in Section 9 (they are not in the total)."
+  ]
+ ],
+ "solar": {
+  "panels": 23,
+  "w": 650,
+  "kwp": 14.950000000000001,
+  "module": "2,384 x 1,303 mm (7'-9\u00be\" x 4'-3\u00bc\") bifacial",
+  "tilt": 15,
+  "rows": [
+   [
+    "Terrace row 1 (front)",
+    8,
+    "4 panels across x 2 high (landscape)",
+    "x 1'-6\" to 33'-0\" from left parapet; 2'-3\" behind the front parapet",
+    10
+   ],
+   [
+    "Terrace row 2 (beside open shaft)",
+    6,
+    "3 across x 2 high",
+    "clear of the shaft by 1'-6\"",
+    8
+   ],
+   [
+    "Terrace row 3 (rear)",
+    6,
+    "3 across x 2 high",
+    "2'-1\u00bd\" walkway behind, in front of mumty",
+    8
+   ],
+   [
+    "Mumty roof - room block",
+    2,
+    "2 panels portrait, 1 high",
+    "west of the water-tank platform",
+    4
+   ],
+   [
+    "Mumty roof - stair block",
+    1,
+    "1 panel landscape",
+    "",
+    4
+   ]
+  ],
+  "footprint": 749.5,
+  "terrace_zone": 980,
+  "terrace_area": 1302.0612999999996,
+  "mumty_area": 318.5544,
+  "plinths": 34,
+  "plinth": "15\" x 15\" x 12\" high, 1:2:4, 4 #3 starter bars + 2 #2 links, 2 cast-in M12 x 250 mm galvanised J-bolts",
+  "pitch": "11'-6\"",
+  "walkways": "2'-3\" behind the front parapet; 1'-6\" along the side parapets; 3'-3\" clear between rows; 2'-1\u00bd\" behind the rear row"
+ },
+ "thumb": {
+  "cement": 0.3762183235867446,
+  "steel": 1.800682261208577,
+  "bricks_all": 32.407407407407405,
+  "bricks_house": 26.133227172348768,
+  "br_house": 102143.5850622089,
+  "br_ext": 3188.68734375,
+  "br_sew": 4651.1870625,
+  "br_bnd": 16400.1744140625,
+  "br_tank": 151.875,
+  "cost_sft": 2239.2288011695905
+ },
+ "rev0_buy": {
+  "Cement (bags)": 1560,
+  "Bricks (nos)": 125000,
+  "Steel (kg)": 8080,
+  "Binding wire (kg)": 85,
+  "Crush (cft)": 4200,
+  "Sand for concrete (cft)": 2250,
+  "Sand for mortar/plaster (cft)": 4900,
+  "Fill sand under floors (cft)": 600,
+  "Earth filling (cft, total)": 6450,
+  "Bitumen (kg)": 320
+ },
+ "earth": {
+  "exc": 4890.0557441443125,
+  "back": 2348.104501803937,
+  "surplus_loose": 3177.4390529254692,
+  "efill": 7362.23791155,
+  "buy": 4184.79885862453
+ },
+ "screed": {
+  "terrace_2outlets": {
+   "vol": 315.76758195689507,
+   "area": 1300.5,
+   "avg_in": 2.913657042278155,
+   "max_in": 5.365986282475285,
+   "far": [
+    36.9,
+    48.1
+   ]
+  },
+  "terrace_3outlets": {
+   "vol": 266.5374784446024,
+   "area": 1300.5,
+   "avg_in": 2.459400031784105,
+   "max_in": 4.817878316764158,
+   "far": [
+    36.9,
+    13.9
+   ]
+  },
+  "mumty_1outlet": {
+   "vol": 72.77221370190395,
+   "area": 321.25,
+   "avg_in": 2.718339500148941,
+   "max_in": 4.856706826643459,
+   "far": [
+    3.3,
+    7.2
+   ]
+  },
+  "mumty_2outlets": {
+   "vol": 53.756074878176605,
+   "area": 321.25,
+   "avg_in": 2.0080090226867524,
+   "max_in": 3.046749215739498,
+   "far": [
+    21.8,
+    12.2
+   ]
+  },
+  "terrace_4outlets": {
+   "vol": 237.5715755117131,
+   "area": 1300.5,
+   "avg_in": 2.1921252642372604,
+   "max_in": 3.3812069473912536,
+   "far": [
+    23.1,
+    30.4
+   ]
+  }
+ },
+ "roof": {
+  "A_ROOF": 1658.8206999999995,
+  "T": 1302.0612999999996,
+  "M": 318.5544,
+  "B": 38.205,
+  "PL_LEN": 275.7,
+  "A_TILE": 1580.6956999999995
+ },
+ "steel_net": 7080.383257150531,
+ "steel_gross": 7363.598587436552,
+ "steel_buy": 7390,
+ "misc": {
+  "A_FP": 308.473473,
+  "A_RP": 142.715,
+  "A_SUB": 1813.7884729999998,
+  "A_PASS": 265.0,
+  "A_RAMP": 183.3,
+  "L_EDGE": 42.709999999999994,
+  "EDGE": [
+   [
+    "Toe wall: lawn / front car porch (sheet 04)",
+    9.25
+   ],
+   [
+    "Toe wall across left passage at TV-lounge front (sheet 04)",
+    4.92
+   ],
+   [
+    "Rear car porch / left passage edge",
+    3.1
+   ],
+   [
+    "Rear car porch / rear passage edge",
+    5.0
+   ],
+   [
+    "Main-gate threshold: front porch / ramp",
+    12.75
+   ],
+   [
+    "Side-gate threshold: rear porch / ramp",
+    7.69
+   ]
+  ],
+  "A_SUNK": 191.125,
+  "P_SUNK": 111.25,
+  "mesh12": 3131.4592706979925,
+  "mesh9": 1804.8,
+  "BWALL": [
+   [
+    "Front panels (1'-6\" + 15'-2\" + 3'-0\" + 3'-11\" splay)",
+    23.59,
+    6.0,
+    "street",
+    1.17
+   ],
+   [
+    "Left short panel at side gate",
+    3.0,
+    6.0,
+    "street",
+    1.0
+   ],
+   [
+    "Left long panel (42'-3\u00bc\" + 1'-6\")",
+    43.77,
+    7.25,
+    "street",
+    1.0
+   ],
+   [
+    "Back wall on gali, 37'-3\" (new, G1)",
+    37.26,
+    7.0,
+    "gali",
+    1.0
+   ],
+   [
+    "Right side, front stretch (porch to front boundary)",
+    9.0,
+    6.0,
+    "neighbour",
+    1.25
+   ],
+   [
+    "Right side, rear-passage stretch",
+    5.4,
+    7.0,
+    "neighbour",
+    1.0
+   ]
+  ],
+  "Lf": 141.895,
+  "Lpan": 122.02000000000001,
+  "BATHS": [
+   [
+    "First-floor bath (rear-left) 8'-0\" x 6'-4\u00bd\"",
+    8.0,
+    6.375
+   ],
+   [
+    "First-floor bath (right) 9'-0\" x 6'-0\"",
+    9.0,
+    6.0
+   ],
+   [
+    "First-floor bath (front-left) 10'-0\" x 6'-0\"",
+    10.0,
+    6.0
+   ],
+   [
+    "Mumty bath 4'-9\" x 5'-6\"",
+    4.75,
+    5.5
+   ]
+  ],
+  "colH": 16.5,
+  "A_SOFF": 240.79422418674585
+ }
+}
